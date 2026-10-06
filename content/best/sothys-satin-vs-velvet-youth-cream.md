@@ -11,6 +11,7 @@ intro: |
   Sothys makes two versions of its **Hydra Hyaluronic Acid⁴ Youth Cream**, **Satin** and **Velvet**, and both sit near the top of Skin Beauty's best-selling skin care list. They share the same price, size, key active ingredients and directions, so the choice comes down to one question: **what is your skin type?** We compared the two using the product descriptions and full ingredient lists published on Skin Beauty.
 products:
   - name: "Sothys Hydra Hyaluronic Acid⁴ Satin Youth Cream"
+    brand: "Sothys"
     badge: "Normal to Combination Skin"
     price: "$95.04"
     merchant: "Skin Beauty"
@@ -27,6 +28,7 @@ products:
       Key actives: "Rowan berry peptides, boletus extract, high-molecular-weight hyaluronic acid"
       Base emollients: "Caprylic/capric triglyceride, C12-15 alkyl benzoate, isononyl isononanoate"
   - name: "Sothys Hydra Hyaluronic Acid⁴ Velvet Youth Cream"
+    brand: "Sothys"
     badge: "Normal to Dry Skin"
     price: "$95.04"
     merchant: "Skin Beauty"

@@ -39,6 +39,11 @@ function home(ctx) {
     ...reviews.map((r) => r.product.name),
     ...roundups.flatMap((r) => r.products.map((p) => p.name)),
   ]).size;
+  // Brands with at least one review or best-of entry (case-insensitive).
+  const brandCount = new Set([
+    ...reviews.map((r) => r.product.brand),
+    ...roundups.flatMap((r) => r.products.map((p) => p.brand)),
+  ].filter(Boolean).map((b) => b.trim().toLowerCase())).size;
 
   const body = html`
 <section class="hero">
@@ -59,7 +64,7 @@ function home(ctx) {
       <dl class="hero__stats">
         <div><dt>Products compared</dt><dd>${productCount}+</dd></div>
         <div><dt>Categories</dt><dd>${categories.length}</dd></div>
-        <div><dt>Paid placements</dt><dd>0</dd></div>
+        <div><dt>Brands reviewed</dt><dd>${brandCount}</dd></div>
       </dl>
     </div>
     ${featured.length ? html`<aside class="hero__panel" aria-labelledby="picks-title">
