@@ -55,7 +55,7 @@ function home(ctx) {
       <form class="hero-search" action="/search/" method="get" role="search">
         <label class="sr-only" for="hero-q">Search reviews and guides</label>
         ${icon('search', { size: 20 })}
-        <input id="hero-q" name="q" type="search" placeholder="Search e.g. robot vacuum, VPN, earbuds" autocomplete="off">
+        <input id="hero-q" name="q" type="search" placeholder="Search e.g. running shorts, camera lens, skincare" autocomplete="off">
         <button class="btn btn--primary" type="submit">Search</button>
       </form>
       ${roundups.length ? html`<div class="hero__popular"><span>Popular:</span>

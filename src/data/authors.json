@@ -5,26 +5,5 @@
     "role": "Research & Reviews",
     "bio": "The ChoiceWise editorial team researches, compares and scores products using a consistent, published methodology. Every guide is fact-checked and updated regularly.",
     "image": ""
-  },
-  {
-    "slug": "alex-morgan",
-    "name": "Alex Morgan",
-    "role": "Senior Tech Editor",
-    "bio": "Alex has covered consumer electronics for over a decade, with a focus on audio, laptops and smart home gear. Alex leads ChoiceWise's tech testing and scoring framework.",
-    "image": ""
-  },
-  {
-    "slug": "jordan-lee",
-    "name": "Jordan Lee",
-    "role": "Home & Lifestyle Editor",
-    "bio": "Jordan reviews kitchen appliances, cleaning gear and pet tech, comparing everyday usability, maintenance costs and long-term reliability.",
-    "image": ""
-  },
-  {
-    "slug": "sam-rivera",
-    "name": "Sam Rivera",
-    "role": "Software & Security Analyst",
-    "bio": "Sam evaluates VPNs, password managers and online services, with a background in network engineering and privacy policy analysis.",
-    "image": ""
   }
 ]

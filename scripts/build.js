@@ -110,6 +110,8 @@ function build({ includeDrafts = process.argv.includes('--drafts'), devReload = 
       + content.roundups.filter((r) => r.category === cat.slug).length;
   }
   const catMap = new Map(categories.map((c) => [c.slug, c]));
+  // Empty categories stay hidden (menu, home, sitemap, search) until they get their first article.
+  const visibleCategories = categories.filter((c) => c.count > 0);
   const authorMap = new Map(authors.map((a) => [a.slug, a]));
 
   // Fresh dist
@@ -123,7 +125,7 @@ function build({ includeDrafts = process.argv.includes('--drafts'), devReload = 
   }
 
   const ctx = {
-    site, categories, catMap, authors, authorMap, content, devReload,
+    site, categories: visibleCategories, catMap, authors, authorMap, content, devReload,
     year: YEAR,
     month: new Date().toLocaleDateString('en-US', { month: 'long', timeZone: 'UTC' }),
     nav: [
@@ -145,7 +147,7 @@ function build({ includeDrafts = process.argv.includes('--drafts'), devReload = 
   write('/best/', pages.bestIndex(ctx));
   write('/search/', pages.searchPage(ctx));
   write('/404.html', pages.notFound(ctx));
-  for (const cat of categories) write(`/category/${cat.slug}/`, pages.category(ctx, cat));
+  for (const cat of visibleCategories) write(`/category/${cat.slug}/`, pages.category(ctx, cat));
   for (const r of content.reviews) write(r.url, pages.review(ctx, r));
   for (const r of content.roundups) write(r.url, pages.roundup(ctx, r));
   for (const p of content.pages) write(p.url, pages.staticPage(ctx, p));
@@ -173,7 +175,7 @@ function build({ includeDrafts = process.argv.includes('--drafts'), devReload = 
       t: r.title, u: r.url, d: r.description, c: catMap.get(r.category).name, k: 'Review',
       p: [r.product.name, r.product.brand].filter(Boolean).join(' · '), s: fmtScore(r.rating), i: r.product.image,
     })),
-    ...categories.map((cat) => ({ t: cat.name, u: `/category/${cat.slug}/`, d: cat.description, c: 'Category', k: 'Category', p: '' })),
+    ...visibleCategories.map((cat) => ({ t: cat.name, u: `/category/${cat.slug}/`, d: cat.description, c: 'Category', k: 'Category', p: '' })),
   ];
   write('/search-index.json', JSON.stringify(index));
 
@@ -181,7 +183,7 @@ function build({ includeDrafts = process.argv.includes('--drafts'), devReload = 
   const urls = [
     { loc: '/', lastmod: new Date() },
     { loc: '/best/' }, { loc: '/reviews/' }, { loc: '/categories/' },
-    ...categories.map((cat) => ({ loc: `/category/${cat.slug}/` })),
+    ...visibleCategories.map((cat) => ({ loc: `/category/${cat.slug}/` })),
     ...content.roundups.map((r) => ({ loc: r.url, lastmod: r.updated })),
     ...content.reviews.map((r) => ({ loc: r.url, lastmod: r.updated })),
     ...content.pages.map((p) => ({ loc: p.url, lastmod: p.updated })),
