@@ -32,6 +32,14 @@
     "description": "Hair tools, skincare devices and grooming gear, evaluated for results, ingredients and value."
   },
   {
+    "slug": "tools",
+    "name": "Tools & DIY",
+    "short": "Tools",
+    "icon": "wrench",
+    "hue": 48,
+    "description": "Wire connectors, crimpers, strippers and hand tools for car, marine and home projects, compared on specs, compatibility and value."
+  },
+  {
     "slug": "fitness-outdoors",
     "name": "Fitness & Outdoors",
     "short": "Fitness",
