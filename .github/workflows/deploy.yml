@@ -12,6 +12,8 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env:
+      HAS_FTP: ${{ secrets.FTP_SERVER != '' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -29,7 +31,9 @@ jobs:
           # Optional repo variable (Settings → Secrets and variables → Actions → Variables)
           SITE_URL: ${{ vars.SITE_URL }}
 
+      # Skipped until the FTP secrets are added, so the repo can be used before the site goes live.
       - name: Upload to Hostinger via FTP
+        if: env.HAS_FTP == 'true'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
