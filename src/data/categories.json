@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "tech",
+    "name": "Tech & Electronics",
+    "short": "Tech",
+    "icon": "cpu",
+    "hue": 215,
+    "description": "Headphones, laptops, phones, smart home devices and gadgets, scored for performance, longevity and value."
+  },
+  {
+    "slug": "home-kitchen",
+    "name": "Home & Kitchen",
+    "short": "Home",
+    "icon": "house",
+    "hue": 28,
+    "description": "Appliances, cookware, cleaning gear and home essentials, ranked by build quality, usability and price."
+  },
+  {
+    "slug": "health-wellness",
+    "name": "Health & Wellness",
+    "short": "Health",
+    "icon": "heartPulse",
+    "hue": 350,
+    "description": "Sleep, wearables, monitors and wellness products, reviewed for safety, comfort and real-world effectiveness."
+  },
+  {
+    "slug": "beauty",
+    "name": "Beauty & Personal Care",
+    "short": "Beauty",
+    "icon": "sparkles",
+    "hue": 300,
+    "description": "Hair tools, skincare devices and grooming gear, evaluated for results, ingredients and value."
+  },
+  {
+    "slug": "fitness-outdoors",
+    "name": "Fitness & Outdoors",
+    "short": "Fitness",
+    "icon": "dumbbell",
+    "hue": 145,
+    "description": "Home gym equipment, trackers, running and outdoor gear, tested for durability and performance."
+  },
+  {
+    "slug": "pets",
+    "name": "Pets",
+    "short": "Pets",
+    "icon": "paw",
+    "hue": 40,
+    "description": "Smart feeders, trackers, beds and accessories for dogs and cats, reviewed for safety and reliability."
+  },
+  {
+    "slug": "software",
+    "name": "Software & Online Services",
+    "short": "Software",
+    "icon": "cloud",
+    "hue": 255,
+    "description": "VPNs, password managers, web hosting and website builders, compared on security, speed and pricing."
+  },
+  {
+    "slug": "travel",
+    "name": "Travel Gear",
+    "short": "Travel",
+    "icon": "plane",
+    "hue": 190,
+    "description": "Luggage, backpacks, travel adapters and comfort gear, ranked for durability, weight and design."
+  }
+]

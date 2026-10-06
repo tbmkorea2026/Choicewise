@@ -1,0 +1,48 @@
+{
+  "name": "ChoiceWise",
+  "tagline": "Buy smarter. Choose wisely.",
+  "url": "https://choicewise.com",
+  "description": "Independent, in-depth product reviews and Best-of comparisons. We research, score and rank products across tech, home, health, travel and more so you can buy with confidence.",
+  "locale": "en",
+  "email": "hello@choicewise.com",
+  "foundingYear": 2026,
+  "defaultAuthor": "editorial-team",
+  "defaultCtaLabel": "Check Price",
+  "analytics": {
+    "ga4": ""
+  },
+  "newsletter": {
+    "enabled": true,
+    "action": "",
+    "heading": "Get the best deals and new picks, weekly",
+    "text": "One short email every Friday: new reviews, updated rankings and price drops worth knowing about. No spam, unsubscribe anytime."
+  },
+  "social": {
+    "facebook": "",
+    "x": "",
+    "pinterest": "",
+    "youtube": ""
+  },
+  "homeFaq": [
+    {
+      "q": "How does ChoiceWise make money?",
+      "a": "Some links on our site are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. Commissions never decide which products we recommend or how they rank."
+    },
+    {
+      "q": "How do you score products?",
+      "a": "Every product is scored out of 10 across weighted criteria that matter for its category, such as performance, build quality, ease of use and value. The overall score is the weighted average, and it decides the ranking in our Best-of guides."
+    },
+    {
+      "q": "Do brands pay to be featured or ranked?",
+      "a": "No. We do not accept payment for placements, rankings or positive coverage. Brands cannot review or approve our content before it is published."
+    },
+    {
+      "q": "How often are reviews updated?",
+      "a": "We revisit our Best-of guides regularly and whenever a meaningful new model, price change or reader report comes in. Every page shows the date it was last updated."
+    },
+    {
+      "q": "What does a Best-of guide include?",
+      "a": "Each guide ranks the top products in a category, explains who each one is best for, compares key specs side by side and includes a buying guide so you can make the right choice for your needs."
+    }
+  ]
+}
