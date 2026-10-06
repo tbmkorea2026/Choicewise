@@ -166,6 +166,40 @@ Repo → **Settings → Secrets and variables → Actions**
 
 ---
 
+## 6b. Mã giảm giá (coupon)
+
+Chỉ dùng **mã riêng affiliate** lấy trong dashboard của từng chương trình (mã công khai của shop có thể làm mất hoa hồng).
+
+**Cách 1 — một mã cho cả dự án** (khuyến nghị): thêm vào `src/data/coupons.json`. Mã tự hiện ở mọi bài có link tới cửa hàng đó (khớp theo tên miền trong `store`):
+
+```json
+[
+  {
+    "store": "merino.tech",
+    "code": "TRUNGTRAN10",
+    "discount": "10% off",
+    "terms": "Sitewide, excludes sale items",
+    "expires": "2026-12-31",
+    "verified": "2026-10-07"
+  }
+]
+```
+
+**Cách 2 — mã riêng cho một sản phẩm**: thêm vào `product:` (bài review) hoặc từng mục trong `products:` (bài Top/so sánh):
+
+```yaml
+coupon:
+  code: "TRUNGTRAN10"
+  discount: "10% off"
+  expires: 2026-12-31
+```
+
+Dùng `coupon: false` để ẩn mã của dự án trên một sản phẩm cụ thể.
+
+Mã hiện ở: hộp sản phẩm đầu bài review, hộp CTA giữa/cuối bài, sidebar, thanh mua hàng dưới đáy trên mobile, thẻ Top picks, từng sản phẩm trong bài Top 5 và bảng so sánh. Có nút **Copy** (theo dõi sự kiện `coupon_copy` trên GA4). Mã **tự ẩn khi quá hạn `expires`** — GitHub Actions build lại mỗi ngày nên web luôn cập nhật. `expires` và `verified` có thể bỏ trống.
+
+---
+
 ## 7. Tuỳ biến giao diện
 
 - **Màu sắc, font, bo góc:** sửa biến CSS ở đầu `src/assets/css/main.css` (`--brand`, `--cta`, …). Dark mode nằm ngay bên dưới.

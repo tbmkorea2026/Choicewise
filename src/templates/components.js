@@ -52,6 +52,24 @@ function ctaButton(product, { size = 'md', block = false, label } = {}) {
   </a>`;
 }
 
+/**
+ * Discount code with a copy button. `compact` drops the terms line (for cards and bars).
+ * data-expires lets the browser hide the code if it expires between builds.
+ */
+function coupon(product, { compact = false } = {}) {
+  const c = product.coupon;
+  if (!c || !product.goUrl) return '';
+  const verified = c.verified ? new Date(`${c.verified}T00:00:00Z`).toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' }) : '';
+  const notes = [c.terms, c.expires ? `Expires ${fmtDate(c.expires)}` : '', verified ? `Verified ${verified}` : ''].filter(Boolean);
+  return html`<div class="coupon${compact ? ' coupon--compact' : ''}" data-coupon${c.expires ? ` data-expires="${esc(c.expires)}"` : ''}>
+    <span class="coupon__label">${icon('tag', { size: 16 })}${esc(c.discount || 'Discount code')}</span>
+    <button class="coupon__code" type="button" data-copy="${esc(c.code)}" aria-label="Copy discount code ${esc(c.code)}">
+      <span class="coupon__value">${esc(c.code)}</span><span class="coupon__copy" aria-hidden="true">Copy</span>
+    </button>
+    ${!compact && notes.length ? html`<span class="coupon__terms">${esc(notes.join(' · '))}</span>` : ''}
+  </div>`;
+}
+
 function ctaBox(product, { title, text } = {}) {
   if (!product.goUrl) return '';
   return html`<aside class="cta-box">
@@ -60,6 +78,7 @@ function ctaBox(product, { title, text } = {}) {
       <p class="cta-box__title">${esc(title || product.name)}</p>
       ${text ? html`<p class="cta-box__text">${esc(text)}</p>` : ''}
       ${product.price ? html`<p class="cta-box__price">From <strong>${esc(product.price)}</strong></p>` : ''}
+      ${coupon(product, { compact: true })}
     </div>
     ${ctaButton(product)}
   </aside>`;
@@ -206,7 +225,7 @@ function emptyState(text) {
 }
 
 module.exports = {
-  logo, stars, scoreBadge, scoreBars, ctaButton, ctaBox, prosCons, specsTable, faqList,
+  logo, stars, scoreBadge, scoreBars, ctaButton, coupon, ctaBox, prosCons, specsTable, faqList,
   breadcrumbs, toc, avatar, byline, authorBox, disclosureNote, categoryPill, reviewCard,
   roundupCard, emptyState,
 };

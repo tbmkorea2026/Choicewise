@@ -663,6 +663,38 @@ kbd { font: 600 .75rem var(--font-sans); padding: 2px 6px; border: 1px solid var
 .search-summary { color: var(--muted); }
 .search-results { display: grid; gap: 4px; }
 
+/* ---------- Coupons ---------- */
+.coupon {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin: 0 0 12px; padding: 10px 12px;
+  border: 1.5px dashed color-mix(in srgb, var(--cta) 55%, transparent); border-radius: var(--radius-sm);
+  background: color-mix(in srgb, var(--cta) 7%, var(--surface));
+}
+.coupon__label { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; font-size: .9rem; color: var(--ink); }
+.coupon__label .icon { color: var(--cta); }
+.coupon__code {
+  display: inline-flex; align-items: center; gap: 8px; min-height: 36px; padding: 4px 6px 4px 12px; margin-left: auto;
+  border: 1px solid var(--border-strong); border-radius: 8px; background: var(--surface); cursor: pointer;
+  font: 700 .9rem/1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .04em; color: var(--ink);
+  transition: border-color .15s var(--ease);
+}
+.coupon__code:hover { border-color: var(--cta); }
+.coupon__copy { padding: 6px 10px; border-radius: 6px; background: var(--ink); color: var(--bg); font: 600 .75rem var(--font-sans); letter-spacing: 0; }
+.coupon__code.is-copied .coupon__copy { background: var(--pos); color: #fff; }
+.coupon__terms { flex-basis: 100%; font-size: .78rem; color: var(--muted); }
+.coupon--compact { padding: 8px 10px; margin: 0; gap: 6px 8px; }
+.coupon--compact .coupon__label { font-size: .82rem; }
+.coupon--compact .coupon__code { min-height: 32px; font-size: .82rem; }
+.product-hero__info .coupon { max-width: 460px; }
+.pick__coupon .coupon { margin: 14px 0 0; }
+.cta-box .coupon, .side-cta .coupon { margin-top: 8px; }
+.side-cta .coupon { grid-column: 1 / -1; }
+.quick-pick .coupon { width: 100%; justify-content: center; }
+.quick-pick .coupon__code { margin-left: 0; }
+.sticky-cta .coupon { border: 0; background: none; padding: 0; }
+.sticky-cta .coupon__label { display: none; }
+.sticky-cta .coupon__code { margin-left: 0; min-height: 28px; }
+.compare__deal { display: inline-flex !important; align-items: center; gap: 4px; color: var(--cta) !important; }
+
 /* ---------- Product photos: show the whole product on white (merchant shots are usually square) ---------- */
 .card__media img, .product-hero__media img, .pick__media img, .quick-pick img, .cta-box__img, .side-cta img,
 .compare__product img, .pick-stack__item img, .result img { object-fit: contain; background: #fff; }

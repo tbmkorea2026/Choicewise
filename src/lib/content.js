@@ -54,7 +54,39 @@ function asSpecs(v) {
   return Object.entries(v);
 }
 
-function normalizeProduct(p, { category, registry, source, fallbackLabel }) {
+function hostOf(url) {
+  try { return new URL(url).hostname.replace(/^www\./, '').toLowerCase(); } catch (e) { return ''; }
+}
+
+function isoDay(v) {
+  if (!v) return '';
+  return v instanceof Date ? v.toISOString().slice(0, 10) : String(v);
+}
+
+/**
+ * Pick the coupon for a product: a product-level `coupon:` in front matter wins
+ * (`coupon: false` hides one), otherwise a coupon from src/data/coupons.json whose
+ * `store` matches the affiliate link's domain. Expired coupons are dropped at build
+ * time, and the browser hides any that expire between builds.
+ */
+function resolveCoupon(product, coupons, today) {
+  if (product.coupon === false || !product.link) return null;
+  const host = hostOf(product.link);
+  const c = product.coupon
+    || coupons.find((x) => x.code && host && (host === x.store || host.endsWith(`.${x.store}`)));
+  if (!c || !c.code) return null;
+  const expires = isoDay(c.expires);
+  if (expires && expires < today) return null;
+  return {
+    code: String(c.code),
+    discount: c.discount || '',
+    terms: c.terms || '',
+    expires,
+    verified: isoDay(c.verified),
+  };
+}
+
+function normalizeProduct(p, { category, registry, source, fallbackLabel, coupons = [], today = '' }) {
   const product = p || {};
   const linkId = product.linkId || slugify(product.name);
   return {
@@ -75,6 +107,7 @@ function normalizeProduct(p, { category, registry, source, fallbackLabel }) {
     cons: asList(product.cons),
     specs: asSpecs(product.specs),
     review: product.review || '',
+    coupon: resolveCoupon(product, coupons, today),
   };
 }
 
@@ -93,8 +126,9 @@ function validate(item, required) {
   if (missing.length) throw new Error(`${path.basename(item.file)} is missing required field(s): ${missing.join(', ')}`);
 }
 
-function loadContent(rootDir, { site, categories, authors, includeDrafts = false }) {
+function loadContent(rootDir, { site, categories, authors, coupons = [], includeDrafts = false }) {
   const registry = new LinkRegistry();
+  const today = new Date().toISOString().slice(0, 10);
   const categorySlugs = new Set(categories.map((c) => c.slug));
   const authorSlugs = new Set(authors.map((a) => a.slug));
   const ctaLabel = site.defaultCtaLabel || 'Check Price';
@@ -135,7 +169,7 @@ function loadContent(rootDir, { site, categories, authors, includeDrafts = false
     const d = item.data;
     return {
       ...base,
-      product: normalizeProduct({ ...d.product, rating: d.rating }, { category: d.category, registry, source: item.file, fallbackLabel: ctaLabel }),
+      product: normalizeProduct({ ...d.product, rating: d.rating }, { category: d.category, registry, source: item.file, fallbackLabel: ctaLabel, coupons, today }),
       rating: Number(d.rating),
       scores: Object.entries(d.scores || {}).map(([label, value]) => ({ label, value: Number(value) })),
       verdict: d.verdict || '',
@@ -152,7 +186,7 @@ function loadContent(rootDir, { site, categories, authors, includeDrafts = false
     const d = item.data;
     const products = asList(d.products).map((p, i) => ({
       rank: i + 1,
-      ...normalizeProduct(p, { category: d.category, registry, source: item.file, fallbackLabel: ctaLabel }),
+      ...normalizeProduct(p, { category: d.category, registry, source: item.file, fallbackLabel: ctaLabel, coupons, today }),
     }));
     return {
       ...base,

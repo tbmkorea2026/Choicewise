@@ -250,6 +250,36 @@
     });
   }
 
+  /* ---------- Coupons: hide expired codes, copy to clipboard ---------- */
+  var todayIso = new Date().toISOString().slice(0, 10);
+  $$('[data-coupon][data-expires]').forEach(function (el) {
+    if (el.getAttribute('data-expires') < todayIso) el.remove();
+  });
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest && e.target.closest('[data-copy]');
+    if (!btn) return;
+    var code = btn.getAttribute('data-copy');
+    var label = btn.querySelector('.coupon__copy');
+    var done = function () {
+      btn.classList.add('is-copied');
+      if (label) label.textContent = 'Copied!';
+      btn.setAttribute('aria-label', 'Code ' + code + ' copied');
+      setTimeout(function () {
+        btn.classList.remove('is-copied');
+        if (label) label.textContent = 'Copy';
+        btn.setAttribute('aria-label', 'Copy discount code ' + code);
+      }, 2000);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(code).then(done, function () { window.prompt('Copy this code:', code); });
+    } else {
+      window.prompt('Copy this code:', code);
+    }
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'coupon_copy', { code: code, page_path: location.pathname });
+    }
+  });
+
   /* ---------- Affiliate click tracking (GA4 if configured) ---------- */
   document.addEventListener('click', function (e) {
     var a = e.target.closest && e.target.closest('a[data-aff]');

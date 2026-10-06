@@ -76,7 +76,9 @@ function build({ includeDrafts = process.argv.includes('--drafts'), devReload = 
   const authors = readJson('authors.json');
   const categories = readJson('categories.json');
 
-  const content = loadContent(CONTENT, { site, categories, authors, includeDrafts });
+  const couponsFile = path.join(SRC, 'data', 'coupons.json');
+  const coupons = fs.existsSync(couponsFile) ? JSON.parse(fs.readFileSync(couponsFile, 'utf8')) : [];
+  const content = loadContent(CONTENT, { site, categories, authors, coupons, includeDrafts });
 
   // Render Markdown bodies (shortcodes need the components)
   for (const r of content.reviews) {

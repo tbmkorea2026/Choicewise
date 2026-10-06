@@ -200,6 +200,7 @@ function review(ctx, r) {
         ${p.price ? html`<p class="price"><span>Typical price</span><strong>${esc(p.price)}</strong></p>` : ''}
         ${c.ctaButton(p, { size: 'lg' })}
       </div>
+      ${c.coupon(p)}
       ${roundup ? html`<a class="link-arrow link-arrow--muted" href="${roundup.url}">Compare with alternatives in ${esc(roundup.shortTitle)} ${icon('arrowRight', { size: 16 })}</a>` : ''}
     </div>
     <div class="product-hero__score">${c.scoreBadge(r.rating, { size: 'lg' })}</div>
@@ -238,6 +239,7 @@ function review(ctx, r) {
       ${p.goUrl ? html`<div class="side-cta">
         <img src="${esc(p.image)}" alt="" width="72" height="72" loading="lazy">
         <div><p class="side-cta__name">${esc(p.name)}</p>${c.stars(r.rating, { size: 'sm' })}</div>
+        ${c.coupon(p, { compact: true })}
         ${c.ctaButton(p, { block: true })}
       </div>` : ''}
     </div>
@@ -252,7 +254,7 @@ ${related.length ? html`<section class="section section--alt">
 </section>` : ''}
 
 ${p.goUrl ? html`<div class="sticky-cta" data-sticky-cta aria-hidden="true">
-  <div class="sticky-cta__info"><strong>${esc(p.name)}</strong>${c.stars(r.rating, { size: 'sm' })}</div>
+  <div class="sticky-cta__info"><strong>${esc(p.name)}</strong>${p.coupon ? c.coupon(p, { compact: true }) : c.stars(r.rating, { size: 'sm' })}</div>
   ${c.ctaButton(p, { label: p.price ? `${p.price} · View deal` : 'View deal' })}
 </div>` : ''}`;
 
@@ -298,6 +300,7 @@ function pickSection(p, r) {
       ${p.bestFor ? html`<p class="pick__best">${icon('check', { size: 16 })}<span><strong>Best for:</strong> ${esc(p.bestFor)}</span></p>` : ''}
       ${c.prosCons(p.pros, p.cons, { compact: true })}
       ${keySpecs.length ? html`<dl class="key-specs">${keySpecs.map(([k, v]) => html`<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`)}</dl>` : ''}
+      ${p.coupon ? html`<div class="pick__coupon">${c.coupon(p)}</div>` : ''}
       <div class="pick__actions">
         ${p.price ? html`<p class="price price--inline"><span>From</span><strong>${esc(p.price)}</strong></p>` : ''}
         ${c.ctaButton(p)}
@@ -345,6 +348,7 @@ function roundup(ctx, r) {
       <p class="quick-pick__name"><a href="#pick-${p.rank}">${esc(p.name)}</a></p>
       ${p.rating ? html`<div class="quick-pick__rating">${c.stars(p.rating, { size: 'sm' })}<strong>${fmtScore(p.rating)}</strong></div>` : ''}
       ${p.bestFor ? html`<p class="quick-pick__best">${esc(p.bestFor)}</p>` : ''}
+      ${c.coupon(p, { compact: true })}
       ${c.ctaButton(p, { block: true })}
     </li>`)}
   </ol>
@@ -360,7 +364,7 @@ function roundup(ctx, r) {
         <thead><tr><th scope="col">Product</th><th scope="col">Best for</th>${hasScores ? '<th scope="col">Score</th>' : ''}<th scope="col"><span class="sr-only">Buy</span></th></tr></thead>
         <tbody>
           ${r.products.map((p) => html`<tr>
-            <th scope="row"><a class="compare__product" href="#pick-${p.rank}"><span class="compare__rank">${p.rank}</span><img src="${esc(p.image)}" alt="" width="48" height="48" loading="lazy"><span>${esc(p.name)}${p.badge ? html`<small>${esc(p.badge)}</small>` : ''}</span></a></th>
+            <th scope="row"><a class="compare__product" href="#pick-${p.rank}"><span class="compare__rank">${p.rank}</span><img src="${esc(p.image)}" alt="" width="48" height="48" loading="lazy"><span>${esc(p.name)}${p.badge ? html`<small>${esc(p.badge)}</small>` : ''}${p.coupon ? html`<small class="compare__deal">${icon('tag', { size: 12 })} ${esc(p.coupon.discount || 'Code')}: ${esc(p.coupon.code)}</small>` : ''}</span></a></th>
             <td>${esc(p.bestFor)}</td>
             ${hasScores ? html`<td><span class="compare__score">${p.rating ? fmtScore(p.rating) : '–'}</span></td>` : ''}
             <td>${c.ctaButton(p, { size: 'sm', label: p.price ? p.price : 'View deal' })}</td>
@@ -385,6 +389,7 @@ function roundup(ctx, r) {
       ${r.products[0] && r.products[0].goUrl ? html`<div class="side-cta">
         <img src="${esc(r.products[0].image)}" alt="" width="72" height="72" loading="lazy">
         <div><p class="side-cta__eyebrow">Our top pick</p><p class="side-cta__name">${esc(r.products[0].name)}</p></div>
+        ${c.coupon(r.products[0], { compact: true })}
         ${c.ctaButton(r.products[0], { block: true })}
       </div>` : ''}
     </div>
