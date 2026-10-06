@@ -155,8 +155,8 @@ function review(ctx, r) {
   const cat = catMap.get(r.category);
   const author = authorMap.get(r.author);
   const p = r.product;
-  const roundup = content.roundups.find((x) => x.category === r.category && x.products.some((q) => q.reviewUrl === r.url))
-    || content.roundups.find((x) => x.category === r.category);
+  // Only link to a best-of guide that actually ranks this product.
+  const roundup = content.roundups.find((x) => x.products.some((q) => q.reviewUrl === r.url));
   const related = [
     ...content.reviews.filter((x) => x.category === r.category && x.slug !== r.slug),
     ...content.reviews.filter((x) => x.category !== r.category),

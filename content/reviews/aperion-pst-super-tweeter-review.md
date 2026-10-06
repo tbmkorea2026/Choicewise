@@ -10,7 +10,7 @@ rating: 8.8
 product:
   name: "Aperion PST Super Tweeter"
   brand: "Aperion Audio"
-  image: ""
+  image: "https://cdn.shopify.com/s/files/1/0013/9716/2041/files/PST-MBP-1_2000x2000_3b86d818-8e10-439e-84cc-09f6ab428899.jpg?v=1780990032&width=800"
   price: "$399/pair"
   merchant: "Aperion Audio"
   link: "https://www.aperionaudio.com/products/pst-super-tweeter?ref=eyivwnjs"
@@ -81,6 +81,8 @@ The PST works from 8 kHz up to **40 kHz**, well beyond the roughly 20 kHz limit 
 The PST uses a **planar-magnetic "flat ribbon" driver**: a thin Kapton film with an aluminium conductor pattern, suspended in a magnetic field. Ribbon drivers are prized for their low moving mass, which lets them respond quickly and sound detailed and smooth.
 
 The crossover uses non-inductive resistors and film capacitors, and Aperion designs it for a **linear phase response** to keep timing coherent with your main speakers. Each unit sits in a compact, curved cabinet (about 4 × 5.3 × 5 inches) with **5-way gold-plated binding posts**, available in Gloss Black, Pure White, Stealth Black or Gloss Cherry.
+
+![Aperion PST Super Tweeter pair in Pure White](https://cdn.shopify.com/s/files/1/0013/9716/2041/files/PST-MWP-12000x2000.jpg?v=1780989882&width=900)
 
 ## Setup and adjustability
 
