@@ -62,5 +62,13 @@
     "icon": "plane",
     "hue": 190,
     "description": "Luggage, backpacks, travel adapters and comfort gear, ranked for durability, weight and design."
+  },
+  {
+    "slug": "business",
+    "name": "Business Services",
+    "short": "Business",
+    "icon": "briefcase",
+    "hue": 350,
+    "description": "Consulting, marketing and growth services for small businesses, restaurants and creators, reviewed for what you actually get, pricing and risk."
   }
 ]
