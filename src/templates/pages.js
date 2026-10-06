@@ -307,6 +307,7 @@ function roundup(ctx, r) {
   const cat = catMap.get(r.category);
   const author = authorMap.get(r.author);
   const top = r.products.slice(0, 3);
+  const hasScores = r.products.some((p) => p.rating);
   const related = content.roundups.filter((x) => x.slug !== r.slug).slice(0, 3);
   const crumbs = [HOME_CRUMB, { name: cat.name, url: `/category/${cat.slug}/` }, { name: 'Best-of Guides', url: '/best/' }, { name: r.shortTitle }];
 
@@ -351,12 +352,12 @@ function roundup(ctx, r) {
     <section aria-labelledby="comparison">
       <h2 id="comparison" class="article__h2">Comparison table</h2>
       <div class="table-wrap"><table class="compare">
-        <thead><tr><th scope="col">Product</th><th scope="col">Best for</th><th scope="col">Score</th><th scope="col"><span class="sr-only">Buy</span></th></tr></thead>
+        <thead><tr><th scope="col">Product</th><th scope="col">Best for</th>${hasScores ? '<th scope="col">Score</th>' : ''}<th scope="col"><span class="sr-only">Buy</span></th></tr></thead>
         <tbody>
           ${r.products.map((p) => html`<tr>
             <th scope="row"><a class="compare__product" href="#pick-${p.rank}"><span class="compare__rank">${p.rank}</span><img src="${esc(p.image)}" alt="" width="48" height="48" loading="lazy"><span>${esc(p.name)}${p.badge ? html`<small>${esc(p.badge)}</small>` : ''}</span></a></th>
             <td>${esc(p.bestFor)}</td>
-            <td><span class="compare__score">${p.rating ? fmtScore(p.rating) : '–'}</span></td>
+            ${hasScores ? html`<td><span class="compare__score">${p.rating ? fmtScore(p.rating) : '–'}</span></td>` : ''}
             <td>${c.ctaButton(p, { size: 'sm', label: p.price ? p.price : 'View deal' })}</td>
           </tr>`)}
         </tbody>
