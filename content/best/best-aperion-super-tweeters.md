@@ -95,7 +95,7 @@ faqs:
   - q: "Do Aperion super tweeters need their own amplifier?"
     a: "No. All four models connect to the same binding posts as your main speakers and run from the power your amplifier already sends to them."
   - q: "What warranty do Aperion super tweeters have?"
-    a: "Aperion's product pages list a 3-year cabinet and driver warranty with lifetime support for its super tweeters, plus a 30-day in-home audition."
+    a: "Aperion's product pages list a 3-year cabinet and driver warranty with lifetime support for its super tweeters, plus a 30-day in-home audition. Note that Aperion's return policy applies a 10% restocking fee to returned products."
   - q: "Can I use a super tweeter with a home theater system?"
     a: "Yes. Super tweeters are most often added to the front left and right speakers in stereo or home theater systems. Aperion also sells a matching STS platform for mounting them on top of speakers."
 ---
@@ -111,7 +111,7 @@ Every Aperion super tweeter shares the same easy-to-use features:
 - **5 crossover points:** 8, 10, 12, 14 or 16 kHz, plus OFF, with a 12 dB/octave slope.
 - **Treble adjust** from 0 to −5 dB in 1 dB steps.
 - **No extra amplifier needed:** each connects to your speaker's existing binding posts.
-- **3-year cabinet and driver warranty** with lifetime support, a **30-day in-home audition** and free shipping in the continental U.S.
+- **3-year cabinet and driver warranty** with lifetime support, a **30-day in-home audition** (returns carry a 10% restocking fee) and free shipping in the continental U.S.
 
 So the real question is not which one has more features, but **which one matches your speakers**.
 

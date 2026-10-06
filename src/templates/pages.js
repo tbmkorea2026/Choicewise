@@ -332,7 +332,7 @@ function roundup(ctx, r) {
 
 <section class="container" aria-labelledby="top-picks">
   <h2 id="top-picks" class="sr-only">Top picks at a glance</h2>
-  <ol class="quick-picks">
+  <ol class="quick-picks quick-picks--${top.length}">
     ${top.map((p) => html`<li class="quick-pick${p.rank === 1 ? ' quick-pick--winner' : ''}">
       ${p.badge ? html`<span class="quick-pick__badge">${icon(p.rank === 1 ? 'trophy' : 'award', { size: 14 })} ${esc(p.badge)}</span>` : ''}
       <img src="${esc(p.image)}" alt="" width="200" height="150" ${p.rank === 1 ? 'fetchpriority="high"' : 'loading="lazy"'}>

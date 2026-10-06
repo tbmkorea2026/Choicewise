@@ -25,13 +25,13 @@ scores:
   Adjustability: 9.2
   Build & Design: 8.8
   Value: 8.6
-verdict: "The PST is the most affordable way into Aperion's popular super tweeter line, and it is easy to recommend. A planar-magnetic ribbon driver, five crossover points and a treble trim make it simple to blend with most bookshelf or tower speakers that have 85–94 dB sensitivity. Owners rate it 4.9/5, and the 30-day in-home audition removes the risk of trying it."
+verdict: "The PST is the most affordable way into Aperion's popular super tweeter line, and it is easy to recommend. A planar-magnetic ribbon driver, five crossover points and a treble trim make it simple to blend with most bookshelf or tower speakers that have 85–94 dB sensitivity. Owners rate it 4.9/5, and a 30-day in-home audition lets you try it with your own system (returns carry a 10% restocking fee)."
 pros:
   - Planar-magnetic ribbon driver extends response to 40 kHz
   - "5 crossover points (8–16 kHz) plus an OFF switch for easy blending"
   - Treble trim down to −5 dB to tame bright rooms or speakers
   - Connects to your existing speaker terminals, no extra amplifier needed
-  - 30-day in-home audition, free U.S. shipping and a 3-year warranty
+  - 30-day in-home audition, free shipping in the continental U.S. and a 3-year warranty
 cons:
   - "Best matched to speakers rated 85–94 dB; very efficient speakers need Aperion's HST instead"
   - Improvement is subtle on bright speakers or systems that already use ribbon/AMT tweeters
@@ -57,7 +57,7 @@ faqs:
   - q: "Will the PST work with my speakers?"
     a: "It is designed for speakers with a sensitivity of about 85–94 dB, which covers most bookshelf and tower speakers. For more efficient speakers (98–103 dB), Aperion recommends its HST model."
   - q: "Can I return it if I don't hear a difference?"
-    a: "Yes. Aperion offers a 30-day in-home audition, so you can try the PST with your own system and return it if it doesn't suit you. Check Aperion's current return terms before ordering."
+    a: "Yes, within Aperion's 30-day in-home audition period. According to Aperion's return policy, returned products must be in like-new condition with the original packaging, and a 10% restocking fee applies to returns."
   - q: "Is the PST worth it over the more expensive RST or DST?"
     a: "For most systems, yes. The PST covers the same core job at $399 a pair. The RST ($649) and dual-firing DST ($999) add more output and wider dispersion, which matters more in larger rooms or high-end systems."
 ---
@@ -120,7 +120,7 @@ It is worth keeping expectations realistic. A super tweeter refines a system rat
 
 The PST costs **$399 per pair** ($419 in Gloss Cherry) and is sold directly by Aperion Audio. Buying direct includes:
 
-- **30-day in-home audition** to test it with your own system
+- **30-day in-home audition** to test it with your own system (a 10% restocking fee applies if you return it)
 - **Free shipping** in the continental U.S.
 - **3-year warranty** with lifetime customer support
 - Optional pay-over-time financing with Affirm
