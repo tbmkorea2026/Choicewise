@@ -64,7 +64,7 @@ const server = http.createServer((req, res) => {
   fs.createReadStream(file).pipe(res);
 });
 
-server.listen(PORT, () => console.log(`\n  ChoiceWise running at http://localhost:${PORT}\n`));
+server.listen(PORT, () => console.log(`\n  WiseChoice running at http://localhost:${PORT}\n`));
 
 if (watch) {
   let timer;

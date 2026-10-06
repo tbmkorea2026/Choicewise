@@ -1,12 +1,12 @@
 ---
-title: About ChoiceWise
-description: ChoiceWise helps people buy smarter with independent research, transparent scoring and honest product recommendations.
+title: About WiseChoice
+description: WiseChoice helps people buy smarter with independent research, transparent scoring and honest product recommendations.
 updated: 2026-10-01
 ---
 
 ## Our mission
 
-Shopping online should not mean opening thirty tabs, decoding marketing claims and second-guessing every review. **ChoiceWise exists to do that work for you.** We research products across tech, home, health, travel, software and more, score them with a consistent methodology and publish clear recommendations you can act on.
+Shopping online should not mean opening thirty tabs, decoding marketing claims and second-guessing every review. **WiseChoice exists to do that work for you.** We research products across tech, home, health, travel, software and more, score them with a consistent methodology and publish clear recommendations you can act on.
 
 ## What makes us different
 
@@ -17,7 +17,7 @@ Shopping online should not mean opening thirty tabs, decoding marketing claims a
 
 ## How we make money
 
-ChoiceWise is reader-supported. When you buy through some links on our site, we may earn an affiliate commission at no extra cost to you. This funds our research. Commissions never influence which products we recommend or how we rank them. Read our full [affiliate disclosure](/affiliate-disclosure/).
+WiseChoice is reader-supported. When you buy through some links on our site, we may earn an affiliate commission at no extra cost to you. This funds our research. Commissions never influence which products we recommend or how we rank them. Read our full [affiliate disclosure](/affiliate-disclosure/).
 
 ## Meet the team
 

@@ -2,7 +2,7 @@
 'use strict';
 
 /**
- * ChoiceWise static site generator.
+ * WiseChoice static site generator.
  * Reads Markdown content + JSON data, renders HTML into ./dist, ready for Hostinger.
  *
  *   npm run build              production build

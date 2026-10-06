@@ -6,7 +6,7 @@ const { slugify } = require('./utils');
 marked.setOptions({ gfm: true, breaks: false });
 
 /**
- * Render Markdown to HTML with ChoiceWise extras:
+ * Render Markdown to HTML with WiseChoice extras:
  *  - {{shortcode arg}} blocks (e.g. {{cta}}, {{product 2}}) replaced by components
  *  - [text](go:link-id) → cloaked affiliate link /go/link-id/
  *  - h2/h3 get stable ids; returns the list for the table of contents

@@ -1,4 +1,4 @@
-# ChoiceWise — Website review sản phẩm cho Affiliate
+# WiseChoice — Website review sản phẩm cho Affiliate
 
 Website tĩnh (static site) được sinh ra bằng **Node.js**: tốc độ cực nhanh, chuẩn SEO, chạy trên **mọi gói Hostinger** (kể cả gói Premium/Single không hỗ trợ Node.js), tự động deploy mỗi khi bạn `git push`.
 
@@ -139,9 +139,9 @@ Repo → **Settings → Secrets and variables → Actions**
 | Loại | Tên | Giá trị |
 |---|---|---|
 | Secret | `FTP_SERVER` | FTP IP/hostname, ví dụ `153.92.xx.xx` |
-| Secret | `FTP_USERNAME` | ví dụ `u123456789` hoặc `u123456789.choicewise.com` |
+| Secret | `FTP_USERNAME` | ví dụ `u123456789` hoặc `u123456789.tenmien-cua-ban.com` |
 | Secret | `FTP_PASSWORD` | mật khẩu FTP |
-| Variable | `SITE_URL` | `https://choicewise.com` (domain thật của bạn) |
+| Variable | `SITE_URL` | `https://tenmien-cua-ban.com` (domain thật của bạn) |
 | Variable | `FTP_SERVER_DIR` | *(tuỳ chọn)* mặc định `public_html/`. Nếu tài khoản FTP đã mở thẳng vào `public_html`, đặt `./` |
 
 **Bước 3:** Push code, hoặc vào tab **Actions → Build & deploy to Hostinger → Run workflow**.

@@ -1,4 +1,4 @@
-# ChoiceWise — Apache / LiteSpeed config for Hostinger shared hosting
+# WiseChoice — Apache / LiteSpeed config for Hostinger shared hosting
 # (generated into dist/.htaccess on every build — edit public/.htaccess, not dist/)
 
 Options -Indexes

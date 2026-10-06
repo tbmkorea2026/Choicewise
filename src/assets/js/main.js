@@ -1,4 +1,4 @@
-/* ChoiceWise — progressive enhancement. The site works without JS. */
+/* WiseChoice — progressive enhancement. The site works without JS. */
 (function () {
   'use strict';
 

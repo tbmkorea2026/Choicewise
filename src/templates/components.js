@@ -12,7 +12,7 @@ function logo(site) {
       <rect width="32" height="32" rx="9" fill="var(--brand)"/>
       <path d="M9 16.5l4.5 4.5L23 11.5" fill="none" stroke="var(--on-brand)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
-    <span class="logo__text">Choice<span>Wise</span></span>
+    <span class="logo__text">Wise<span>Choice</span></span>
   </a>`;
 }
 

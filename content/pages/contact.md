@@ -1,13 +1,13 @@
 ---
 title: Contact Us
-description: Get in touch with the ChoiceWise team with questions, corrections, product suggestions or partnership enquiries.
+description: Get in touch with the WiseChoice team with questions, corrections, product suggestions or partnership enquiries.
 ---
 
 We would love to hear from you. Whether you have a question about a review, spotted an error or want to suggest a product we should cover, drop us a line.
 
 ## Email
 
-**General & reader questions:** [hello@choicewise.com](mailto:hello@choicewise.com)
+**General & reader questions:** [hello@wisechoice.example](mailto:hello@wisechoice.example)
 
 We aim to reply within two business days.
 

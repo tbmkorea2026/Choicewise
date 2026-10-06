@@ -1,8 +1,8 @@
 {
-  "name": "choicewise",
+  "name": "wisechoice",
   "version": "1.0.0",
   "private": true,
-  "description": "ChoiceWise — independent product reviews and Best-X comparisons. Static site generated with Node.js.",
+  "description": "WiseChoice — independent product reviews and Best-X comparisons. Static site generated with Node.js.",
   "scripts": {
     "build": "node scripts/build.js",
     "dev": "node scripts/dev.js",

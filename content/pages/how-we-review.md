@@ -5,7 +5,7 @@ description: Our transparent, step-by-step methodology for researching, scoring 
 updated: 2026-10-01
 ---
 
-Every ChoiceWise review and best-of guide follows the same process, so you can trust that a 9.0 in one category means the same thing as a 9.0 in another.
+Every WiseChoice review and best-of guide follows the same process, so you can trust that a 9.0 in one category means the same thing as a 9.0 in another.
 
 ## 1. Choosing what to cover
 

@@ -89,7 +89,7 @@ function home(ctx) {
   </div>
 </section>
 
-<section class="trust" aria-label="Why trust ChoiceWise">
+<section class="trust" aria-label="Why trust WiseChoice">
   <ul class="container trust__list">
     ${PROCESS.map((p) => html`<li>${icon(p.icon, { size: 22 })}<span>${esc(p.title)}</span></li>`)}
   </ul>
@@ -482,7 +482,7 @@ ${listingHead('All categories', 'Pick a category to see our best-of rankings and
     </a></li>`)}
   </ul>
 </div></section>`;
-  return layout(ctx, { title: 'All Categories', description: 'Browse ChoiceWise reviews and best-of guides by category.', url: '/categories/', section: 'categories', jsonld: [seo.breadcrumbs(site, crumbs)] }, body);
+  return layout(ctx, { title: 'All Categories', description: 'Browse WiseChoice reviews and best-of guides by category.', url: '/categories/', section: 'categories', jsonld: [seo.breadcrumbs(site, crumbs)] }, body);
 }
 
 function reviewsIndex(ctx) {
@@ -500,7 +500,7 @@ ${listingHead('All product reviews', 'In-depth, scored reviews of individual pro
     ${content.reviews.map((r) => html`<div data-cat="${r.category}">${c.reviewCard(r, catMap.get(r.category))}</div>`)}
   </div>` : c.emptyState('Reviews are coming soon.')}
 </div></section>`;
-  return layout(ctx, { title: 'All Product Reviews', description: 'Browse every in-depth product review published on ChoiceWise.', url: '/reviews/', section: 'reviews', jsonld: [seo.breadcrumbs(site, crumbs)] }, body);
+  return layout(ctx, { title: 'All Product Reviews', description: 'Browse every in-depth product review published on WiseChoice.', url: '/reviews/', section: 'reviews', jsonld: [seo.breadcrumbs(site, crumbs)] }, body);
 }
 
 function bestIndex(ctx) {
@@ -512,7 +512,7 @@ ${listingHead('Best-of guides', 'Ranked shortlists of the best products in every
   ${content.roundups.length ? html`<div class="grid grid--3">${content.roundups.map((r) => c.roundupCard(r, catMap.get(r.category)))}</div>`
     : c.emptyState('Best-of guides are coming soon.')}
 </div></section>`;
-  return layout(ctx, { title: 'Best-of Guides & Top Picks', description: 'Ranked best-of guides with side-by-side comparisons across every ChoiceWise category.', url: '/best/', section: 'best', jsonld: [seo.breadcrumbs(site, crumbs)] }, body);
+  return layout(ctx, { title: 'Best-of Guides & Top Picks', description: 'Ranked best-of guides with side-by-side comparisons across every WiseChoice category.', url: '/best/', section: 'best', jsonld: [seo.breadcrumbs(site, crumbs)] }, body);
 }
 
 function authorPage(ctx, author) {
@@ -567,7 +567,7 @@ ${listingHead('Search', 'Find reviews, best-of guides and products.', crumbs)}
   <p class="search-summary" data-search-summary aria-live="polite"></p>
   <div class="search-results" data-search-page-results></div>
 </div></section>`;
-  return layout(ctx, { title: 'Search', description: 'Search ChoiceWise reviews and guides.', url: '/search/', noindex: true }, body);
+  return layout(ctx, { title: 'Search', description: 'Search WiseChoice reviews and guides.', url: '/search/', noindex: true }, body);
 }
 
 function notFound(ctx) {
