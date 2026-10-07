@@ -23,8 +23,8 @@ function sectionHead(title, { eyebrow, text, link, linkText, id } = {}) {
 }
 
 const PROCESS = [
-  { icon: 'flask', title: 'Deep research', text: 'We shortlist the leading contenders using spec sheets, expert sources, long-term owner reports and hands-on evaluation where possible.' },
-  { icon: 'scale', title: 'Weighted scoring', text: 'Each product is scored out of 10 on the criteria that matter for its category: performance, build, ease of use and value.' },
+  { icon: 'flask', title: 'Deep research', text: 'We dig through official specs, store policies, warranty terms and verified customer ratings, and flag anything that doesn’t add up.' },
+  { icon: 'scale', title: 'Honest verdicts', text: 'Single-product and brand reviews get a score out of 10 with clear pros and cons. Where we can’t judge fairly, we compare facts instead of inventing a score.' },
   { icon: 'ban', title: 'No paid rankings', text: 'Brands cannot buy a spot or a score. Affiliate commissions never influence which products we recommend.' },
   { icon: 'refresh', title: 'Always up to date', text: 'We revisit guides when new models launch or prices shift, so our picks reflect what you can actually buy today.' },
 ];
@@ -51,7 +51,7 @@ function home(ctx) {
     <div class="hero__copy">
       <p class="eyebrow eyebrow--pill">${icon('badgeCheck', { size: 16 })} Independent reviews · Updated ${esc(ctx.month)} ${ctx.year}</p>
       <h1 class="hero__title">Buy smarter.<br><em>Choose wisely.</em></h1>
-      <p class="hero__lead">We research, score and rank the products worth your money, so you can skip hours of tabs and buy with confidence.</p>
+      <p class="hero__lead">We research brands and products in depth, from specs to shipping and return policies, so you can skip hours of tabs and buy with confidence.</p>
       <form class="hero-search" action="/search/" method="get" role="search">
         <label class="sr-only" for="hero-q">Search reviews and guides</label>
         ${icon('search', { size: 20 })}
@@ -97,7 +97,7 @@ function home(ctx) {
 
 ${roundups.length ? html`<section class="section">
   <div class="container">
-    ${sectionHead('Best-of guides', { eyebrow: 'Top picks', text: 'Ranked shortlists of the best products in each category, with side-by-side comparisons.', link: '/best/', linkText: 'All guides' })}
+    ${sectionHead('Best-of guides', { eyebrow: 'Top picks', text: 'Best-seller shortlists and head-to-head comparisons, with specs side by side.', link: '/best/', linkText: 'All guides' })}
     <div class="grid grid--3">${fullRows(roundups).map((r) => c.roundupCard(r, catMap.get(r.category)))}</div>
   </div>
 </section>` : ''}
@@ -125,7 +125,7 @@ ${reviews.length ? html`<section class="section section--alt">
 
 <section class="section section--ink" aria-labelledby="process-title">
   <div class="container">
-    ${sectionHead('How we review products', { eyebrow: 'Our process', id: 'process-title', text: 'Every review follows the same transparent methodology, so scores are comparable across products.', link: '/how-we-review/', linkText: 'Read our methodology' })}
+    ${sectionHead('How we review products', { eyebrow: 'Our process', id: 'process-title', text: 'Every review follows the same transparent process, and we tell you exactly what we did and didn’t check.', link: '/how-we-review/', linkText: 'Read our methodology' })}
     <ol class="process">
       ${PROCESS.map((p, i) => html`<li class="process__step">
         <span class="process__num">0${i + 1}</span>
@@ -331,7 +331,7 @@ function roundup(ctx, r) {
 <div class="page-head">
   <div class="container">
     ${c.breadcrumbs(crumbs)}
-    <div class="page-head__tags">${c.categoryPill(cat)}<span class="tag">${icon('trophy', { size: 14 })} Best-of guide</span></div>
+    <div class="page-head__tags">${c.categoryPill(cat)}<span class="tag">${r.products.length === 2 ? html`${icon('scale', { size: 14 })} Comparison` : html`${icon('trophy', { size: 14 })} Best-of guide`}</span></div>
     <h1 class="page-head__title">${esc(r.title)}</h1>
     <p class="page-head__lead">${esc(r.description)}</p>
     ${c.byline(r, author)}
@@ -512,7 +512,7 @@ function bestIndex(ctx) {
   const { site, content, catMap } = ctx;
   const crumbs = [HOME_CRUMB, { name: 'Best-of Guides' }];
   const body = html`
-${listingHead('Best-of guides', 'Ranked shortlists of the best products in every category, with comparison tables and buying advice.', crumbs)}
+${listingHead('Best-of guides', 'Best-seller shortlists and head-to-head comparisons, with comparison tables and buying advice.', crumbs)}
 <section class="section section--tight"><div class="container">
   ${content.roundups.length ? html`<div class="grid grid--3">${content.roundups.map((r) => c.roundupCard(r, catMap.get(r.category)))}</div>`
     : c.emptyState('Best-of guides are coming soon.')}

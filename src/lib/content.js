@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
 const matter = require('gray-matter');
 const { slugify, toDate, readingTime } = require('./utils');
 
@@ -13,6 +14,26 @@ function tokens(text) {
   return String(text)
     .replace(/\{\{\s*year\s*\}\}/g, YEAR)
     .replace(/\{\{\s*month\s*\}\}/g, MONTH);
+}
+
+// When each content file was first committed (unix seconds), keyed by its path
+// relative to `dir` with forward slashes. Breaks ties between articles that share
+// the same date so the newest shows first. Uncommitted files count as newest;
+// without git, the map is empty.
+function gitAddedTimes(dir) {
+  const added = new Map();
+  try {
+    const log = execSync('git log --diff-filter=A --relative --format=@%ct --name-only -- .', {
+      cwd: dir, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'], maxBuffer: 32 * 1024 * 1024,
+    });
+    let ts = 0;
+    for (const raw of log.split(/\r?\n/)) {
+      const line = raw.trim();
+      if (line.startsWith('@')) ts = Number(line.slice(1));
+      else if (line && !added.has(line)) added.set(line, ts);
+    }
+  } catch { /* not a git checkout */ }
+  return added;
 }
 
 function readMarkdownDir(dir) {
@@ -209,7 +230,9 @@ function loadContent(rootDir, { site, categories, authors, coupons = [], include
   }));
 
   const keep = (x) => includeDrafts || !x.draft;
-  const byDate = (a, b) => b.updated - a.updated;
+  const added = gitAddedTimes(rootDir);
+  const addedAt = (x) => added.get(path.relative(rootDir, x.source).split(path.sep).join('/')) ?? Infinity;
+  const byDate = (a, b) => (b.updated - a.updated) || (addedAt(b) - addedAt(a)) || 0;
 
   // Link products inside roundups to their full reviews (by explicit slug or matching name).
   const reviewByName = new Map(reviews.map((r) => [slugify(r.product.name), r]));

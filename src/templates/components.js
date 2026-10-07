@@ -171,7 +171,7 @@ function authorBox(author) {
 
 function disclosureNote() {
   return html`<p class="disclosure">${icon('info', { size: 16 })}
-    <span>We independently research and score every product. We may earn a commission when you buy through links on this page, at no extra cost to you. <a href="/affiliate-disclosure/">Learn more</a></span>
+    <span>Our picks are based on independent research, and brands can't pay for a spot. We may earn a commission when you buy through links on this page, at no extra cost to you. <a href="/affiliate-disclosure/">Learn more</a></span>
   </p>`;
 }
 
@@ -203,7 +203,7 @@ function roundupCard(r, cat) {
   const top = r.products.slice(0, 3);
   return html`<article class="card card--roundup">
     <div class="card__body">
-      <div class="card__meta">${cat ? categoryPill(cat) : ''}<span class="card__type">${icon('trophy', { size: 14 })} Top ${r.products.length}</span></div>
+      <div class="card__meta">${cat ? categoryPill(cat) : ''}<span class="card__type">${r.products.length === 2 ? html`${icon('scale', { size: 14 })} Comparison` : html`${icon('trophy', { size: 14 })} Top ${r.products.length}`}</span></div>
       <h3 class="card__title"><a href="${r.url}">${esc(r.title)}</a></h3>
       <ol class="mini-rank">
         ${top.map((p) => html`<li>

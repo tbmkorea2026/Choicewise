@@ -5,7 +5,7 @@
     "short": "Tech",
     "icon": "cpu",
     "hue": 215,
-    "description": "Headphones, laptops, phones, smart home devices and gadgets, scored for performance, longevity and value."
+    "description": "Speakers, camera lenses, gimbals, gadgets and other electronics, compared on specs, compatibility, price and support."
   },
   {
     "slug": "home-kitchen",
@@ -13,7 +13,7 @@
     "short": "Home",
     "icon": "house",
     "hue": 28,
-    "description": "Appliances, cookware, cleaning gear and home essentials, ranked by build quality, usability and price."
+    "description": "Appliances, cookware, cleaning gear and home essentials, compared on specs, usability and price."
   },
   {
     "slug": "health-wellness",
@@ -21,7 +21,7 @@
     "short": "Health",
     "icon": "heartPulse",
     "hue": 350,
-    "description": "Sleep, wearables, monitors and wellness products, reviewed for safety, comfort and real-world effectiveness."
+    "description": "Sleep, wearables, monitors and wellness products, compared on specs, safety information and value."
   },
   {
     "slug": "beauty",
@@ -29,7 +29,7 @@
     "short": "Beauty",
     "icon": "sparkles",
     "hue": 300,
-    "description": "Hair tools, skincare devices and grooming gear, evaluated for results, ingredients and value."
+    "description": "Skincare and personal care products, compared on ingredients, customer ratings and value."
   },
   {
     "slug": "tools",
@@ -45,7 +45,7 @@
     "short": "Fitness",
     "icon": "dumbbell",
     "hue": 145,
-    "description": "Home gym equipment, trackers, running and outdoor gear, tested for durability and performance."
+    "description": "Running apparel, outdoor clothing and fitness gear, compared on materials, fit details, ratings and value."
   },
   {
     "slug": "pets",
@@ -53,7 +53,7 @@
     "short": "Pets",
     "icon": "paw",
     "hue": 40,
-    "description": "Smart feeders, trackers, beds and accessories for dogs and cats, reviewed for safety and reliability."
+    "description": "Feeders, trackers, beds and accessories for dogs and cats, compared on features, safety information and value."
   },
   {
     "slug": "software",
@@ -61,7 +61,7 @@
     "short": "Software",
     "icon": "cloud",
     "hue": 255,
-    "description": "VPNs, password managers, web hosting and website builders, compared on security, speed and pricing."
+    "description": "VPNs, password managers, web hosting and website builders, compared on features, pricing and policies."
   },
   {
     "slug": "travel",
@@ -69,7 +69,7 @@
     "short": "Travel",
     "icon": "plane",
     "hue": 190,
-    "description": "Luggage, backpacks, travel adapters and comfort gear, ranked for durability, weight and design."
+    "description": "Luggage, backpacks, travel adapters and comfort gear, compared on weight, materials and price."
   },
   {
     "slug": "business",

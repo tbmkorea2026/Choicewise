@@ -19,6 +19,8 @@ jobs:
       HAS_FTP: ${{ secrets.FTP_SERVER != '' }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # full history: article order uses each file's first commit
 
       - uses: actions/setup-node@v4
         with:

@@ -2,7 +2,7 @@
   "name": "WiseChoice",
   "tagline": "Buy smarter. Choose wisely.",
   "url": "https://wisechoice.example",
-  "description": "Independent, in-depth product reviews and Best-of comparisons. We research, score and rank products across tech, home, health, travel and more so you can buy with confidence.",
+  "description": "Independent, in-depth brand and product reviews, best-seller guides and head-to-head comparisons. We check specs, prices, shipping, returns and warranties so you can buy with confidence.",
   "locale": "en",
   "email": "hello@wisechoice.example",
   "foundingYear": 2026,
@@ -26,11 +26,15 @@
   "homeFaq": [
     {
       "q": "How does WiseChoice make money?",
-      "a": "Some links on our site are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. Commissions never decide which products we recommend or how they rank."
+      "a": "Some links on our site are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. Most brands we cover run affiliate programs we take part in, but commissions never decide what we say about a product, and we publish the downsides and policy problems we find."
+    },
+    {
+      "q": "Do you test products yourselves?",
+      "a": "Not unless an article says so. Our reviews are research-based: we use manufacturer specifications, store policies, warranty terms and verified customer ratings, and we say clearly when something can't be confirmed."
     },
     {
       "q": "How do you score products?",
-      "a": "Every product is scored out of 10 across weighted criteria that matter for its category, such as performance, build quality, ease of use and value. The overall score is the weighted average, and it decides the ranking in our Best-of guides."
+      "a": "Brand and single-product reviews get an overall score out of 10, built from the criteria shown in each review, such as features, value, ratings and policies. Best-seller guides and comparisons usually don't have scores: products are listed in the store's own best-seller order, with customer ratings where the store shows them."
     },
     {
       "q": "Do brands pay to be featured or ranked?",
@@ -38,11 +42,7 @@
     },
     {
       "q": "How often are reviews updated?",
-      "a": "We revisit our Best-of guides regularly and whenever a meaningful new model, price change or reader report comes in. Every page shows the date it was last updated."
-    },
-    {
-      "q": "What does a Best-of guide include?",
-      "a": "Each guide ranks the top products in a category, explains who each one is best for, compares key specs side by side and includes a buying guide so you can make the right choice for your needs."
+      "a": "We update articles when prices, products or policies change, or when a reader reports an issue. Every page shows the date it was last updated."
     }
   ]
 }

@@ -1,28 +1,35 @@
 ---
 title: How We Review Products
-seoTitle: How We Review & Score Products (Our Methodology)
-description: Our transparent, step-by-step methodology for researching, scoring and ranking products, and how we keep recommendations independent.
-updated: 2026-10-01
+seoTitle: How We Research, Score & Rank Products (Our Methodology)
+description: Exactly how WiseChoice researches brands and products, how our scores and rankings work, what we don't do, and how we keep recommendations independent.
+updated: 2026-10-07
 ---
 
-Every WiseChoice review and best-of guide follows the same process, so you can trust that a 9.0 in one category means the same thing as a 9.0 in another.
+We want you to know exactly what goes into every WiseChoice article, including what we **don't** do. Here's our process.
 
-## 1. Choosing what to cover
+## 1. What we cover
 
-We start with what readers actually shop for. We look at search demand, reader requests, best-seller lists and new launches, then build a long list of contenders from established brands and promising newcomers.
+For each brand we cover, we usually publish four articles:
 
-## 2. Research and evaluation
+- **A brand review:** the product range, prices, customer ratings, shipping, returns and warranty.
+- **A single-product review** of the brand's best seller.
+- **A best-seller guide** to the brand's most popular products.
+- **A head-to-head comparison** of two similar products.
 
-For each product we combine:
+## 2. How we research
 
-- **Specifications and documentation:** manufacturer data, manuals, warranty terms and support policies.
-- **Hands-on evaluation where possible:** real-world use in the conditions the product is designed for.
-- **Long-term owner feedback:** verified-purchase reviews, forums and reliability reports, looking for patterns rather than single complaints.
-- **Expert sources:** independent lab data, standards bodies and specialist publications.
+Our reviews are **research-based**. Unless an article says otherwise, **we have not tested the product ourselves**. For each product we check:
 
-## 3. Weighted scoring
+- **Official specifications and documentation:** manufacturer data, compatibility lists, box contents and manuals.
+- **Store policies:** shipping costs and times, return windows, who pays return shipping, and warranty terms.
+- **Customer ratings:** the ratings and review counts shown on the official store at the time of writing.
+- **Consistency:** when a brand's claims contradict each other, such as a weight in the marketing copy that doesn't match the spec table or two different return windows, we point it out.
 
-Each product is scored from 0 to 10 on criteria tailored to its category. A robot vacuum, for example, is scored on cleaning performance, navigation, maintenance and value. The overall score is a weighted average of those criteria.
+We never invent test results, ratings or experiences.
+
+## 3. Scores
+
+**Brand reviews** and **single-product reviews** get an overall score out of 10. Each review shows the criteria behind it, such as features, value, customer ratings, shipping or returns and warranty. Scores reflect our editorial judgement based on the research above, not lab measurements.
 
 | Score | Rating | What it means |
 | --- | --- | --- |
@@ -33,19 +40,21 @@ Each product is scored from 0 to 10 on criteria tailored to its category. A robo
 | 7.0–7.9 | Fair | Notable compromises; better options usually exist |
 | Below 7 | Mixed | We generally do not recommend it |
 
-## 4. Ranking and "best for" picks
+## 4. Best-seller guides and comparisons
 
-Best-of guides are ranked by overall score. We also award "best for" badges, such as Best Value or Best for Pet Hair, when a product is the clear winner for a specific need even if it is not the top scorer overall.
+Our best-of guides usually list a brand's products **in the order of that store's own best-seller list**, and say so at the top. Where we can't fairly judge products against each other, for example skincare results or the fit of clothing, we **don't give a score** and compare the facts instead: specs, prices and customer ratings shown on the store.
+
+"Best for" badges, such as Best Value, point out which product suits a specific need.
 
 ## 5. Editorial independence
 
 - Brands cannot pay for a review, a ranking or a badge.
 - Brands never review or approve our content before publication.
-- Affiliate commission rates play no part in our recommendations. If the best product has no affiliate program, we still recommend it.
+- Most brands we cover run affiliate programs that we take part in. That never changes what we write: we publish the downsides, policy problems and inconsistencies we find.
 
 ## 6. Keeping it current
 
-Products change, prices shift and better options launch. We revisit best-of guides regularly and update them when something meaningful changes. The "Updated" date at the top of every article tells you when it was last reviewed.
+Prices, products and policies change. Every article shows the date it was last updated, and we update articles when we spot a change or a reader reports one. Always confirm the final price and policies on the retailer's website before you buy.
 
 ## Corrections
 
