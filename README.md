@@ -1,4 +1,4 @@
-# WiseChoice — Website review sản phẩm cho Affiliate
+# WiseChoiceKR — Website review sản phẩm cho Affiliate
 
 Website tĩnh (static site) được sinh ra bằng **Node.js**: tốc độ cực nhanh, chuẩn SEO, chạy trên **mọi gói Hostinger** (kể cả gói Premium/Single không hỗ trợ Node.js), tự động deploy mỗi khi bạn `git push`.
 

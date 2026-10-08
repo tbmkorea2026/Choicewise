@@ -1,12 +1,12 @@
 ---
-title: About WiseChoice
-description: WiseChoice helps people buy smarter with independent research, transparent reviews and honest notes on prices, shipping, returns and warranties.
+title: About WiseChoiceKR
+description: WiseChoiceKR helps people buy smarter with independent research, transparent reviews and honest notes on prices, shipping, returns and warranties.
 updated: 2026-10-07
 ---
 
 ## Our mission
 
-Shopping online should not mean opening thirty tabs, decoding marketing claims and second-guessing every review. **WiseChoice exists to do that work for you.** We research brands and their products, from specs and prices to shipping, returns and warranty terms, and publish clear, honest guides you can act on.
+Shopping online should not mean opening thirty tabs, decoding marketing claims and second-guessing every review. **WiseChoiceKR exists to do that work for you.** We research brands and their products, from specs and prices to shipping, returns and warranty terms, and publish clear, honest guides you can act on.
 
 ## What makes us different
 
@@ -18,7 +18,7 @@ Shopping online should not mean opening thirty tabs, decoding marketing claims a
 
 ## How we make money
 
-WiseChoice is reader-supported. When you buy through some links on our site, we may earn an affiliate commission at no extra cost to you. Most brands we cover run affiliate programs we take part in, but that never changes what we write. Read our full [affiliate disclosure](/affiliate-disclosure/).
+WiseChoiceKR is reader-supported. When you buy through some links on our site, we may earn an affiliate commission at no extra cost to you. Most brands we cover run affiliate programs we take part in, but that never changes what we write. Read our full [affiliate disclosure](/affiliate-disclosure/).
 
 ## Get in touch
 

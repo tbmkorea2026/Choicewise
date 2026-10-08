@@ -1,10 +1,10 @@
 ---
 title: Affiliate Disclosure
-description: How WiseChoice earns money through affiliate links and why it never influences our recommendations.
+description: How WiseChoiceKR earns money through affiliate links and why it never influences our recommendations.
 updated: 2026-10-07
 ---
 
-WiseChoice is a reader-supported website. Some links on our site are **affiliate links**. If you click one and make a purchase, we may earn a commission from the retailer **at no additional cost to you**.
+WiseChoiceKR is a reader-supported website. Some links on our site are **affiliate links**. If you click one and make a purchase, we may earn a commission from the retailer **at no additional cost to you**.
 
 ## Programs we participate in
 

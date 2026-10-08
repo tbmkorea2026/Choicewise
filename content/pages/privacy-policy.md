@@ -1,10 +1,10 @@
 ---
 title: Privacy Policy
-description: How WiseChoice collects, uses and protects information when you visit our website.
+description: How WiseChoiceKR collects, uses and protects information when you visit our website.
 updated: 2026-10-01
 ---
 
-This Privacy Policy explains how WiseChoice ("we", "us") handles information when you use our website.
+This Privacy Policy explains how WiseChoiceKR ("we", "us") handles information when you use our website.
 
 ## Information we collect
 

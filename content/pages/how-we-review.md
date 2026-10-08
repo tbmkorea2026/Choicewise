@@ -1,11 +1,11 @@
 ---
 title: How We Review Products
 seoTitle: How We Research, Score & Rank Products (Our Methodology)
-description: Exactly how WiseChoice researches brands and products, how our scores and rankings work, what we don't do, and how we keep recommendations independent.
+description: Exactly how WiseChoiceKR researches brands and products, how our scores and rankings work, what we don't do, and how we keep recommendations independent.
 updated: 2026-10-07
 ---
 
-We want you to know exactly what goes into every WiseChoice article, including what we **don't** do. Here's our process.
+We want you to know exactly what goes into every WiseChoiceKR article, including what we **don't** do. Here's our process.
 
 ## 1. What we cover
 

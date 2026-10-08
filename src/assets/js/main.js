@@ -1,4 +1,4 @@
-/* WiseChoice — progressive enhancement. The site works without JS. */
+/* WiseChoiceKR — progressive enhancement. The site works without JS. */
 (function () {
   'use strict';
 

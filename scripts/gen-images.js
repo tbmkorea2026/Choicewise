@@ -68,7 +68,7 @@ function segDist(px, py, ax, ay, bx, by) {
   return Math.hypot(px - (ax + t * dx), py - (ay + t * dy));
 }
 
-/** The WiseChoice mark (rounded square + check), defined on a 32-unit grid. */
+/** The WiseChoiceKR mark (rounded square + check), defined on a 32-unit grid. */
 function markLayer(x, y, ox, oy, size) {
   const s = size / 32;
   const bg = roundRectCoverage(x, y, ox, oy, size, 9 * s);
