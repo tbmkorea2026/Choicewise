@@ -1,4 +1,4 @@
-name: Build & deploy to Hostinger
+name: Build & deploy
 
 on:
   push:
@@ -8,12 +8,17 @@ on:
     - cron: '0 6 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 concurrency:
   group: deploy
   cancel-in-progress: false
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     env:
       HAS_FTP: ${{ secrets.FTP_SERVER != '' }}
@@ -36,8 +41,14 @@ jobs:
           # Optional repo variable (Settings → Secrets and variables → Actions → Variables)
           SITE_URL: ${{ vars.SITE_URL }}
 
-      # Skipped until the FTP secrets are added, so the repo can be used before the site goes live.
-      - name: Upload to Hostinger via FTP
+      # Main host: GitHub Pages (Settings → Pages → Source: GitHub Actions).
+      - name: Upload site for GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+      # Optional: also upload to Hostinger/FTP hosting once the FTP secrets are added.
+      - name: Upload to FTP hosting
         if: env.HAS_FTP == 'true'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
@@ -50,3 +61,14 @@ jobs:
           # Folder on the server, relative to where your FTP account lands. See README.
           server-dir: ${{ vars.FTP_SERVER_DIR || 'public_html/' }}
           dangerous-clean-slate: false
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

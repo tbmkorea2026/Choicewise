@@ -205,6 +205,10 @@ Disallow: /search/
 Sitemap: ${site.url}/sitemap.xml
 `);
 
+  // GitHub Pages: custom domain + serve files as-is (no Jekyll). Harmless on Apache hosting.
+  write('/CNAME', `${new URL(site.url).hostname}\n`);
+  write('/.nojekyll', '');
+
   // RSS
   const feedItems = [...content.roundups, ...content.reviews].sort((a, b) => b.updated - a.updated).slice(0, 30);
   write('/feed.xml', `<?xml version="1.0" encoding="UTF-8"?>
