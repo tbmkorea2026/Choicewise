@@ -1,0 +1,53 @@
+{
+  "slug": "eyecandys",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 7.3/10",
+      "title": "Are EyeCandys colored contacts worth it?",
+      "image": "/assets/img/products/eyecandys-cashmere-satin-olive.webp",
+      "chips": [
+        "From <b>$35</b> a pair",
+        "Rx needed in the US",
+        "Read before you buy"
+      ]
+    },
+    {
+      "id": "2-glossy-ivory-1-day-review",
+      "kicker": "Review · 7.8/10",
+      "title": "Glossy Ivory 1-Day: daily colored contacts for dark eyes",
+      "titleSize": 54,
+      "pinTitleSize": 66,
+      "image": "/assets/img/products/eyecandys-glossy-ivory-1-day.webp",
+      "chips": [
+        "<b>$29</b> for 10 lenses",
+        "No limbal ring",
+        "MPC · 40% water"
+      ]
+    },
+    {
+      "id": "3-best-colored-contacts",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling EyeCandys colored contacts",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/eyecandys-cashmere-hazel.webp",
+      "chips": [
+        "Hazel · olive · blue · ivory",
+        "Made for <b>dark eyes</b>"
+      ]
+    },
+    {
+      "id": "4-1-day-vs-6-month",
+      "kicker": "Head to head",
+      "title": "Glossy Ivory: 1-Day ($29) or 6-month ($35)?",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/eyecandys-glossy-ivory.webp",
+      "chips": [
+        "Same shade",
+        "Break-even at <b>~6 wears</b>"
+      ]
+    }
+  ]
+}
