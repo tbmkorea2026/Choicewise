@@ -1,0 +1,39 @@
+{
+  "slug": "7artisans",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 8.4/10",
+      "title": "Are 7Artisans lenses worth it?",
+      "image": "/assets/img/products/7artisans-af-25-35-50-f1-8.webp",
+      "chips": ["Lenses from <b>~$50</b>", "AF &amp; manual", "1-year warranty"]
+    },
+    {
+      "id": "2-fisheye-review",
+      "kicker": "Review · 8.6/10",
+      "title": "7Artisans 7.5mm f/2.8 II: a 190° fisheye for ~$118",
+      "titleSize": 54,
+      "pinTitleSize": 66,
+      "image": "/assets/img/products/7artisans-7-5mm-f2-8-ii.webp",
+      "chips": ["<b>190°</b> view", "f/2.8 · ED glass", "Metal, ~265 g"]
+    },
+    {
+      "id": "3-best-sony-e",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best 7Artisans lenses for Sony E-mount",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/7artisans-50mm-f0-95.webp",
+      "chips": ["From <b>$106</b> AF primes", "f/0.95 bokeh", "Vlogging wide"]
+    },
+    {
+      "id": "4-35mm-compare",
+      "kicker": "Head to head",
+      "title": "AF 35mm F1.8: APS-C ($106) vs full-frame ($239)",
+      "titleSize": 54,
+      "pinTitleSize": 66,
+      "image": "/assets/img/products/7artisans-af-35mm-f1-8-ff.webp",
+      "chips": ["Eye AF support", "Which one fits <b>your</b> camera?"]
+    }
+  ]
+}
