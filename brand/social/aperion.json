@@ -1,0 +1,37 @@
+{
+  "slug": "aperion",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 8.7/10",
+      "title": "Are Aperion Audio speakers worth it?",
+      "image": "/assets/img/products/aperion-verus-v6t.webp",
+      "chips": ["Direct-to-you prices", "<b>5-year</b> warranty", "30-day home trial"]
+    },
+    {
+      "id": "2-pst-review",
+      "kicker": "Review · 8.8/10",
+      "title": "Aperion PST: the easiest hi-fi upgrade for $399?",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/aperion-pst-black.webp",
+      "chips": ["Planar ribbon to <b>40 kHz</b>", "No extra amp", "Rated 4.9/5"]
+    },
+    {
+      "id": "3-best-super-tweeters",
+      "kicker": "Buying guide",
+      "title": "PST vs RST vs DST vs HST: which super tweeter?",
+      "titleSize": 54,
+      "pinTitleSize": 66,
+      "image": "/assets/img/products/aperion-dst.webp",
+      "chips": ["From <b>$399</b> a pair", "Match your speaker's dB"]
+    },
+    {
+      "id": "4-pst-vs-rst",
+      "kicker": "Head to head",
+      "title": "Aperion PST ($399) vs RST ($649)",
+      "image": "/assets/img/products/aperion-rst.webp",
+      "chips": ["Planar ribbon vs <b>true ribbon</b>", "Bookshelf or tower?"]
+    }
+  ]
+}
