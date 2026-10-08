@@ -122,6 +122,20 @@ function build({ includeDrafts = process.argv.includes('--drafts'), devReload = 
   copyDir(path.join(SRC, 'assets'), path.join(DIST, 'assets'));
   copyDir(PUBLIC, DIST);
 
+  // Social post images (brand/social/<slug>/*.png) are served at /social/<slug>/ so
+  // scheduling tools can fetch them by URL. Not linked from pages; robots.txt disallows /social/.
+  const SOCIAL = path.join(ROOT, 'brand', 'social');
+  if (fs.existsSync(SOCIAL)) {
+    for (const entry of fs.readdirSync(SOCIAL, { withFileTypes: true })) {
+      if (!entry.isDirectory()) continue;
+      const out = path.join(DIST, 'social', entry.name);
+      for (const f of fs.readdirSync(path.join(SOCIAL, entry.name)).filter((n) => n.endsWith('.png'))) {
+        fs.mkdirSync(out, { recursive: true });
+        fs.copyFileSync(path.join(SOCIAL, entry.name, f), path.join(out, f));
+      }
+    }
+  }
+
   for (const cat of categories) {
     write(`/assets/img/ph/${cat.slug}.svg`, placeholderSvg(cat));
   }
@@ -201,6 +215,7 @@ ${urls.map((u) => `  <url><loc>${site.url}${u.loc}</loc>${u.lastmod ? `<lastmod>
 Allow: /
 Disallow: /go/
 Disallow: /search/
+Disallow: /social/
 
 Sitemap: ${site.url}/sitemap.xml
 `);
