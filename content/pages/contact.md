@@ -7,7 +7,7 @@ We would love to hear from you. Whether you have a question about a review, spot
 
 ## Email
 
-**General & reader questions:** [hello@wisechoice.example](mailto:hello@wisechoice.example)
+**General & reader questions:** [hello@wisechoicekr.com](mailto:hello@wisechoicekr.com)
 
 We aim to reply within two business days.
 
