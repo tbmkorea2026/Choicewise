@@ -216,7 +216,7 @@ scripts/
   build.js       ← trình sinh site (đọc content → ghi dist/)
   dev.js         ← server local + live reload
   new.js         ← tạo bài mới từ mẫu
-  gen-images.js  ← sinh logo PNG / og-default.png
+  gen-images.js  ← (cũ, đã thay bằng brand/src) logo PNG / og-default.png
 src/
   lib/           ← content loader, markdown, SEO (JSON-LD), icons, utils
   templates/     ← layout, pages, components

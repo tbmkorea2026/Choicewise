@@ -9,8 +9,8 @@ const { inlineMarkdown } = require('../lib/markdown');
 function logo(site) {
   return html`<a class="logo" href="/" aria-label="${esc(site.name)} home">
     <svg class="logo__mark" width="32" height="32" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
-      <rect width="32" height="32" rx="9" fill="var(--brand)"/>
-      <path d="M9 16.5l4.5 4.5L23 11.5" fill="none" stroke="var(--on-brand)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect width="32" height="32" rx="8" fill="#063d2e"/>
+      <path d="M6.9 12.3L10.5 22.4L14.2 15.1L17.4 22.4L25.1 9.6" fill="none" stroke="#f5a524" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
     <span class="logo__text">Wise<span>Choice</span>KR</span>
   </a>`;

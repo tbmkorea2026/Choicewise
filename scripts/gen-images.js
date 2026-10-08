@@ -5,7 +5,15 @@
  * Generates brand PNGs (logo, apple-touch-icon, default social image) with zero dependencies.
  * Run once: node scripts/gen-images.js  — outputs into src/assets/img/.
  * Replace og-default.png with a designed 1200×630 image whenever you like.
+ *
+ * SUPERSEDED: the current W-tick brand images are rendered from brand/src/*.html
+ * (logo-512, touch-icon, og). Running this script would overwrite them with the old
+ * tick-in-square design, so it now refuses unless called with --force.
  */
+if (!process.argv.includes('--force')) {
+  console.error('gen-images.js is superseded by brand/src (see header). Pass --force to run anyway.');
+  process.exit(1);
+}
 
 const fs = require('fs');
 const path = require('path');
