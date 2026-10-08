@@ -144,6 +144,7 @@ ${page.noindex ? '<meta name="robots" content="noindex, follow">' : '<meta name=
 <meta property="og:url" content="${canonical}">
 <meta property="og:image" content="${image}">
 <meta name="twitter:card" content="summary_large_image">
+${site.verification?.pinterest ? html`<meta name="p:domain_verify" content="${esc(site.verification.pinterest)}">` : ''}
 ${page.published ? html`<meta property="article:published_time" content="${page.published}">` : ''}
 ${page.modified ? html`<meta property="article:modified_time" content="${page.modified}">` : ''}
 <meta name="theme-color" content="#0b6b4f" media="(prefers-color-scheme: light)">

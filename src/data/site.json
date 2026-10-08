@@ -20,7 +20,7 @@
   "social": {
     "facebook": "https://www.facebook.com/wisechoicekr",
     "x": "",
-    "pinterest": "",
+    "pinterest": "https://www.pinterest.com/wisechoicekr/",
     "youtube": ""
   },
   "homeFaq": [
@@ -44,5 +44,8 @@
       "q": "How often are reviews updated?",
       "a": "We update articles when prices, products or policies change, or when a reader reports an issue. Every page shows the date it was last updated."
     }
-  ]
+  ],
+  "verification": {
+    "pinterest": ""
+  }
 }
