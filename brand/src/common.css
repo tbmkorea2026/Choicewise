@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,500;1,6..72,500&display=block');
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:100%;height:100%;overflow:hidden}
+body{background:#0b6b4f;color:#fff;font-family:Inter,sans-serif;display:flex;align-items:center;justify-content:center}
+.word{font-family:Newsreader,Georgia,serif;font-weight:500;letter-spacing:-0.01em;line-height:1}
+.word em{font-style:italic;color:#bfe8d6}
+.tag{font-weight:500;color:#d6efe4}
+.url{font-weight:500;color:#9fd8c0;letter-spacing:.02em}
