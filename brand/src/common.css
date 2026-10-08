@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,500;1,6..72,500&display=block');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Newsreader:ital,opsz,wght@0,6..72,600;1,6..72,600&display=block');
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:100%;height:100%;overflow:hidden}
-body{background:#0b6b4f;color:#fff;font-family:Inter,sans-serif;display:flex;align-items:center;justify-content:center}
-.word{font-family:Newsreader,Georgia,serif;font-weight:500;letter-spacing:-0.01em;line-height:1}
-.word em{font-style:italic;color:#bfe8d6}
-.tag{font-weight:500;color:#d6efe4}
-.url{font-weight:500;color:#9fd8c0;letter-spacing:.02em}
+body{background:linear-gradient(120deg,#04281e 0%,#063d2e 55%,#0b6b4f 125%);color:#fff;font-family:Inter,sans-serif;display:flex;align-items:center;justify-content:center;position:relative}
+.word{font-family:Newsreader,Georgia,serif;font-weight:600;letter-spacing:-0.01em;line-height:1;color:#fff}
+.word em{font-style:italic;color:#f5a524}
+.tag{font-weight:500;color:#e8f3ee}
+.url{font-weight:600;color:#f5c56b;letter-spacing:.05em}
+.wm{position:absolute;opacity:.05}
