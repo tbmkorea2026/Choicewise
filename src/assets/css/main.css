@@ -781,3 +781,4 @@ kbd { font: 600 .75rem var(--font-sans); padding: 2px 6px; border: 1px solid var
   .site-header, .site-footer, .newsletter, .sidebar, .sticky-cta, .search-dialog, .btn--cta { display: none !important; }
   body { background: #fff; color: #000; }
 }
+.site-footer ul a.social__link--youtube:hover { background: #ff0000; }
