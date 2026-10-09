@@ -1,0 +1,48 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "+6%",
+  "youtube": {
+    "title": "Brightin Star 35mm F0.95 vs F1.4: Same $189.99, Which One? #shorts",
+    "description": "Brightin Star's two manual 35mm lenses cost the same $189.99: the F0.95 for APS-C and the F1.4 for full-frame. Full comparison: https://wisechoicekr.com/best/brightinstar-35mm-f0-95-vs-35mm-f1-4/\n\nPrices from Brightin Star's store at the time of recording. Based on published specs and store info, not hands-on testing.\n\nDisclosure: links may be affiliate links; we may earn a commission at no extra cost to you.\n\nNarrated with an AI voice.\n\n#brightinstar #35mm #manualfocus #fujifilm #sonyalpha"
+  },
+  "scenes": [
+    {
+      "kicker": "Head to head",
+      "title": "35mm <span style=\"color:#f5a524\">F0.95</span> or <span style=\"color:#f5a524\">F1.4</span>?",
+      "images": ["/assets/img/products/brightinstar-35mm-f0-95.webp", "/assets/img/products/brightinstar-35mm-f1-4.webp"],
+      "labels": ["$189.99", "$189.99"],
+      "say": "Brightin Star sells two manual thirty five millimeter lenses for the same price, one eighty nine ninety nine. Which one should you buy?"
+    },
+    {
+      "kicker": "F0.95 · APS-C",
+      "title": "Ultra-bright for crop cameras",
+      "bullets": ["<b>F0.95</b> for night and portraits", "All-metal body, ED glass", "Fuji X, Sony E, Nikon Z, Canon RF, EOS-M, M43"],
+      "images": ["/assets/img/products/brightinstar-35mm-f0-95.webp"],
+      "say": "The F zero point nine five is an APS-C lens. It's ultra bright for night and portraits, with an all metal body, and comes in six mounts including Fuji X and Sony E."
+    },
+    {
+      "kicker": "F1.4 · Full-frame",
+      "title": "Covers full-frame, made for video",
+      "bullets": ["<b>218 g</b>, 10 aperture blades", "De-click aperture ring", "Sony E, Canon RF, Nikon Z, L-mount, Fuji X"],
+      "images": ["/assets/img/products/brightinstar-35mm-f1-4.webp"],
+      "say": "The F one point four covers full frame sensors, weighs two hundred eighteen grams, and has a de clickable aperture ring for smooth video."
+    },
+    {
+      "kicker": "Before you buy",
+      "tone": "warn",
+      "title": "Check the fine print",
+      "bullets": ["Manual focus only", "Wrong mount = <b>40% restocking fee</b>", "Standard shipping: 18–25 business days"],
+      "images": ["/assets/img/products/brightinstar-35mm-f0-95-2.webp"],
+      "say": "Heads up. Both are manual focus. Order the wrong mount and Brightin Star charges a forty percent restocking fee, and standard shipping takes eighteen to twenty five business days."
+    },
+    {
+      "kicker": "Verdict",
+      "title": "APS&#8209;C → <span style=\"color:#f5a524\">F0.95</span><br>Full&#8209;frame → <span style=\"color:#f5a524\">F1.4</span>",
+      "titleSize": 80,
+      "images": ["/assets/img/products/brightinstar-35mm-f0-95.webp", "/assets/img/products/brightinstar-35mm-f1-4.webp"],
+      "url": "FULL COMPARISON · WISECHOICEKR.COM",
+      "say": "Shooting APS-C? Get the F zero point nine five. Full frame or video? Get the F one point four. Full comparison on WiseChoice K R dot com.",
+      "pause": 1.2
+    }
+  ]
+}

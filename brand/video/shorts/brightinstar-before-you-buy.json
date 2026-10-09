@@ -1,0 +1,50 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "+6%",
+  "youtube": {
+    "title": "3 Things to Know Before Buying Brightin Star Lenses #shorts",
+    "description": "Brightin Star lenses are cheap and fast, but check these first. Full review: https://wisechoicekr.com/reviews/brightinstar-review/\n\nBased on Brightin Star's published product pages and policies at the time of recording, not hands-on testing.\n\nDisclosure: links may be affiliate links; we may earn a commission at no extra cost to you.\n\nNarrated with an AI voice.\n\n#brightinstar #manualfocus #lensreview #mirrorless #photography"
+  },
+  "scenes": [
+    {
+      "kicker": "Before you buy",
+      "title": "3 things to know before buying <span style=\"color:#f5a524\">Brightin Star</span>",
+      "titleSize": 84,
+      "images": ["/assets/img/products/brightinstar-35mm-f0-95.webp", "/assets/img/products/brightinstar-28mm-f2-8-leica-m.webp"],
+      "say": "Thinking about a Brightin Star lens? Three things to know first."
+    },
+    {
+      "kicker": "1 · Returns",
+      "tone": "warn",
+      "title": "\"90-day returns\" has big exceptions",
+      "titleSize": 80,
+      "bullets": ["Defects or shipping mistakes only", "<b>No</b> change-of-mind returns", "Discount-code orders can't be returned"],
+      "images": ["/assets/img/products/brightinstar-35mm-f1-4.webp"],
+      "say": "One. The ninety day return only covers defects and shipping mistakes. No change of mind returns, and orders placed with discount codes can't be returned at all."
+    },
+    {
+      "kicker": "2 · Mounts",
+      "tone": "warn",
+      "title": "Pick the right mount",
+      "bullets": ["Wrong mount = <b>40% restocking fee</b>", "Plus shipping both ways", "APS-C vs full-frame matters"],
+      "images": ["/assets/img/products/brightinstar-10mm-f5-6-fisheye.webp"],
+      "say": "Two. Order the wrong mount and you pay a forty percent restocking fee plus shipping both ways. Check APS C versus full frame too."
+    },
+    {
+      "kicker": "3 · Shipping",
+      "title": "Slow unless you pay",
+      "bullets": ["Standard: <b>18–25 business days</b>", "Priority: 15–18 (free over $55)", "Express: 6–9 (free over $359)"],
+      "images": ["/assets/img/products/brightinstar-9mm-f5-6.webp"],
+      "say": "Three. Standard shipping takes eighteen to twenty five business days. Express takes six to nine, free only over three hundred fifty nine dollars."
+    },
+    {
+      "kicker": "Verdict",
+      "title": "Cheap fast lenses, <span style=\"color:#f5a524\">strict policies</span>",
+      "titleSize": 84,
+      "images": ["/assets/img/products/brightinstar-35mm-f0-95.webp", "/assets/img/products/brightinstar-35mm-f1-4.webp"],
+      "url": "FULL REVIEW · WISECHOICEKR.COM",
+      "say": "The good part: prices are low and there's a two year warranty. Our full review is on WiseChoice K R dot com.",
+      "pause": 1.2
+    }
+  ]
+}

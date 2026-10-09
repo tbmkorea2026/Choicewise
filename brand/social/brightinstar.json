@@ -1,0 +1,37 @@
+{
+  "slug": "brightinstar",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 6.9/10",
+      "title": "Brightin Star lenses: read this before you buy",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/brightinstar-28mm-f2-8-leica-m.webp",
+      "chips": ["Lenses from <b>$69.99</b>", "2-year warranty", "Strict returns"]
+    },
+    {
+      "id": "2-35mm-f0-95-review",
+      "kicker": "Review · 7.4/10",
+      "title": "Brightin Star 35mm F0.95: a $189.99 night lens",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/brightinstar-35mm-f0-95.webp",
+      "chips": ["<b>F0.95</b> APS-C", "All-metal", "6 mounts"]
+    },
+    {
+      "id": "3-best-lenses",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling Brightin Star lenses",
+      "image": "/assets/img/products/brightinstar-10mm-f5-6-fisheye.webp",
+      "chips": ["Fisheye from <b>$69.99</b>", "Leica M pancake", "All manual"]
+    },
+    {
+      "id": "4-35mm-compare",
+      "kicker": "Head to head",
+      "title": "35mm F0.95 or F1.4? Same $189.99",
+      "image": "/assets/img/products/brightinstar-35mm-f1-4.webp",
+      "chips": ["APS-C vs <b>full-frame</b>", "Which fits your camera?"]
+    }
+  ]
+}
