@@ -1,0 +1,35 @@
+{
+  "slug": "sunfounder",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 7.9/10",
+      "title": "Are SunFounder kits worth it?",
+      "image": "/assets/img/products/sunfounder-pidog.webp",
+      "chips": ["Free shipping", "Rated <b>4.7/5</b> on Trustpilot", "Pi not included"]
+    },
+    {
+      "id": "2-pironman-5-review",
+      "kicker": "Review · 8.4/10",
+      "title": "Pironman 5: turn a Raspberry Pi 5 into a mini PC",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/sunfounder-pironman-5.webp",
+      "chips": ["NVMe slot", "Tower cooler + 2 fans", "From <b>$79.99</b>"]
+    },
+    {
+      "id": "3-best-products",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling SunFounder products",
+      "image": "/assets/img/products/sunfounder-esp32-ultimate-starter-kit.webp",
+      "chips": ["Pi 5 cases", "AI robots", "ESP32 kit from <b>$59.99</b>"]
+    },
+    {
+      "id": "4-pironman-5-vs-max",
+      "kicker": "Head to head",
+      "title": "Pironman 5 ($79.99) vs 5-MAX ($94.99)",
+      "image": "/assets/img/products/sunfounder-pironman-5-max.webp",
+      "chips": ["1 vs <b>2</b> NVMe slots", "RAID 0/1 on MAX"]
+    }
+  ]
+}
