@@ -1,0 +1,88 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "+6%",
+  "youtube": {
+    "title": "Daily or 6-Month Colored Contacts? EyeCandys Glossy Ivory #shorts",
+    "description": "EyeCandys Glossy Ivory: 1-Day ($29 for 10 lenses) or 6-month ($35 a pair)? Same beige-taupe shade for dark eyes, different routine. Full comparison: https://wisechoicekr.com/best/eyecandys-glossy-ivory-1-day-vs-6-month/\n\nCode TRUNGTRAN = 5% off at EyeCandys.\n\nColored contacts are medical devices: get an eye exam and a contact lens prescription first (EyeCandys requires one for US orders). Prices from EyeCandys' store at the time of recording. Based on published specs and store info, not hands-on testing.\n\nDisclosure: links may be affiliate links; we may earn a commission at no extra cost to you.\n\nNarrated with an AI voice.\n\n#coloredcontacts #browneyes #eyecandys #contactlenses #beautytips"
+  },
+  "scenes": [
+    {
+      "kicker": "Head to head",
+      "title": "Glossy Ivory: <span style=\"color:#f5a524\">1-Day</span> or <span style=\"color:#f5a524\">6-month</span>?",
+      "images": [
+        "/assets/img/products/eyecandys-glossy-ivory-1-day.webp",
+        "/assets/img/products/eyecandys-glossy-ivory.webp"
+      ],
+      "labels": [
+        "$29 / 10 lenses",
+        "$35 / pair"
+      ],
+      "say": "Daily or six month colored contacts? Here's how to choose EyeCandys Glossy Ivory."
+    },
+    {
+      "kicker": "Same look",
+      "title": "Beige-taupe shade for dark eyes",
+      "bullets": [
+        "<b>No limbal ring</b>",
+        "14.2 mm lens, 12.7 mm color",
+        "Powers <b>0.00 to -8.00</b>"
+      ],
+      "images": [
+        "/assets/img/products/eyecandys-glossy-ivory.webp"
+      ],
+      "say": "Both give the same creamy beige taupe shade made for dark eyes, with no limbal ring, the same size, and powers from zero to minus eight."
+    },
+    {
+      "kicker": "1-Day · $29",
+      "title": "Wear once, throw away",
+      "bullets": [
+        "10 lenses = <b>5 wears</b>",
+        "MPC material, 40% water",
+        "No cleaning or case"
+      ],
+      "images": [
+        "/assets/img/products/eyecandys-glossy-ivory-1-day.webp"
+      ],
+      "say": "The one day version is twenty nine dollars for ten lenses. That's five wears, with no cleaning and no case."
+    },
+    {
+      "kicker": "6-month · $35",
+      "title": "One pair, months of wear",
+      "bullets": [
+        "HEMA material, 38% water",
+        "Clean and store <b>after every wear</b>",
+        "Cheaper if you wear it often"
+      ],
+      "images": [
+        "/assets/img/products/eyecandys-glossy-ivory.webp"
+      ],
+      "say": "The six month pair is thirty five dollars. You clean and store it after every wear, but it costs far less if you wear color often."
+    },
+    {
+      "kicker": "Before you buy",
+      "tone": "warn",
+      "title": "Get a prescription first",
+      "bullets": [
+        "Colored lenses are <b>medical devices</b>",
+        "EyeCandys asks for an Rx on US orders",
+        "Shipping: about 2–3 weeks"
+      ],
+      "say": "Heads up. Colored contacts are medical devices, so get an eye exam first. EyeCandys asks for a prescription on US orders, and standard shipping takes two to three weeks.",
+      "images": [
+        "/assets/img/products/eyecandys-cashmere-hazel.webp"
+      ]
+    },
+    {
+      "kicker": "Verdict",
+      "title": "Under 6 wears → <span style=\"color:#f5a524\">1&#8209;Day</span><br>More often → <span style=\"color:#f5a524\">6&#8209;month</span>",
+      "titleSize": 68,
+      "images": [
+        "/assets/img/products/eyecandys-glossy-ivory-1-day.webp",
+        "/assets/img/products/eyecandys-glossy-ivory.webp"
+      ],
+      "url": "CODE TRUNGTRAN · WISECHOICEKR.COM",
+      "say": "Wearing them fewer than six times? Get the one day. More often? Get the six month pair. Full comparison on WiseChoice K R dot com.",
+      "pause": 1.2
+    }
+  ]
+}

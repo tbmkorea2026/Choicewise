@@ -1,0 +1,72 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "+6%",
+  "youtube": {
+    "title": "3 Things to Know Before Buying from SunFounder #shorts",
+    "description": "Thinking about a SunFounder Pironman case, PiDog or PiCar-X? Check these first. Full review: https://wisechoicekr.com/reviews/sunfounder-review/\n\nBased on SunFounder's published product pages and policies at the time of recording, not hands-on testing.\n\nDisclosure: links may be affiliate links; we may earn a commission at no extra cost to you.\n\nNarrated with an AI voice.\n\n#raspberrypi #sunfounder #raspberrypi5 #robotics #maker"
+  },
+  "scenes": [
+    {
+      "kicker": "Before you buy",
+      "title": "3 things to know before buying <span style=\"color:#f5a524\">SunFounder</span>",
+      "images": [
+        "/assets/img/products/sunfounder-pidog.webp",
+        "/assets/img/products/sunfounder-pironman-5.webp"
+      ],
+      "say": "Buying a SunFounder Raspberry Pi kit? Three things to know first."
+    },
+    {
+      "kicker": "1 · What's in the box",
+      "tone": "warn",
+      "title": "The Raspberry Pi is not included",
+      "titleSize": 84,
+      "bullets": [
+        "Pironman, PiDog, PiCar-X: <b>Pi sold separately</b>",
+        "Pironman cases also need an SSD",
+        "…and a 27W USB-C power supply"
+      ],
+      "images": [
+        "/assets/img/products/sunfounder-pironman-5-whats-included.webp"
+      ],
+      "say": "One. The Raspberry Pi is not included. That goes for the Pironman cases, PiDog and PiCar X. The Pironman cases also need an SSD and a twenty seven watt power supply."
+    },
+    {
+      "kicker": "2 · Shipping",
+      "title": "Free, but from China",
+      "bullets": [
+        "Free shipping, <b>no minimum</b>",
+        "Airmail: <b>7–14 working days</b>",
+        "Check import duties at checkout"
+      ],
+      "images": [
+        "/assets/img/products/sunfounder-esp32-ultimate-starter-kit.webp"
+      ],
+      "say": "Two. Shipping is free, but it comes from China. Airmail takes seven to fourteen working days, so check duties at checkout."
+    },
+    {
+      "kicker": "3 · Returns",
+      "tone": "warn",
+      "title": "Read the return policy",
+      "bullets": [
+        "<b>15 days</b> on the returns page (30 elsewhere)",
+        "Original packaging required",
+        "You pay return shipping"
+      ],
+      "say": "Three. The returns page gives fifteen days, though other pages mention thirty, and you pay return shipping unless it's defective. Confirm before you order.",
+      "images": [
+        "/assets/img/products/sunfounder-pironman-5-max.webp"
+      ]
+    },
+    {
+      "kicker": "Verdict",
+      "title": "Well rated: <span style=\"color:#f5a524\">4.7/5</span> on Trustpilot",
+      "images": [
+        "/assets/img/products/sunfounder-pidog.webp",
+        "/assets/img/products/sunfounder-pironman-5-max.webp"
+      ],
+      "url": "FULL REVIEW · WISECHOICEKR.COM",
+      "say": "The good news: SunFounder is rated four point seven out of five on Trustpilot. Our full review is on WiseChoice K R dot com.",
+      "pause": 1.2
+    }
+  ]
+}

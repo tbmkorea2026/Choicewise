@@ -1,0 +1,47 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "+6%",
+  "youtube": {
+    "title": "Aperion PST vs RST Super Tweeter: Which One? #shorts",
+    "description": "Aperion's PST ($399/pair) and RST ($649/pair) super tweeters share the same controls but use different ribbon drivers. Full comparison: https://wisechoicekr.com/best/aperion-pst-vs-rst/\n\nCode TT05 = 5% off at Aperion Audio.\n\nPrices from Aperion's store at the time of recording. Based on published specs and store info, not hands-on testing.\n\nDisclosure: links may be affiliate links; we may earn a commission at no extra cost to you.\n\nNarrated with an AI voice.\n\n#hifi #audiophile #supertweeter #aperionaudio #homeaudio"
+  },
+  "scenes": [
+    {
+      "kicker": "Head to head",
+      "title": "Aperion <span style=\"color:#f5a524\">PST</span> vs <span style=\"color:#f5a524\">RST</span> super tweeter",
+      "images": ["/assets/img/products/aperion-pst-black.webp", "/assets/img/products/aperion-rst.webp"],
+      "labels": ["$399 / pair", "$649 / pair"],
+      "say": "Aperion PST or RST? Two super tweeters that add air and detail to your speakers. Here's the difference."
+    },
+    {
+      "kicker": "Same",
+      "title": "Sits on top of your speakers",
+      "bullets": ["Same <b>crossover</b> and treble controls", "No extra amplifier needed", "Adds high-frequency \"air\""],
+      "images": ["/assets/img/products/aperion-pst-white.webp"],
+      "say": "Both sit on top of your existing speakers, connect without an extra amplifier, and share the same crossover and treble controls."
+    },
+    {
+      "kicker": "PST · $399",
+      "title": "Planar ribbon, compact",
+      "bullets": ["Planar-magnetic flat ribbon", "<b>1.7 lb</b> each", "Matches speakers rated 85–94 dB"],
+      "images": ["/assets/img/products/aperion-pst-black.webp"],
+      "say": "The PST is three ninety nine a pair. It uses a planar magnetic ribbon, weighs just one point seven pounds each, and suits bookshelf speakers."
+    },
+    {
+      "kicker": "RST · $649",
+      "title": "True aluminum ribbon",
+      "bullets": ["3-inch ribbon, only <b>20 μm</b> thick", "<b>96 dB</b> sensitivity", "Matches speakers up to 96 dB"],
+      "images": ["/assets/img/products/aperion-rst.webp"],
+      "say": "The RST is six forty nine a pair. It's a true three inch aluminum ribbon, twenty microns thin, with ninety six dB sensitivity, a better match for towers and more efficient speakers."
+    },
+    {
+      "kicker": "Verdict",
+      "title": "Bookshelf → <span style=\"color:#f5a524\">PST</span><br>Towers → <span style=\"color:#f5a524\">RST</span>",
+      "titleSize": 88,
+      "images": ["/assets/img/products/aperion-pst-black.webp", "/assets/img/products/aperion-rst.webp"],
+      "url": "CODE TT05 · WISECHOICEKR.COM",
+      "say": "Bookshelf speakers and a tighter budget? Get the PST. Towers or high sensitivity speakers? Get the RST. Full comparison on WiseChoice K R dot com.",
+      "pause": 1.2
+    }
+  ]
+}

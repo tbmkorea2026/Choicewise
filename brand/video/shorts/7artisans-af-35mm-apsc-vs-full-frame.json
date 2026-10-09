@@ -1,0 +1,75 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "+6%",
+  "youtube": {
+    "title": "7Artisans AF 35mm F1.8: APS-C ($106) or Full-Frame ($239)? #shorts",
+    "description": "7Artisans' two autofocus 35mm F1.8 lenses for Sony E compared: compact APS-C for $106 or metal full-frame with aperture ring for $239. Full comparison: https://wisechoicekr.com/best/7artisans-af-35mm-apsc-vs-full-frame/\n\nCode TRANVANTRUNG = 5% off at 7Artisans.\n\nPrices from the 7Artisans store at the time of recording. Based on published specs and store info, not hands-on testing.\n\nDisclosure: links may be affiliate links; we may earn a commission at no extra cost to you.\n\nNarrated with an AI voice.\n\n#7artisans #sonyalpha #35mm #primelens #photography"
+  },
+  "scenes": [
+    {
+      "kicker": "Head to head",
+      "title": "7Artisans AF 35mm F1.8: <span style=\"color:#f5a524\">APS-C</span> or <span style=\"color:#f5a524\">full-frame</span>?",
+      "titleSize": 84,
+      "images": [
+        "/assets/img/products/7artisans-af-25-35-50-f1-8.webp",
+        "/assets/img/products/7artisans-af-35mm-f1-8-ff.webp"
+      ],
+      "labels": [
+        "$106",
+        "$239"
+      ],
+      "say": "Seven Artisans makes two autofocus thirty five millimeter F one point eight lenses for Sony. Which one should you buy?"
+    },
+    {
+      "kicker": "Both",
+      "title": "Autofocus with eye detection",
+      "bullets": [
+        "Sony E-mount",
+        "Bright <b>F1.8</b> aperture",
+        "Same ≈52.5 mm view on APS-C"
+      ],
+      "images": [
+        "/assets/img/products/7artisans-af-35mm-f1-8-ff.webp"
+      ],
+      "say": "Both autofocus with eye detection, both are F one point eight, and on an APS-C camera both give the same natural field of view."
+    },
+    {
+      "kicker": "APS-C · $106",
+      "title": "Small, light, cheap",
+      "bullets": [
+        "About <b>180 g</b>",
+        "Less than half the price",
+        "For a6000-series, ZV-E10, FX30"
+      ],
+      "images": [
+        "/assets/img/products/7artisans-af-25-35-50-f1-8.webp"
+      ],
+      "say": "The APS-C version costs about a hundred and six dollars and weighs around a hundred and eighty grams. Great for crop sensor bodies like the ZV E10."
+    },
+    {
+      "kicker": "Full-frame · $239",
+      "title": "Metal body, made for video",
+      "bullets": [
+        "Stepless <b>aperture ring</b>",
+        "FN button + photo/video switch",
+        "Fits full-frame <b>and</b> APS-C"
+      ],
+      "images": [
+        "/assets/img/products/7artisans-af-35mm-f1-8-ff.webp"
+      ],
+      "say": "The full frame version is two thirty nine. You get a metal body, a stepless aperture ring, a function button and a photo video switch, and it works on full frame and APS-C."
+    },
+    {
+      "kicker": "Verdict",
+      "title": "Crop body → <span style=\"color:#f5a524\">APS&#8209;C</span><br>A7 or video → <span style=\"color:#f5a524\">full&#8209;frame</span>",
+      "titleSize": 70,
+      "images": [
+        "/assets/img/products/7artisans-af-25-35-50-f1-8.webp",
+        "/assets/img/products/7artisans-af-35mm-f1-8-ff.webp"
+      ],
+      "url": "CODE TRANVANTRUNG · WISECHOICEKR.COM",
+      "say": "Shooting on a crop body? Save money with the APS-C lens. On an A7, or serious about video? Get the full frame. Full comparison on WiseChoice K R dot com.",
+      "pause": 1.2
+    }
+  ]
+}
