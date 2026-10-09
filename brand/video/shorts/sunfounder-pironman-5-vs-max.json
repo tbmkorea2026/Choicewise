@@ -1,0 +1,91 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "+6%",
+  "youtube": {
+    "title": "Pironman 5 vs Pironman 5-MAX: Which Raspberry Pi 5 Case? #shorts",
+    "description": "Pironman 5 ($79.99) or Pironman 5-MAX ($94.99)? One NVMe slot vs two with RAID 0/1. Full comparison: https://wisechoicekr.com/best/sunfounder-pironman-5-vs-pironman-5-max/\n\nPrices from SunFounder's store at the time of recording. Based on published specs and store info, not hands-on testing. Raspberry Pi, SSD and power supply not included.\n\nDisclosure: links may be affiliate links; we may earn a commission at no extra cost to you.\n\n#raspberrypi5 #pironman5 #sunfounder #homelab #nas",
+    "board": "Raspberry Pi & Maker Kits"
+  },
+  "scenes": [
+    {
+      "kicker": "Head to head",
+      "title": "Pironman 5 <span style=\"color:#f5a524\">vs</span> Pironman 5-MAX",
+      "images": [
+        "/assets/img/products/sunfounder-pironman-5.webp",
+        "/assets/img/products/sunfounder-pironman-5-max.webp"
+      ],
+      "labels": [
+        "$79.99",
+        "$94.99"
+      ],
+      "say": "Pironman 5, or Pironman 5 MAX? Here's the difference in under a minute."
+    },
+    {
+      "kicker": "What's the same",
+      "title": "Both turn a Raspberry Pi 5 into a mini PC",
+      "titleSize": 84,
+      "bullets": [
+        "Tower cooler + <b>2 RGB fans</b>",
+        "0.96\" OLED status screen",
+        "<b>2× full-size</b> HDMI",
+        "Safe-shutdown power button"
+      ],
+      "images": [
+        "/assets/img/products/sunfounder-pironman-5-max.webp"
+      ],
+      "say": "Both cases turn a Raspberry Pi 5 into a mini PC, with a tower cooler, two RGB fans, a small OLED status screen, full size HDMI ports and a safe shutdown power button."
+    },
+    {
+      "kicker": "Pironman 5 · $79.99",
+      "title": "One NVMe slot",
+      "bullets": [
+        "Silver aluminum case",
+        "Desktop, media center, <b>Home Assistant</b>",
+        "Rated <b>4.8/5</b> (163 store reviews)"
+      ],
+      "images": [
+        "/assets/img/products/sunfounder-pironman-5.webp"
+      ],
+      "say": "The Pironman 5 costs seventy nine ninety nine and has one NVMe slot. That's plenty for a desktop, a media center or a Home Assistant hub."
+    },
+    {
+      "kicker": "Pironman 5-MAX · $94.99",
+      "title": "Two NVMe slots + RAID",
+      "bullets": [
+        "RAID 0 / RAID 1",
+        "SSD <b>+ Hailo-8L</b> AI accelerator",
+        "Rated <b>4.9/5</b> (200 store reviews)"
+      ],
+      "images": [
+        "/assets/img/products/sunfounder-pironman-5-max.webp"
+      ],
+      "say": "The 5 MAX costs ninety four ninety nine and has two NVMe slots with RAID zero and one. Build a two drive NAS, or run an SSD and a Hailo AI accelerator together."
+    },
+    {
+      "kicker": "Before you buy",
+      "tone": "warn",
+      "title": "Not in the box",
+      "bullets": [
+        "Raspberry Pi 5",
+        "NVMe SSD (check the <b>incompatible list</b>)",
+        "27W USB-C power supply"
+      ],
+      "say": "Heads up. Neither case includes the Raspberry Pi, the SSD or a power supply, and SunFounder lists some SSDs that don't work. Check before you buy.",
+      "images": [
+        "/assets/img/products/sunfounder-pironman-5-whats-included.webp"
+      ]
+    },
+    {
+      "kicker": "Verdict",
+      "title": "1 drive → <span style=\"color:#f5a524\">Pironman 5</span><br>2 drives → <span style=\"color:#f5a524\">5-MAX</span>",
+      "titleSize": 80,
+      "images": [
+        "/assets/img/products/sunfounder-pironman-5.webp",
+        "/assets/img/products/sunfounder-pironman-5-max.webp"
+      ],
+      "url": "FULL COMPARISON · WISECHOICEKR.COM",
+      "say": "One drive? Get the Pironman 5. Two drives? Get the MAX. Full comparison on WiseChoice K R dot com.",
+      "pause": 1.2
+    }
+  ]
+}

@@ -4,3 +4,5 @@ dist/
 Thumbs.db
 *.log
 .env
+brand/video/out/
+.claude/
