@@ -170,7 +170,7 @@ ${page.modified ? html`<meta property="article:modified_time" content="${page.mo
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="${FONTS}" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="${FONTS}"></noscript>
-<link rel="stylesheet" href="${assets.css}">
+<style>${assets.cssInline}</style>
 <script>(function(){try{var t=localStorage.getItem('cw-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}})();</script>
 ${ga ? html`<script async src="https://www.googletagmanager.com/gtag/js?id=${esc(ga)}"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${esc(ga)}');</script>` : ''}

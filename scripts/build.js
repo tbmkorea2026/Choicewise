@@ -152,6 +152,11 @@ function build({ includeDrafts = process.argv.includes('--drafts'), devReload = 
     ],
     assets: {
       css: `/assets/css/main.css?v=${hashFile(path.join(SRC, 'assets/css/main.css'))}`,
+      // Inlined in <head> so the first paint doesn't wait for a separate CSS request.
+      cssInline: fs.readFileSync(path.join(SRC, 'assets/css/main.css'), 'utf8')
+        .replace(/\/\*[\s\S]*?\*\//g, '')
+        .replace(/\s*\n\s*/g, '\n')
+        .trim(),
       js: `/assets/js/main.js?v=${hashFile(path.join(SRC, 'assets/js/main.js'))}`,
     },
   };
