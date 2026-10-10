@@ -1,0 +1,49 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "+6%",
+  "youtube": {
+    "title": "3 Things to Know Before Buying a Snailax Massager #shorts",
+    "description": "Snailax massagers are popular, but check these first. Full review: https://wisechoicekr.com/reviews/snailax-review/\n\nCode TRUNG3054 = 30% off at the time of recording.\n\nBased on Snailax's published product pages and policies at the time of recording, not hands-on testing. Not medical advice.\n\nDisclosure: links may be affiliate links; we may earn a commission at no extra cost to you.\n\nNarrated with an AI voice.\n\n#snailax #massager #neckmassager #backmassager #selfcare"
+  },
+  "scenes": [
+    {
+      "kicker": "Before you buy",
+      "title": "3 things to know before buying <span style=\"color:#f5a524\">Snailax</span>",
+      "titleSize": 84,
+      "images": ["/assets/img/products/snailax-632.webp", "/assets/img/products/snailax-233.webp"],
+      "say": "Thinking about a Snailax massager? Three things to know first."
+    },
+    {
+      "kicker": "1 · Returns",
+      "tone": "warn",
+      "title": "Return rules don't match",
+      "titleSize": 80,
+      "bullets": ["30 days, unused, original box", "Pages disagree on who pays shipping", "Heavy items: <b>you</b> pay freight"],
+      "images": ["/assets/img/products/snailax-236.webp"],
+      "say": "One. You get thirty days to return an unused item in its box, but Snailax's own policy pages disagree on who pays return shipping. For heavy items, you pay the freight if you change your mind."
+    },
+    {
+      "kicker": "2 · Warranty",
+      "title": "Register it for 2 years",
+      "bullets": ["Standard: <b>1 year</b>", "Register within 30 days: <b>2 years</b>", "Keep your order and serial number"],
+      "images": ["/assets/img/products/snailax-256.webp"],
+      "say": "Two. The warranty is one year, but register within thirty days and the main unit gets two years. Keep your order number and serial number."
+    },
+    {
+      "kicker": "3 · Reviews",
+      "title": "Store vs Trustpilot",
+      "bullets": ["Store: <b>4.4–4.7</b> from thousands", "Trustpilot: <b>2.4</b> from 20", "Complaints: slow support"],
+      "images": ["/assets/img/products/snailax-363m.webp"],
+      "say": "Three. Best sellers show four point four to four point seven stars from thousands of reviews on the store, but Trustpilot shows two point four from just twenty reviews, mostly about slow support."
+    },
+    {
+      "kicker": "Verdict",
+      "title": "Good value, <span style=\"color:#f5a524\">mind the fine print</span>",
+      "titleSize": 80,
+      "images": ["/assets/img/products/snailax-632.webp", "/assets/img/products/snailax-233.webp"],
+      "url": "CODE TRUNG3054 −30% · WISECHOICEKR.COM",
+      "say": "The good part: free fast US shipping and prices from fifty nine ninety nine. Use code TRUNG3054 for thirty percent off. Our full review is on WiseChoice K R dot com.",
+      "pause": 1.2
+    }
+  ]
+}

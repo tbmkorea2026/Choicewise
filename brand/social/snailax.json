@@ -1,0 +1,39 @@
+{
+  "slug": "snailax",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 7.5/10",
+      "title": "Snailax massagers: worth it? Read this first",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/snailax-233.webp",
+      "chips": ["From <b>$59.99</b>", "Free US shipping", "Code <b>TRUNG3054</b> −30%"]
+    },
+    {
+      "id": "2-neck-massager-review",
+      "kicker": "Review · 8.1/10",
+      "title": "Snailax SL-632: a $59.99 heated neck massager",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/snailax-632.webp",
+      "chips": ["<b>8</b> shiatsu nodes", "Heat", "Home + car adapters"]
+    },
+    {
+      "id": "3-best-massagers",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling Snailax massagers",
+      "image": "/assets/img/products/snailax-363m.webp",
+      "chips": ["Neck, back &amp; mat", "<b>$59.99–$219.99</b>", "Code <b>TRUNG3054</b>"]
+    },
+    {
+      "id": "4-256-vs-233",
+      "kicker": "Head to head",
+      "title": "SL-256 or SL-233? Back only vs neck + back",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/snailax-256.webp",
+      "chips": ["<b>$119.99</b> vs <b>$199.99</b>", "Which one do you need?"]
+    }
+  ]
+}

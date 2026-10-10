@@ -1,0 +1,48 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "+6%",
+  "youtube": {
+    "title": "Snailax SL-256 vs SL-233: Back Only or Neck + Back? #shorts",
+    "description": "Snailax's two best-selling shiatsu chair pads: the $119.99 SL-256 for the back, and the $199.99 SL-233 that adds height-adjustable neck nodes. Full comparison: https://wisechoicekr.com/best/snailax-256-vs-233/\n\nCode TRUNG3054 = 30% off at the time of recording.\n\nPrices from Snailax's store at the time of recording. Based on published specs and store info, not hands-on testing.\n\nDisclosure: links may be affiliate links; we may earn a commission at no extra cost to you.\n\nNarrated with an AI voice.\n\n#snailax #backmassager #shiatsu #massagechair #wfh"
+  },
+  "scenes": [
+    {
+      "kicker": "Head to head",
+      "title": "Snailax <span style=\"color:#f5a524\">SL-256</span> or <span style=\"color:#f5a524\">SL-233</span>?",
+      "images": ["/assets/img/products/snailax-256.webp", "/assets/img/products/snailax-233.webp"],
+      "labels": ["$119.99", "$199.99"],
+      "say": "Snailax's two best selling chair massagers. The SL two fifty six for one nineteen ninety nine, or the SL two thirty three for one ninety nine ninety nine. Which one do you need?"
+    },
+    {
+      "kicker": "SL-256 · $119.99",
+      "title": "Back massage on a budget",
+      "bullets": ["<b>4</b> shiatsu nodes, heated back", "Full, upper or lower back", "Seat vibration, <b>3</b> levels"],
+      "images": ["/assets/img/products/snailax-256.webp"],
+      "say": "The SL two fifty six has four heated shiatsu nodes for your full, upper or lower back, plus seat vibration with three levels."
+    },
+    {
+      "kicker": "SL-233 · $199.99",
+      "title": "Adds a neck massager",
+      "bullets": ["<b>4</b> height-adjustable neck nodes", "Shiatsu or rolling on the back", "Fits about 5'3\"–5'11\""],
+      "images": ["/assets/img/products/snailax-233.webp"],
+      "say": "The SL two thirty three adds four neck and shoulder nodes you can raise or lower, plus a rolling mode for the back. Snailax says it fits people about five foot three to five foot eleven."
+    },
+    {
+      "kicker": "Before you buy",
+      "tone": "warn",
+      "title": "Check the fine print",
+      "bullets": ["Keep the box for returns", "Register for a <b>2-year</b> warranty", "Sessions: about 15–20 min"],
+      "images": ["/assets/img/products/snailax-233-2.webp"],
+      "say": "Heads up. Keep the box, because returns need the original packaging. Register within thirty days for a two year warranty. And keep sessions to about fifteen to twenty minutes."
+    },
+    {
+      "kicker": "Verdict",
+      "title": "Back only → <span style=\"color:#f5a524\">SL&#8209;256</span><br>Neck too → <span style=\"color:#f5a524\">SL&#8209;233</span>",
+      "titleSize": 76,
+      "images": ["/assets/img/products/snailax-256.webp", "/assets/img/products/snailax-233.webp"],
+      "url": "CODE TRUNG3054 −30% · WISECHOICEKR.COM",
+      "say": "Back only? Get the SL two fifty six. Stiff neck too? The SL two thirty three is worth the extra eighty dollars. Use code TRUNG3054 for thirty percent off. Full comparison on WiseChoice K R dot com.",
+      "pause": 1.2
+    }
+  ]
+}
