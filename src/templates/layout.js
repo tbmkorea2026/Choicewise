@@ -114,7 +114,7 @@ function footer(ctx) {
   </div>
   <div class="container site-footer__bottom">
     <p>© ${year} ${esc(site.name)}. All rights reserved.</p>
-    <p class="site-footer__disclosure">${esc(site.name)} is reader-supported. When you buy through links on our site, we may earn an affiliate commission. <a href="/affiliate-disclosure/">Learn more</a>.</p>
+    <p class="site-footer__disclosure">${esc(site.name)} is reader-supported. When you buy through links on our site, we may earn an affiliate commission. <a href="/affiliate-disclosure/">Read our affiliate disclosure</a>.</p>
   </div>
 </footer>`;
 }
@@ -168,7 +168,8 @@ ${page.modified ? html`<meta property="article:modified_time" content="${page.mo
 <link rel="alternate" type="application/rss+xml" title="${esc(site.name)}" href="/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="${FONTS}">
+<link rel="preload" as="style" href="${FONTS}" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="${FONTS}"></noscript>
 <link rel="stylesheet" href="${assets.css}">
 <script>(function(){try{var t=localStorage.getItem('cw-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}})();</script>
 ${ga ? html`<script async src="https://www.googletagmanager.com/gtag/js?id=${esc(ga)}"></script>

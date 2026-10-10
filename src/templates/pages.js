@@ -45,11 +45,14 @@ function home(ctx) {
     ...roundups.flatMap((r) => r.products.map((p) => p.brand)),
   ].filter(Boolean).map((b) => b.trim().toLowerCase())).size;
 
+  // Show the date of the newest real update, not the build month.
+  const lastUpdated = [...reviews, ...roundups].map((x) => x.updated).filter(Boolean).sort((a, b) => b - a)[0];
+
   const body = html`
 <section class="hero">
   <div class="container hero__grid">
     <div class="hero__copy">
-      <p class="eyebrow eyebrow--pill">${icon('badgeCheck', { size: 16 })} Independent reviews · Updated ${esc(ctx.month)} ${ctx.year}</p>
+      <p class="eyebrow eyebrow--pill">${icon('badgeCheck', { size: 16 })} Independent reviews${lastUpdated ? html` · Updated <time datetime="${isoDate(lastUpdated)}">${fmtDate(lastUpdated)}</time>` : ''}</p>
       <h1 class="hero__title">Buy smarter.<br><em>Choose wisely.</em></h1>
       <p class="hero__lead">We research brands and products in depth, from specs to shipping and return policies, so you can skip hours of tabs and buy with confidence.</p>
       <form class="hero-search" action="/search/" method="get" role="search">
@@ -213,6 +216,7 @@ function review(ctx, r) {
       <h2 id="verdict">${icon('award', { size: 22 })} Our verdict</h2>
       <p class="verdict__text">${esc(r.verdict)}</p>
       ${c.scoreBars(r.scores)}
+      <p class="verdict__note">${icon('info', { size: 14 })}<span>Our score is an editorial judgement based on published specs, store policies and customer ratings, not lab or hands-on tests. <a href="/how-we-review/#3-scores">How we score</a></span></p>
     </section>
 
     <section aria-labelledby="pros-and-cons">

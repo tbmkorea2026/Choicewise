@@ -25,7 +25,7 @@ function stars(score10, { size = 'md' } = {}) {
 }
 
 function scoreBadge(score, { size = 'md', showLabel = true } = {}) {
-  return html`<div class="score score--${size}" aria-label="Score ${fmtScore(score)} out of 10, ${scoreLabel(score)}">
+  return html`<div class="score score--${size}" role="img" aria-label="Score ${fmtScore(score)} out of 10, ${scoreLabel(score)}">
     <span class="score__num" aria-hidden="true">${fmtScore(score)}</span>
     ${showLabel ? html`<span class="score__label" aria-hidden="true">${scoreLabel(score)}</span>` : ''}
   </div>`;
@@ -171,7 +171,7 @@ function authorBox(author) {
 
 function disclosureNote() {
   return html`<p class="disclosure">${icon('info', { size: 16 })}
-    <span>Our picks are based on independent research, and brands can't pay for a spot. We may earn a commission when you buy through links on this page, at no extra cost to you. <a href="/affiliate-disclosure/">Learn more</a></span>
+    <span>Our picks are based on independent research, and brands can't pay for a spot. We may earn a commission when you buy through links on this page, at no extra cost to you. <a href="/affiliate-disclosure/">How we earn money</a></span>
   </p>`;
 }
 
