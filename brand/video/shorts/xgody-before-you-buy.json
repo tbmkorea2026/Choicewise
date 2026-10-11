@@ -1,0 +1,48 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "+6%",
+  "youtube": {
+    "title": "3 Things to Know Before Buying an XGODY GPS #shorts",
+    "description": "XGODY sat navs are cheap, but check these first. Full review: https://wisechoicekr.com/reviews/xgody-review/\n\nCode TRANTRUNG = 10% off at the time of recording.\n\nBased on XGODY's published product pages and policies at the time of recording, not hands-on testing.\n\nDisclosure: links may be affiliate links; we may earn a commission at no extra cost to you.\n\nNarrated with an AI voice.\n\n#xgody #gpsnavigation #satnav #truckgps #roadtrip"
+  },
+  "scenes": [
+    {
+      "kicker": "Before you buy",
+      "title": "3 things to know before buying <span style=\"color:#f5a524\">XGODY</span>",
+      "titleSize": 84,
+      "images": ["/assets/img/products/xgody-x4.webp", "/assets/img/products/xgody-718.webp"],
+      "say": "Thinking about an XGODY GPS? Three things to know first."
+    },
+    {
+      "kicker": "1 · Warranty",
+      "tone": "warn",
+      "title": "Short and defect-only",
+      "bullets": ["Refund: <b>14 days</b>, defects only", "Replacement: up to 30 days", "Repair: up to <b>180 days</b>"],
+      "images": ["/assets/img/products/xgody-886f.webp"],
+      "say": "One. The warranty is short. Refunds within fourteen days for defects, replacement up to thirty days, and free repair only up to a hundred and eighty days."
+    },
+    {
+      "kicker": "2 · Reviews",
+      "title": "Store vs Trustpilot",
+      "bullets": ["Store: <b>4.1–4.8</b> stars", "Trustpilot: <b>1.4/5</b> from 125", "Complaints: failures, warranty"],
+      "images": ["/assets/img/products/xgody-886bt.webp"],
+      "say": "Two. Sat navs show four to nearly five stars on XGODY's store, but Trustpilot shows one point four from a hundred twenty five reviews, mostly about failures and warranty claims."
+    },
+    {
+      "kicker": "3 · Maps",
+      "title": "Free updates, but manual",
+      "bullets": ["Lifetime map updates (per XGODY)", "Download link by email", "Copy files with a computer"],
+      "images": ["/assets/img/products/xgody-x10.webp"],
+      "say": "Three. Map updates are free for life, but you get a download link by email and copy the files yourself with a computer."
+    },
+    {
+      "kicker": "Verdict",
+      "title": "Cheap big screens, <span style=\"color:#f5a524\">mind the risk</span>",
+      "titleSize": 80,
+      "images": ["/assets/img/products/xgody-x4.webp", "/assets/img/products/xgody-886bt.webp"],
+      "url": "CODE TRANTRUNG −10% · WISECHOICEKR.COM",
+      "say": "The good part: sat navs with truck routing from seventy one ninety nine. Pay with buyer protection and use code TRANTRUNG for ten percent off. Full review on WiseChoice K R dot com.",
+      "pause": 1.2
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "+6%",
+  "youtube": {
+    "title": "XGODY X4 vs 886BT: 9-Inch or 7-Inch GPS? #shorts",
+    "description": "XGODY's best-selling 9-inch X4 vs its most-reviewed 7-inch 886BT truck sat nav. Full comparison: https://wisechoicekr.com/best/xgody-x4-vs-886bt/\n\nCode TRANTRUNG = 10% off at the time of recording.\n\nPrices from XGODY's store at the time of recording. Based on published specs and store info, not hands-on testing.\n\nDisclosure: links may be affiliate links; we may earn a commission at no extra cost to you.\n\nNarrated with an AI voice.\n\n#xgody #gps #satnav #truckgps #trucking"
+  },
+  "scenes": [
+    {
+      "kicker": "Head to head",
+      "title": "XGODY <span style=\"color:#f5a524\">X4</span> or <span style=\"color:#f5a524\">886BT</span>?",
+      "images": ["/assets/img/products/xgody-x4.webp", "/assets/img/products/xgody-886bt.webp"],
+      "labels": ["$85.90", "$78.90"],
+      "say": "XGODY's best selling sat nav, the X4, or its most reviewed one, the 886BT? Here's the difference."
+    },
+    {
+      "kicker": "X4 · from $85.90",
+      "title": "The big 9-inch screen",
+      "bullets": ["<b>9-inch</b> touchscreen", "Truck routing + lane assist", "Bluetooth on X4BT ($89.90)"],
+      "images": ["/assets/img/products/xgody-x4-2.webp"],
+      "say": "The X4 has a big nine inch screen, truck routing and lane assist. You need the X4 BT version, eighty nine ninety, for Bluetooth calling."
+    },
+    {
+      "kicker": "886BT · $78.90",
+      "title": "The proven pick",
+      "bullets": ["7-inch, <b>Bluetooth included</b>", "Truck routing, 253 g", "<b>1,108</b> store reviews"],
+      "images": ["/assets/img/products/xgody-886bt.webp"],
+      "say": "The 886BT is a seven inch truck navigator for seventy eight ninety, with Bluetooth included and over eleven hundred store reviews. The X4 has just nine."
+    },
+    {
+      "kicker": "Before you buy",
+      "tone": "warn",
+      "title": "Check the fine print",
+      "bullets": ["Repair warranty: <b>180 days</b>", "Trustpilot: <b>1.4/5</b>", "Map updates: manual download"],
+      "images": ["/assets/img/products/xgody-718.webp"],
+      "say": "Heads up. XGODY's repair warranty is only a hundred and eighty days, its Trustpilot score is one point four, and map updates are files you copy yourself."
+    },
+    {
+      "kicker": "Verdict",
+      "title": "Big screen → <span style=\"color:#f5a524\">X4BT</span><br>Safer pick → <span style=\"color:#f5a524\">886BT</span>",
+      "titleSize": 76,
+      "images": ["/assets/img/products/xgody-x4.webp", "/assets/img/products/xgody-886bt.webp"],
+      "url": "CODE TRANTRUNG −10% · WISECHOICEKR.COM",
+      "say": "Want the biggest map? Get the X4 BT. Want the safer, cheaper pick? Get the 886BT. Use code TRANTRUNG for ten percent off. Full comparison on WiseChoice K R dot com.",
+      "pause": 1.2
+    }
+  ]
+}
