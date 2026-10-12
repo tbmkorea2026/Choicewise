@@ -1,0 +1,37 @@
+{
+  "slug": "enabot",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 7.1/10",
+      "title": "Enabot pet robots: worth it? Read this first",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/enabot-ebo-air-2.webp",
+      "chips": ["From <b>$139</b>", "No subscription needed", "Code <b>TRANTRUNG</b> −10%"]
+    },
+    {
+      "id": "2-ebo-se-2-review",
+      "kicker": "Review · 7.2/10",
+      "title": "EBO SE 2: a $169.99 2K pet robot with a laser",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/enabot-ebo-se-2.webp",
+      "chips": ["<b>2K</b> camera", "Built-in laser", "Auto-recharge"]
+    },
+    {
+      "id": "3-best-robots",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling Enabot pet robots",
+      "image": "/assets/img/products/enabot-rola-mini.webp",
+      "chips": ["<b>$139–$399</b>", "2K &amp; 3K cameras", "Code <b>TRANTRUNG</b>"]
+    },
+    {
+      "id": "4-se-2-vs-air-2",
+      "kicker": "Head to head",
+      "title": "EBO SE 2 or EBO Air 2?",
+      "image": "/assets/img/products/enabot-ebo-air-2-b.webp",
+      "chips": ["<b>$169.99</b> vs <b>$199</b>", "Which one fits you?"]
+    }
+  ]
+}

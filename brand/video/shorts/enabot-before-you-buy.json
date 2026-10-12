@@ -1,0 +1,48 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "+6%",
+  "youtube": {
+    "title": "3 Things to Know Before Buying an Enabot Pet Robot #shorts",
+    "description": "Enabot's rolling pet cameras are fun, but check these first. Full review: https://wisechoicekr.com/reviews/enabot-review/\n\nCode TRANTRUNG = 10% off at the time of recording.\n\nBased on Enabot's published product pages and policies at the time of recording, not hands-on testing.\n\nDisclosure: links may be affiliate links; we may earn a commission at no extra cost to you.\n\nNarrated with an AI voice.\n\n#enabot #petcamera #cats #dogs #pettech"
+  },
+  "scenes": [
+    {
+      "kicker": "Before you buy",
+      "title": "3 things to know before buying <span style=\"color:#f5a524\">Enabot</span>",
+      "titleSize": 84,
+      "images": ["/assets/img/products/enabot-ebo-se-2.webp", "/assets/img/products/enabot-rola-mini.webp"],
+      "say": "Thinking about an Enabot pet robot? Three things to know first."
+    },
+    {
+      "kicker": "1 · Floors",
+      "tone": "warn",
+      "title": "Small wheels, low limits",
+      "bullets": ["EBO SE 2 / Air 2: <b>6 mm</b>, 4° slopes", "Air 2 Plus / ROLA Mini: <b>10 mm</b>, 15°", "No stairs, thick rugs struggle"],
+      "images": ["/assets/img/products/enabot-ebo-air-2-plus.webp"],
+      "say": "One. Check your floors. The smaller models only cross six millimeter obstacles. The Air 2 Plus and ROLA Mini handle ten. None climb stairs."
+    },
+    {
+      "kicker": "2 · Subscription",
+      "title": "No subscription needed",
+      "bullets": ["Records to a <b>microSD</b> card", "32 GB card in several models", "Cloud plan is optional"],
+      "images": ["/assets/img/products/enabot-ebo-se-2-b.webp"],
+      "say": "Two. Good news. They record to a micro SD card, and several models include one, so you don't need a subscription. Enabot's cloud plan is optional."
+    },
+    {
+      "kicker": "3 · Returns",
+      "title": "14 days, but read the rules",
+      "bullets": ["Any reason, within <b>14 days</b>", "You pay return shipping", "Must look unused; warranty 1 year"],
+      "images": ["/assets/img/products/enabot-ebo-se.webp"],
+      "say": "Three. You can return within fourteen days for any reason, but you pay return shipping and it must look unused. The warranty is one year, two in Europe."
+    },
+    {
+      "kicker": "Verdict",
+      "title": "Fun pet cams, <span style=\"color:#f5a524\">pick the right model</span>",
+      "titleSize": 80,
+      "images": ["/assets/img/products/enabot-ebo-se-2.webp", "/assets/img/products/enabot-ebo-air-2.webp"],
+      "url": "CODE TRANTRUNG −10% · WISECHOICEKR.COM",
+      "say": "Free shipping with duties included in major markets, and models from one hundred thirty nine dollars. Use code TRANTRUNG for ten percent off. Full review on WiseChoice K R dot com.",
+      "pause": 1.2
+    }
+  ]
+}

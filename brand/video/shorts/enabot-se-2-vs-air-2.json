@@ -1,0 +1,55 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "+6%",
+  "youtube": {
+    "title": "Enabot EBO SE 2 vs EBO Air 2: Which Pet Robot? #shorts",
+    "description": "Enabot's two 2K pet camera robots with a laser: the $169.99 EBO SE 2 vs the $199 EBO Air 2. Full comparison: https://wisechoicekr.com/best/enabot-ebo-se-2-vs-ebo-air-2/\n\nCode TRANTRUNG = 10% off at the time of recording.\n\nPrices from Enabot's store at the time of recording. Based on published specs and store info, not hands-on testing.\n\nDisclosure: links may be affiliate links; we may earn a commission at no extra cost to you.\n\nNarrated with an AI voice.\n\n#enabot #petcamera #cats #pettech #smarthome"
+  },
+  "scenes": [
+    {
+      "kicker": "Head to head",
+      "title": "EBO <span style=\"color:#f5a524\">SE 2</span> or EBO <span style=\"color:#f5a524\">Air 2</span>?",
+      "images": ["/assets/img/products/enabot-ebo-se-2.webp", "/assets/img/products/enabot-ebo-air-2.webp"],
+      "labels": ["$169.99", "$199"],
+      "say": "Enabot's two best selling pet robots. The EBO SE 2 for one sixty nine ninety nine, or the EBO Air 2 for one ninety nine. What's the difference?"
+    },
+    {
+      "kicker": "Same core",
+      "title": "Both roll, film and play",
+      "bullets": ["<b>2K</b> camera + night vision", "Built-in <b>laser</b> for cats", "Same battery: 4–7 hours"],
+      "images": ["/assets/img/products/enabot-ebo-se-2-b.webp"],
+      "say": "Both are small 2K cameras you drive around your home, with night vision, a built in laser for your cat, and the same four to seven hour battery."
+    },
+    {
+      "kicker": "EBO SE 2 · $169.99",
+      "title": "Newer and cheaper",
+      "bullets": ["<b>Wi-Fi 6</b>", "Feather toy + Pet Fun Patrol", "32 GB SD card included"],
+      "images": ["/assets/img/products/enabot-ebo-se-2.webp"],
+      "say": "The SE 2 adds Wi Fi 6, a feather toy and a pet fun patrol mode, and Enabot includes a thirty two gigabyte SD card."
+    },
+    {
+      "kicker": "EBO Air 2 · $199",
+      "title": "More personality",
+      "bullets": ["Custom <b>expression display</b>", "AI noise cancellation", "77 store reviews"],
+      "images": ["/assets/img/products/enabot-ebo-air-2.webp"],
+      "say": "The Air 2 has a customizable expression display, AI noise cancellation for clearer calls, and seventy seven store reviews."
+    },
+    {
+      "kicker": "Before you buy",
+      "tone": "warn",
+      "title": "Check your floors",
+      "bullets": ["Both cross only <b>6 mm</b> obstacles", "Return shipping paid by you", "Warranty: 1 year"],
+      "images": ["/assets/img/products/enabot-ebo-air-2-b.webp"],
+      "say": "Heads up. Both only cross six millimeter obstacles, so thick rugs are a problem. Returns within fourteen days cost you the shipping, and the warranty is one year."
+    },
+    {
+      "kicker": "Verdict",
+      "title": "Best value → <span style=\"color:#f5a524\">SE&#8209;2</span><br>More features → <span style=\"color:#f5a524\">Air&#8209;2</span>",
+      "titleSize": 72,
+      "images": ["/assets/img/products/enabot-ebo-se-2.webp", "/assets/img/products/enabot-ebo-air-2.webp"],
+      "url": "CODE TRANTRUNG −10% · WISECHOICEKR.COM",
+      "say": "Most cat owners should get the SE 2. Want more personality? Get the Air 2. Use code TRANTRUNG for ten percent off. Full comparison on WiseChoice K R dot com.",
+      "pause": 1.2
+    }
+  ]
+}
