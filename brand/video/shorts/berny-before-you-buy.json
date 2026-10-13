@@ -1,0 +1,48 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "+6%",
+  "youtube": {
+    "title": "3 Things to Know Before Buying a Berny Watch #shorts",
+    "description": "Berny watches are great value on paper, but check these first. Full review: https://wisechoicekr.com/reviews/berny-review/\n\nCode GOODVICUA = 10% off at the time of recording.\n\nBased on Berny's published product pages and policies at the time of recording, not hands-on testing.\n\nDisclosure: links may be affiliate links; we may earn a commission at no extra cost to you.\n\nNarrated with an AI voice.\n\n#berny #watches #automaticwatch #divewatch #affordablewatches"
+  },
+  "scenes": [
+    {
+      "kicker": "Before you buy",
+      "title": "3 things to know before buying <span style=\"color:#f5a524\">Berny</span>",
+      "titleSize": 84,
+      "images": ["/assets/img/products/berny-am339m.webp", "/assets/img/products/berny-2946l.webp"],
+      "say": "Thinking about a Berny watch? Three things to know first."
+    },
+    {
+      "kicker": "1 · Value",
+      "title": "Real movements, low prices",
+      "bullets": ["Miyota 8215 diver: <b>$139.99</b>", "Sapphire + 200 m water resistance", "Titanium field watch: 37 g"],
+      "images": ["/assets/img/products/berny-am339m-b.webp"],
+      "say": "One. The good part. The AM339M diver has a Miyota automatic movement, sapphire crystal and two hundred meters of water resistance for one thirty nine ninety nine."
+    },
+    {
+      "kicker": "2 · Returns",
+      "tone": "warn",
+      "title": "24 hours to report defects",
+      "bullets": ["Defects: within <b>24 hours</b> of delivery", "30-day returns, you pay shipping", "Custom watches can't be returned"],
+      "images": ["/assets/img/products/berny-am126m.webp"],
+      "say": "Two. Read the return rules. Defects must be reported within twenty four hours of delivery. Change of mind returns are thirty days at your cost, and custom watches can't be returned."
+    },
+    {
+      "kicker": "3 · Discounts",
+      "title": "Ignore the strike-through",
+      "bullets": ["'Compare at' prices look inflated", "Judge the real price", "Buy only from official stores"],
+      "images": ["/assets/img/products/berny-t2596m.webp"],
+      "say": "Three. Ignore the crossed out prices, they look inflated. And buy only from bernywatch dot com or Berny's official marketplace stores, because fake sites exist."
+    },
+    {
+      "kicker": "Verdict",
+      "title": "Great value, <span style=\"color:#f5a524\">check it on arrival</span>",
+      "titleSize": 80,
+      "images": ["/assets/img/products/berny-am339m.webp", "/assets/img/products/berny-2946l.webp"],
+      "url": "CODE GOODVICUA −10% · WISECHOICEKR.COM",
+      "say": "Lots of watch for the money, just inspect it the day it arrives. Use code GOODVICUA for ten percent off. Full review on WiseChoice K R dot com.",
+      "pause": 1.2
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "+6%",
+  "youtube": {
+    "title": "Berny 2946L vs 2166L: Oval or Square Gold Watch? #shorts",
+    "description": "Berny's two best-selling women's gold watches compared: the $64.99 oval 2946L vs the $69.99 square 2166L. Full comparison: https://wisechoicekr.com/best/berny-2946l-vs-2166l/\n\nCode GOODVICUA = 10% off at the time of recording.\n\nPrices from Berny's store at the time of recording. Based on published specs and store info, not hands-on testing.\n\nDisclosure: links may be affiliate links; we may earn a commission at no extra cost to you.\n\nNarrated with an AI voice.\n\n#berny #goldwatch #womenswatch #watches #giftforher"
+  },
+  "scenes": [
+    {
+      "kicker": "Head to head",
+      "title": "<span style=\"color:#f5a524\">Oval</span> or <span style=\"color:#f5a524\">square</span>?",
+      "images": ["/assets/img/products/berny-2946l.webp", "/assets/img/products/berny-2166l.webp"],
+      "labels": ["$64.99", "$69.99"],
+      "say": "Berny's two best selling gold watches. The oval 2946L for sixty four ninety nine, or the square 2166L for sixty nine ninety nine."
+    },
+    {
+      "kicker": "2946L · $64.99",
+      "title": "Petite and vintage",
+      "bullets": ["<b>18 mm</b> oval cloud case", "Slim 8 mm bracelet", "Only <b>32 g</b>"],
+      "images": ["/assets/img/products/berny-2946l.webp"],
+      "say": "The 2946L has a tiny eighteen millimeter oval case on a slim bracelet, and weighs just thirty two grams."
+    },
+    {
+      "kicker": "2166L · $69.99",
+      "title": "Bolder and square",
+      "bullets": ["Rectangular gold case", "Wide <b>16 mm</b> link bracelet", "Fits wrists up to 180 mm"],
+      "images": ["/assets/img/products/berny-2166l.webp"],
+      "say": "The 2166L has a square case on a wide sixteen millimeter link bracelet, and fits slightly bigger wrists."
+    },
+    {
+      "kicker": "Before you buy",
+      "tone": "warn",
+      "title": "Check it on delivery day",
+      "bullets": ["Defects: report within <b>24 hours</b>", "3 ATM: splash-resistant only", "You pay change-of-mind returns"],
+      "images": ["/assets/img/products/berny-2946l.webp"],
+      "say": "Heads up. Berny only accepts defect claims within twenty four hours of delivery. Both are splash resistant only, and you pay return shipping if you change your mind."
+    },
+    {
+      "kicker": "Verdict",
+      "title": "Dainty → <span style=\"color:#f5a524\">2946L</span><br>Bold → <span style=\"color:#f5a524\">2166L</span>",
+      "titleSize": 80,
+      "images": ["/assets/img/products/berny-2946l.webp", "/assets/img/products/berny-2166l.webp"],
+      "url": "CODE GOODVICUA −10% · WISECHOICEKR.COM",
+      "say": "Want a dainty vintage look? Get the 2946L. Want a bolder statement? Get the 2166L. Use code GOODVICUA for ten percent off. Full comparison on WiseChoice K R dot com.",
+      "pause": 1.2
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "berny",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 6.6/10",
+      "title": "Berny watches: worth it? Read this first",
+      "image": "/assets/img/products/berny-am339m.webp",
+      "chips": ["From <b>$64.99</b>", "Miyota &amp; Seiko movements", "Code <b>GOODVICUA</b> −10%"]
+    },
+    {
+      "id": "2-2946l-review",
+      "kicker": "Review · 6.6/10",
+      "title": "Berny 2946L: a $64.99 mini gold watch",
+      "image": "/assets/img/products/berny-2946l.webp",
+      "chips": ["<b>18 mm</b> oval case", "Japanese quartz", "Only 32 g"]
+    },
+    {
+      "id": "3-best-watches",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling Berny watches",
+      "image": "/assets/img/products/berny-t2596m.webp",
+      "chips": ["Gold, diver &amp; titanium", "<b>$64.99–$249.99</b>", "Code <b>GOODVICUA</b>"]
+    },
+    {
+      "id": "4-2946l-vs-2166l",
+      "kicker": "Head to head",
+      "title": "Oval or square? Berny 2946L vs 2166L",
+      "image": "/assets/img/products/berny-2166l.webp",
+      "chips": ["<b>$64.99</b> vs <b>$69.99</b>", "Which suits your wrist?"]
+    }
+  ]
+}
