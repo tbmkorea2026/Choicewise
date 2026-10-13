@@ -32,6 +32,14 @@
     "description": "Skincare and personal care products, compared on ingredients, customer ratings and value."
   },
   {
+    "slug": "fashion",
+    "name": "Fashion & Accessories",
+    "short": "Fashion",
+    "icon": "clock",
+    "hue": 20,
+    "description": "Watches, jewelry, bags and other accessories, compared on materials, specs, price and store policies."
+  },
+  {
     "slug": "tools",
     "name": "Tools & DIY",
     "short": "Tools",
