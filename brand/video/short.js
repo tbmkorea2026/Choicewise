@@ -2,7 +2,8 @@
 'use strict';
 
 /**
- * YouTube Shorts generator: slides (headless Chrome) + AI voice (Microsoft Edge neural TTS) → 1080×1920 MP4.
+ * YouTube Shorts generator: slides (headless Chrome) + AI voice → 1080×1920 MP4.
+ * Voice: Kokoro (local, default; `kokoroVoice` in the JSON, default af_heart) or Microsoft Edge TTS (`"engine": "edge"`).
  *   cd brand/video && node short.js shorts/<name>.json
  * Output: brand/video/out/<name>.mp4 (+ <name>-thumb.png). Needs FFmpeg (winget Gyan.FFmpeg) and `npm install` here.
  */
@@ -88,12 +89,35 @@ function render(htmlFile, out) {
   ], { stdio: 'ignore' });
 }
 
-async function speak(tts, text, outFile, rate) {
-  const dir = path.join(STAGE, 'tts-' + path.basename(outFile, '.mp3'));
-  fs.rmSync(dir, { recursive: true, force: true });
-  fs.mkdirSync(dir, { recursive: true });
-  const { audioFilePath } = await tts.toFile(dir, esc(text), { rate });
-  fs.copyFileSync(audioFilePath, outFile);
+// Returns { ext, speak(text, outFile), close() } for the configured TTS engine.
+async function makeVoice(cfg) {
+  const rate = cfg.rate || '+6%';
+  if (cfg.engine === 'edge') {
+    const tts = new MsEdgeTTS();
+    await tts.setMetadata(cfg.voice || 'en-US-AndrewNeural', OUTPUT_FORMAT.AUDIO_24KHZ_96KBITRATE_MONO_MP3);
+    return {
+      ext: 'mp3',
+      async speak(text, outFile) {
+        const dir = path.join(STAGE, 'tts-' + path.basename(outFile, '.mp3'));
+        fs.rmSync(dir, { recursive: true, force: true });
+        fs.mkdirSync(dir, { recursive: true });
+        const { audioFilePath } = await tts.toFile(dir, esc(text), { rate });
+        fs.copyFileSync(audioFilePath, outFile);
+      },
+      close: () => tts.close(),
+    };
+  }
+  const { KokoroTTS } = await import('kokoro-js');
+  const tts = await KokoroTTS.from_pretrained('onnx-community/Kokoro-82M-v1.0-ONNX', { dtype: 'q8', device: 'cpu' });
+  const speed = 1 + (parseFloat(rate) || 0) / 100;
+  return {
+    ext: 'wav',
+    async speak(text, outFile) {
+      const audio = await tts.generate(text, { voice: cfg.kokoroVoice || 'af_heart', speed });
+      await audio.save(outFile);
+    },
+    close() {},
+  };
 }
 
 (async () => {
@@ -106,8 +130,7 @@ async function speak(tts, text, outFile, rate) {
   fs.rmSync(STAGE, { recursive: true, force: true });
   fs.mkdirSync(STAGE, { recursive: true });
 
-  const tts = new MsEdgeTTS();
-  await tts.setMetadata(cfg.voice || 'en-US-AndrewNeural', OUTPUT_FORMAT.AUDIO_24KHZ_96KBITRATE_MONO_MP3);
+  const voice = await makeVoice(cfg);
 
   const clips = [];
   const n = cfg.scenes.length;
@@ -124,14 +147,14 @@ async function speak(tts, text, outFile, rate) {
     render(html, png);
     if (i === 0) fs.copyFileSync(png, path.join(outDir, `${name}-thumb.png`));
 
-    const mp3 = path.join(STAGE, `s${i}.mp3`);
-    await speak(tts, s.say, mp3, cfg.rate || '+6%');
-    const dur = duration(mp3) + (s.pause ?? 0.45);
+    const audio = path.join(STAGE, `s${i}.${voice.ext}`);
+    await voice.speak(s.say, audio);
+    const dur = duration(audio) + (s.pause ?? 0.45);
     const frames = Math.ceil(dur * FPS);
     const clip = path.join(STAGE, `s${i}.mp4`);
     // Slow push-in so still slides don't feel static.
     ffmpeg([
-      '-loop', '1', '-i', png, '-i', mp3,
+      '-loop', '1', '-i', png, '-i', audio,
       '-filter_complex', `[0:v]scale=${W * 2}:${H * 2},zoompan=z='min(zoom+0.0005,1.05)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=${frames}:s=${W}x${H}:fps=${FPS},format=yuv420p[v];[1:a]apad,atrim=0:${dur.toFixed(3)},aresample=44100[a]`,
       '-map', '[v]', '-map', '[a]', '-t', dur.toFixed(3),
       '-c:v', 'libx264', '-preset', 'medium', '-crf', '20', '-c:a', 'aac', '-b:a', '160k', '-ac', '2', clip,
@@ -139,7 +162,7 @@ async function speak(tts, text, outFile, rate) {
     clips.push(clip);
     console.log(`scene ${i + 1}/${n}: ${dur.toFixed(1)}s`);
   }
-  tts.close();
+  voice.close();
 
   const list = path.join(STAGE, 'list.txt');
   fs.writeFileSync(list, clips.map((c) => `file '${c.replace(/\\/g, '/')}'`).join('\n'));

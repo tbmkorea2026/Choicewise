@@ -11,6 +11,7 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "kokoro-js": "^1.2.1",
     "msedge-tts": "^2.0.9"
   }
 }
