@@ -1,0 +1,51 @@
+{
+  "slug": "niimbot",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 7.0/10",
+      "title": "NIIMBOT label makers: worth it? Read this first",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/niimbot-b1.webp",
+      "chips": [
+        "From <b>$26.99</b>",
+        "No ink on B-series",
+        "Strict returns"
+      ]
+    },
+    {
+      "id": "2-m2-review",
+      "kicker": "Review · 7.6/10",
+      "title": "NIIMBOT M2: durable, colored labels for $99.99",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/niimbot-m2.webp",
+      "chips": [
+        "<b>300 dpi</b>",
+        "Thermal transfer",
+        "4.9★ (343)"
+      ]
+    },
+    {
+      "id": "3-best-label-makers",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling NIIMBOT label makers",
+      "image": "/assets/img/products/niimbot-m3.webp",
+      "chips": [
+        "<b>$26.99–$169.99</b>",
+        "Home, shop &amp; shipping"
+      ]
+    },
+    {
+      "id": "4-m2-vs-b21-pro",
+      "kicker": "Head to head",
+      "title": "M2 or B21 Pro? Ribbon vs inkless",
+      "image": "/assets/img/products/niimbot-b21-pro.webp",
+      "chips": [
+        "<b>$99.99</b> vs <b>$69.99</b>",
+        "Which suits your labels?"
+      ]
+    }
+  ]
+}

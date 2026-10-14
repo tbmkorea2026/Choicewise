@@ -1,0 +1,55 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "+6%",
+  "youtube": {
+    "title": "NIIMBOT M2 vs B21 Pro: Ribbon or Inkless Label Maker? #shorts",
+    "description": "NIIMBOT's two best-selling 300 dpi label makers: the $99.99 M2 thermal transfer printer vs the $69.99 B21 Pro inkless printer. Full comparison: https://wisechoicekr.com/best/niimbot-m2-vs-b21-pro/\n\nPrices from NIIMBOT's store at the time of recording. Based on published specs and store info, not hands-on testing.\n\nDisclosure: links may be affiliate links; we may earn a commission at no extra cost to you.\n\nNarrated with an AI voice.\n\n#niimbot #labelmaker #smallbusiness #productlabels #organization"
+  },
+  "scenes": [
+    {
+      "kicker": "Head to head",
+      "title": "NIIMBOT <span style=\"color:#f5a524\">M2</span> or <span style=\"color:#f5a524\">B21 Pro</span>?",
+      "images": ["/assets/img/products/niimbot-m2.webp", "/assets/img/products/niimbot-b21-pro.webp"],
+      "labels": ["$99.99", "$69.99"],
+      "say": "NIIMBOT's two best selling label makers. The M2 for ninety nine ninety nine, or the B21 Pro for sixty nine ninety nine."
+    },
+    {
+      "kicker": "Same specs",
+      "title": "Both 300 dpi, both 2-inch",
+      "bullets": ["<b>300 dpi</b> printing", "Labels 20–50 mm wide", "4 hours per charge, phone + PC"],
+      "images": ["/assets/img/products/niimbot-b1.webp"],
+      "say": "Both print at three hundred d p i, on labels up to two inches wide, and run four hours on a charge from your phone or computer."
+    },
+    {
+      "kicker": "M2 · $99.99",
+      "title": "Ribbons for labels that last",
+      "bullets": ["Thermal transfer ribbons", "<b>7 colors</b>, metallic, holographic", "8–10 years (per NIIMBOT)"],
+      "images": ["/assets/img/products/niimbot-m2.webp"],
+      "say": "The M2 uses ribbons, so labels resist water, oil and sun, and you can print in seven colors. NIIMBOT says they last eight to ten years."
+    },
+    {
+      "kicker": "B21 Pro · $69.99",
+      "title": "No ribbon, plus photos",
+      "bullets": ["Direct thermal, <b>no ink</b>", "60 mm/s printing", "Photo-label bundles"],
+      "images": ["/assets/img/products/niimbot-b21-pro.webp"],
+      "say": "The B21 Pro needs no ink or ribbon, prints fast, and can do small photo stickers. Thermal labels can fade over time, though."
+    },
+    {
+      "kicker": "Before you buy",
+      "tone": "warn",
+      "title": "Strict store rules",
+      "bullets": ["Orders <b>can't be cancelled</b>", "Returns at your cost", "No warranty length stated"],
+      "images": ["/assets/img/products/niimbot-m3.webp"],
+      "say": "Heads up. NIIMBOT's store doesn't allow cancellations, returns are at your cost, and the warranty length isn't stated."
+    },
+    {
+      "kicker": "Verdict",
+      "title": "Products → <span style=\"color:#f5a524\">M2</span><br>Everyday → <span style=\"color:#f5a524\">B21&#8209;Pro</span>",
+      "titleSize": 76,
+      "images": ["/assets/img/products/niimbot-m2.webp", "/assets/img/products/niimbot-b21-pro.webp"],
+      "url": "FULL COMPARISON · WISECHOICEKR.COM",
+      "say": "Labeling products that need to last? Get the M2. Everyday labels for less? Get the B21 Pro. Full comparison on WiseChoice K R dot com.",
+      "pause": 1.2
+    }
+  ]
+}
