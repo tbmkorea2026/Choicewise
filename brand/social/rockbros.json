@@ -1,0 +1,51 @@
+{
+  "slug": "rockbros",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Store review · 7.4/10",
+      "title": "ROCKBROS Australia: budget cycling gear worth it?",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/rockbros-as1-pro-pump.webp",
+      "chips": [
+        "Ships from <b>Melbourne</b>",
+        "Code <b>TRANTRUNG</b> −20%",
+        "14-day returns"
+      ]
+    },
+    {
+      "id": "2-polarised-sunglasses-review",
+      "kicker": "Review · 7.4/10",
+      "title": "ROCKBROS polarised cycling sunglasses for A$49.99",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/rockbros-polarised-sunglasses.webp",
+      "chips": [
+        "<b>UV400</b> polarised",
+        "About 30 g",
+        "Myopia insert"
+      ]
+    },
+    {
+      "id": "3-best-products",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling ROCKBROS products in Australia",
+      "image": "/assets/img/products/rockbros-flat-pedals.webp",
+      "chips": [
+        "<b>A$24.99–A$139.99</b>",
+        "Code <b>TRANTRUNG</b> −20%"
+      ]
+    },
+    {
+      "id": "4-as1-pro-vs-as110",
+      "kicker": "Head to head",
+      "title": "AS1 PRO or AS110? Mini electric bike pumps",
+      "image": "/assets/img/products/rockbros-as110-pump.webp",
+      "chips": [
+        "<b>A$139.99</b> vs <b>A$99.99</b>",
+        "Screen vs simple"
+      ]
+    }
+  ]
+}
