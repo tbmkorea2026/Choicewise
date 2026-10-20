@@ -1,0 +1,48 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "+8%",
+  "youtube": {
+    "title": "3 Things to Know Before Buying a Douk Audio Amp #shorts",
+    "description": "Douk Audio makes budget hi-fi amps, but check these first. Full review: https://wisechoicekr.com/reviews/douk-audio-review/\n\nBased on Douk Audio's published product pages and policies at the time of recording, not hands-on testing.\n\nDisclosure: links may be affiliate links; we may earn a commission at no extra cost to you.\n\nNarrated with an AI voice.\n\n#doukaudio #hifi #amplifier #audiophile #budgetaudio"
+  },
+  "scenes": [
+    {
+      "kicker": "Before you buy",
+      "title": "Douk Audio: <span style=\"color:#f5a524\">3 things</span> to know",
+      "images": ["/assets/img/products/douk-st-01-pro.webp"],
+      "say": "Thinking about a Douk Audio amp? Here are three things to know first."
+    },
+    {
+      "kicker": "1 · Power",
+      "tone": "warn",
+      "title": "\"300W×2\" is a maximum",
+      "bullets": ["A5: <b>78W×2</b> @4Ω (32V)", "<b>120W×2</b> with 48V adapter", "Compare rated power"],
+      "images": ["/assets/img/products/douk-a5.webp"],
+      "say": "One. Three hundred watts is the chip's maximum. The best-selling A5 is rated seventy eight watts per channel with its included adapter."
+    },
+    {
+      "kicker": "2 · Returns",
+      "tone": "warn",
+      "title": "Returns need approval",
+      "bullets": ["30 days from delivery", "Ship back within <b>7 days</b>", "Change of mind: likely your cost"],
+      "images": ["/assets/img/products/douk-vu3pro.webp"],
+      "say": "Two. Returns need approval within thirty days, must ship back within a week, and if you change your mind you'll likely pay shipping."
+    },
+    {
+      "kicker": "3 · The good part",
+      "title": "Warranty and duties",
+      "bullets": ["<b>24-month</b> warranty page", "Duties included at checkout", "4.4–4.8★ store ratings"],
+      "images": ["/assets/img/products/douk-u2-pro.webp"],
+      "say": "Three, the good part. Douk lists a twenty four month warranty, includes duties at checkout, and its best sellers rate four point four to four point eight stars."
+    },
+    {
+      "kicker": "Verdict",
+      "title": "Great value, read the <span style=\"color:#f5a524\">specs</span>",
+      "titleSize": 72,
+      "images": ["/assets/img/products/douk-a5.webp", "/assets/img/products/douk-ampapa-d1.webp"],
+      "url": "FULL REVIEW · WISECHOICEKR.COM",
+      "say": "Lots of hi-fi for the money. Just read the real power specs. Full review on WiseChoice K R dot com.",
+      "pause": 1.2
+    }
+  ]
+}

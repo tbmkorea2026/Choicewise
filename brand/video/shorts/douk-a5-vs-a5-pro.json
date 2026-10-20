@@ -1,0 +1,55 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "+8%",
+  "youtube": {
+    "title": "Douk Audio A5 vs A5 PRO: Which TPA3255 Amp? #shorts",
+    "description": "Two budget TPA3255 amps from Douk Audio: the $89.99 A5 with a high-pass filter vs the $114.99 A5 PRO with Bluetooth, tone controls and a headphone jack. Full comparison: https://wisechoicekr.com/best/douk-audio-a5-vs-a5-pro/\n\nPrices from Douk Audio's store at the time of recording. Based on published specs and store info, not hands-on testing.\n\nDisclosure: links may be affiliate links; we may earn a commission at no extra cost to you.\n\nNarrated with an AI voice.\n\n#doukaudio #tpa3255 #amplifier #hifi #audiophile"
+  },
+  "scenes": [
+    {
+      "kicker": "Head to head",
+      "title": "Douk Audio <span style=\"color:#f5a524\">A5</span> or <span style=\"color:#f5a524\">A5 PRO</span>?",
+      "images": ["/assets/img/products/douk-a5.webp", "/assets/img/products/douk-a5-pro.webp"],
+      "labels": ["$89.99", "$114.99"],
+      "say": "Two budget amps from Douk Audio. The A5 for eighty nine ninety nine, or the A5 PRO for one fourteen ninety nine."
+    },
+    {
+      "kicker": "Same core",
+      "title": "Same chip, same power",
+      "bullets": ["TI <b>TPA3255</b> class D", "<b>78W×2</b> @4Ω with 32V adapter", "Swappable op-amps"],
+      "images": ["/assets/img/products/douk-a5.webp"],
+      "say": "Both use the same TPA3255 chip and the same rated power: seventy eight watts per channel with the included adapter. Both let you swap op-amps."
+    },
+    {
+      "kicker": "A5 · $89.99",
+      "title": "Built for a subwoofer",
+      "bullets": ["<b>30–200Hz</b> high-pass filter", "Output for a powered sub", "RCA input only"],
+      "images": ["/assets/img/products/douk-a5.webp"],
+      "say": "The A5 has a high-pass filter, so small speakers skip the deep bass and a subwoofer handles it. But there's no Bluetooth."
+    },
+    {
+      "kicker": "A5 PRO · $114.99",
+      "title": "Bluetooth and headphones",
+      "bullets": ["<b>Bluetooth 5.1</b>", "Bass and treble knobs", "Headphone jack"],
+      "images": ["/assets/img/products/douk-a5-pro.webp"],
+      "say": "The A5 PRO adds Bluetooth, bass and treble knobs, and a headphone jack. It drops the high-pass filter."
+    },
+    {
+      "kicker": "Before you buy",
+      "tone": "warn",
+      "title": "\"300W\" is the max",
+      "bullets": ["<b>78W×2</b> with included adapter", "120W×2 with 48V (+$20)", "Returns likely at your cost"],
+      "images": ["/assets/img/products/douk-a5-pro.webp"],
+      "say": "Heads up. Three hundred watts is the maximum. Expect seventy eight watts with the included adapter, or one twenty with the forty eight volt one."
+    },
+    {
+      "kicker": "Verdict",
+      "title": "Subwoofer → <span style=\"color:#f5a524\">A5</span><br>Streaming → <span style=\"color:#f5a524\">A5&#8209;PRO</span>",
+      "titleSize": 76,
+      "images": ["/assets/img/products/douk-a5.webp", "/assets/img/products/douk-a5-pro.webp"],
+      "url": "FULL COMPARISON · WISECHOICEKR.COM",
+      "say": "Adding a subwoofer? Get the A5. Streaming from your phone or using headphones? Get the A5 PRO. Full comparison on WiseChoice K R dot com.",
+      "pause": 1.2
+    }
+  ]
+}
