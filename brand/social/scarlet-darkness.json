@@ -1,0 +1,51 @@
+{
+  "slug": "scarlet-darkness",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Store review · 5.8/10",
+      "title": "Scarlet Darkness: read this before you order",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/scarlet-corset-vest.webp",
+      "chips": [
+        "From <b>$35.99</b>",
+        "7–25 day delivery",
+        "Code <b>WIN93</b> −18%"
+      ]
+    },
+    {
+      "id": "2-milkmaid-dress-review",
+      "kicker": "Review · 6.8/10",
+      "title": "The Scarlet Darkness milkmaid dress for $47.99",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/scarlet-milkmaid-floral-dress.webp",
+      "chips": [
+        "<b>4.8★</b> (27)",
+        "Lined, smocked back",
+        "S–2XL"
+      ]
+    },
+    {
+      "id": "3-best-clothing",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling Scarlet Darkness pieces",
+      "image": "/assets/img/products/scarlet-victorian-blouse.webp",
+      "chips": [
+        "<b>$35.99–$49.99</b>",
+        "Code <b>WIN93</b> −18%"
+      ]
+    },
+    {
+      "id": "4-milkmaid-vs-puffy-corset",
+      "kicker": "Head to head",
+      "title": "Milkmaid midi or puffy corset dress?",
+      "image": "/assets/img/products/scarlet-puffy-corset-dress.webp",
+      "chips": [
+        "<b>$47.99</b> vs <b>$49.99</b>",
+        "Midi vs above-knee"
+      ]
+    }
+  ]
+}
