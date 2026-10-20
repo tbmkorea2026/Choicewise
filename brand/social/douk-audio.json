@@ -1,0 +1,51 @@
+{
+  "slug": "douk-audio",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 7.6/10",
+      "title": "Douk Audio: budget hi-fi amps worth it?",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/douk-st-01-pro.webp",
+      "chips": [
+        "Amps from <b>$89.99</b>",
+        "24-month warranty",
+        "Read the power specs"
+      ]
+    },
+    {
+      "id": "2-a5-review",
+      "kicker": "Review · 7.9/10",
+      "title": "Douk Audio A5: a TPA3255 amp for $89.99",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/douk-a5.webp",
+      "chips": [
+        "<b>78W×2</b> @4Ω (32V)",
+        "30–200Hz high-pass",
+        "4.8★ (39)"
+      ]
+    },
+    {
+      "id": "3-best-products",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling Douk Audio products",
+      "image": "/assets/img/products/douk-vu3pro.webp",
+      "chips": [
+        "<b>$69.99–$199.99</b>",
+        "Amps, VU meters &amp; DDC"
+      ]
+    },
+    {
+      "id": "4-a5-vs-a5-pro",
+      "kicker": "Head to head",
+      "title": "A5 or A5 PRO? High&#8209;pass filter vs Bluetooth",
+      "image": "/assets/img/products/douk-a5-pro.webp",
+      "chips": [
+        "<b>$89.99</b> vs <b>$114.99</b>",
+        "Same rated power"
+      ]
+    }
+  ]
+}
