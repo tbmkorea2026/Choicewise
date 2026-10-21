@@ -6,3 +6,4 @@ Thumbs.db
 .env
 brand/video/out/
 .claude/
+brand/video/.youtube/
