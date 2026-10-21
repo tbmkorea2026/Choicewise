@@ -1,0 +1,51 @@
+{
+  "slug": "evry-jewels",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 6.5/10",
+      "title": "EVRY Jewels: $6 jewelry, but all sales final",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/evry-meribella-necklace.webp",
+      "chips": [
+        "From <b>$5.99</b>",
+        "No returns",
+        "Code <b>TRANTRUNG</b> −5%"
+      ]
+    },
+    {
+      "id": "2-lover-girl-necklace-review",
+      "kicker": "Review · 6.8/10",
+      "title": "EVRY Lover Girl pearl necklace for $5.99",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/evry-lover-girl-necklace.webp",
+      "chips": [
+        "<b>4.17★</b> (6,242)",
+        "15\" + 2\" extender",
+        "Plated"
+      ]
+    },
+    {
+      "id": "3-best-pieces",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling EVRY Jewels pieces",
+      "image": "/assets/img/products/evry-mykonos-bracelet.webp",
+      "chips": [
+        "<b>$5.99–$10.99</b>",
+        "Code <b>TRANTRUNG</b> −5%"
+      ]
+    },
+    {
+      "id": "4-brandy-vs-eternity",
+      "kicker": "Head to head",
+      "title": "Brandy or Eternity? Chunky domes vs sparkly huggies",
+      "image": "/assets/img/products/evry-eternity-earrings.webp",
+      "chips": [
+        "Both <b>$5.99</b>",
+        "Steel vs CZ stones"
+      ]
+    }
+  ]
+}
