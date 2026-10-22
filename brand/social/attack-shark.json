@@ -1,0 +1,51 @@
+{
+  "slug": "attack-shark",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 7.4/10",
+      "title": "Attack Shark: flagship specs, budget prices?",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/attackshark-r86-he.webp",
+      "chips": [
+        "Mice &amp; HE keyboards",
+        "From <b>$51</b>",
+        "<b>4.0★</b> Trustpilot"
+      ]
+    },
+    {
+      "id": "2-f1-air-review",
+      "kicker": "Review · 8.0/10",
+      "title": "Attack Shark F1 AIR: a 39g 8K mouse for $67.99",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/attackshark-f1-air.webp",
+      "chips": [
+        "<b>39 g</b>",
+        "PAW3955MAX",
+        "8K wireless"
+      ]
+    },
+    {
+      "id": "3-best-gear",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling Attack Shark mice and keyboards",
+      "image": "/assets/img/products/attackshark-x68-he.webp",
+      "chips": [
+        "<b>$51–$115</b>",
+        "Rapid trigger &amp; 8K"
+      ]
+    },
+    {
+      "id": "4-f1-air-vs-v2-air",
+      "kicker": "Head to head",
+      "title": "F1 AIR or V2 AIR? Same sensor, different shape",
+      "image": "/assets/img/products/attackshark-v2-air.webp",
+      "chips": [
+        "Both <b>$67.99</b>",
+        "39 g vs 52 g"
+      ]
+    }
+  ]
+}
