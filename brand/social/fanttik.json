@@ -1,0 +1,51 @@
+{
+  "slug": "fanttik",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 7.4/10",
+      "title": "Fanttik: tiny cordless tools, worth it?",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/fanttik-slim-v8-apex.webp",
+      "chips": [
+        "Inflators, vacuums, drivers",
+        "From <b>$59.97</b>",
+        "<b>10% off</b> VJFNXSHE"
+      ]
+    },
+    {
+      "id": "2-x9-pro-review",
+      "kicker": "Review · 7.8/10",
+      "title": "Fanttik X9 Pro: a 0.96 lb tire inflator for $62.99",
+      "titleSize": 54,
+      "pinTitleSize": 66,
+      "image": "/assets/img/products/fanttik-x9-pro.webp",
+      "chips": [
+        "<b>150 PSI</b>",
+        "USB-C",
+        "Auto-stop"
+      ]
+    },
+    {
+      "id": "3-best-tools",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling Fanttik tools",
+      "image": "/assets/img/products/fanttik-e1-max.webp",
+      "chips": [
+        "<b>$59.97–$99.99</b>",
+        "Car &amp; workbench"
+      ]
+    },
+    {
+      "id": "4-x9-pro-vs-x8-apex",
+      "kicker": "Head to head",
+      "title": "X9 Pro or X8 APEX? Light vs more battery",
+      "image": "/assets/img/products/fanttik-x8-apex.webp",
+      "chips": [
+        "<b>$62.99</b> vs <b>$89.99</b>",
+        "18.5 vs 28.8 Wh"
+      ]
+    }
+  ]
+}
