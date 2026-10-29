@@ -1,0 +1,33 @@
+{
+  "slug": "carpuride",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 7.2/10",
+      "title": "Carpuride: motorcycle CarPlay, worth it?",
+      "image": "/assets/img/products/carpuride-w702bs.webp",
+      "chips": ["From <b>$319.99</b>", "2-year warranty", "Code <b>WEEPYRUFF</b> −30%"]
+    },
+    {
+      "id": "2-w602bs-review",
+      "kicker": "Review · 7.4/10",
+      "title": "Carpuride W602BS: CarPlay for BMW bikes",
+      "image": "/assets/img/products/carpuride-w602bs-2.webp",
+      "chips": ["<b>6-inch</b> screen", "Wonder Wheel control", "No wiring"]
+    },
+    {
+      "id": "3-best-stereos",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling Carpuride motorcycle stereos",
+      "image": "/assets/img/products/carpuride-w702-plus.webp",
+      "chips": ["5\", 6\" &amp; 7\" models", "<b>$319.99–$449.99</b>", "Code <b>WEEPYRUFF</b>"]
+    },
+    {
+      "id": "4-w602bs-vs-w702bs",
+      "kicker": "Head to head",
+      "title": "W602BS or W702BS? 6-inch vs 7-inch",
+      "image": "/assets/img/products/carpuride-w602bs.webp",
+      "chips": ["<b>$449.99</b> vs <b>$429.90</b>", "Both for BMW"]
+    }
+  ]
+}
