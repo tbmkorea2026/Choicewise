@@ -1,0 +1,33 @@
+{
+  "slug": "opatra",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 6.4/10",
+      "title": "Opatra: luxury skincare devices, worth it?",
+      "image": "/assets/img/products/opatra-dermisonic-ii-2.webp",
+      "chips": ["<b>£199–£2,999</b>", "Trustpilot <b>4.5</b>", "Code <b>TRUNGTRAN</b> −10%"]
+    },
+    {
+      "id": "2-dermisonic-ii-review",
+      "kicker": "Review · 6.5/10",
+      "title": "Opatra Dermisonic II: worth £2,999?",
+      "image": "/assets/img/products/opatra-dermisonic-ii.webp",
+      "chips": ["LED + <b>RF</b> + heat", "10-minute modes", "UK/EU warranty"]
+    },
+    {
+      "id": "3-best-products",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling Opatra products",
+      "image": "/assets/img/products/opatra-synergy-eye.webp",
+      "chips": ["Devices &amp; skincare", "From <b>£199</b>", "Code <b>TRUNGTRAN</b>"]
+    },
+    {
+      "id": "4-dermisonic-vs-lumiquartz",
+      "kicker": "Head to head",
+      "title": "Dermisonic II or LumiQuartz?",
+      "image": "/assets/img/products/opatra-lumiquartz.webp",
+      "chips": ["<b>£2,999</b> vs <b>£499</b>", "RF vs red LED"]
+    }
+  ]
+}
