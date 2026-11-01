@@ -1,0 +1,51 @@
+{
+  "slug": "protoarc",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 7.8/10",
+      "title": "ProtoArc: budget ergonomic gear worth it?",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/protoarc-ec200.webp",
+      "chips": [
+        "From <b>$26.99</b>",
+        "2–3 year warranty",
+        "Code <b>GFPTRANTRUNG</b> −10%"
+      ]
+    },
+    {
+      "id": "2-ec300-review",
+      "kicker": "Review · 7.8/10",
+      "title": "ProtoArc EC300: an ergonomic chair for $229.99",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/protoarc-ec300.webp",
+      "chips": [
+        "<b>4.91★</b> (22)",
+        "Moving backrest",
+        "3D headrest"
+      ]
+    },
+    {
+      "id": "3-best-products",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling ProtoArc products",
+      "image": "/assets/img/products/protoarc-xkm01.webp",
+      "chips": [
+        "<b>$26.99–$229.99</b>",
+        "Code <b>GFPTRANTRUNG</b> −10%"
+      ]
+    },
+    {
+      "id": "4-ec300-vs-ec200",
+      "kicker": "Head to head",
+      "title": "EC300 or EC200? Which ProtoArc chair?",
+      "image": "/assets/img/products/protoarc-ec200.webp",
+      "chips": [
+        "<b>$229.99</b> vs <b>$179.99</b>",
+        "Backrest vs lumbar"
+      ]
+    }
+  ]
+}
