@@ -1,0 +1,48 @@
+{
+  "slug": "waterdrop",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 8.2/10",
+      "title": "Waterdrop: are its RO systems worth it?",
+      "image": "/assets/img/products/waterdrop-g3p800.webp",
+      "chips": [
+        "Trustpilot <b>4.7</b> (11,324)",
+        "From <b>$359.99</b> list"
+      ]
+    },
+    {
+      "id": "2-x12-review",
+      "kicker": "Review · 8.1/10",
+      "title": "Waterdrop X12: a 1,200 GPD tankless RO system",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/waterdrop-x12.webp",
+      "chips": [
+        "<b>$1,299</b> list",
+        "3:1 ratio",
+        "2-year warranty"
+      ]
+    },
+    {
+      "id": "3-best-systems",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling Waterdrop RO systems",
+      "image": "/assets/img/products/waterdrop-k6.webp",
+      "chips": [
+        "<b>$359.99–$1,299</b> list",
+        "Filters <b>$111–$173</b>/yr"
+      ]
+    },
+    {
+      "id": "4-g3p600-vs-g3p800",
+      "kicker": "Head to head",
+      "title": "G3P600 or G3P800? Which Waterdrop RO?",
+      "image": "/assets/img/products/waterdrop-g3p600.webp",
+      "chips": [
+        "<b>$539</b> vs <b>$999</b> list",
+        "2:1 vs 3:1"
+      ]
+    }
+  ]
+}
