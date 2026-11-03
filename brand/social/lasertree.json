@@ -1,0 +1,51 @@
+{
+  "slug": "lasertree",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 6.4/10",
+      "title": "LaserTree: high-power laser modules worth it?",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/lasertree-k60.webp",
+      "chips": [
+        "<b>20W–60W</b> modules",
+        "Warranty: 1 yr vs 3 mo",
+        "Code <b>PARKCHOICE</b> −5%"
+      ]
+    },
+    {
+      "id": "2-k30-review",
+      "kicker": "Review · 7.2/10",
+      "title": "LaserTree K30: a 30W laser module for $389",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/lasertree-k30.webp",
+      "chips": [
+        "<b>4.8★</b> (13)",
+        "6 diodes · 30W",
+        "Air assist built in"
+      ]
+    },
+    {
+      "id": "3-best-modules",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling LaserTree laser modules",
+      "image": "/assets/img/products/lasertree-k20-pro.webp",
+      "chips": [
+        "<b>$79–$739</b>",
+        "Code <b>PARKCHOICE</b> −5%"
+      ]
+    },
+    {
+      "id": "4-k30-vs-k40",
+      "kicker": "Head to head",
+      "title": "K30 or K40? Which LaserTree module?",
+      "image": "/assets/img/products/lasertree-k40.webp",
+      "chips": [
+        "<b>$389</b> vs <b>$539</b>",
+        "30W vs 40W+"
+      ]
+    }
+  ]
+}
