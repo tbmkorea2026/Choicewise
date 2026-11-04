@@ -1,0 +1,53 @@
+{
+  "slug": "woodandhearts",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 7.1/10",
+      "title": "Wood and Hearts: wooden climbing gyms worth it?",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/woodandhearts-wall-climbing-gym.webp",
+      "chips": [
+        "Made in <b>Ukraine</b>",
+        "Trustpilot <b>4.5★</b> (77)",
+        "Code <b>PARK</b> −5%"
+      ]
+    },
+    {
+      "id": "2-indoor-play-gym-review",
+      "kicker": "Review · 7.2/10",
+      "title": "Indoor Play Gym: a full climbing room for $1,759",
+      "titleSize": 54,
+      "pinTitleSize": 66,
+      "image": "/assets/img/products/woodandhearts-indoor-play-gym.webp",
+      "chips": [
+        "<b>18</b> wall panels",
+        "4 ceiling ropes",
+        "60 kg limit"
+      ]
+    },
+    {
+      "id": "3-best-gyms",
+      "kicker": "Top 5 guide",
+      "title": "The 5 most-loved Wood and Hearts climbing gyms",
+      "titleSize": 54,
+      "image": "/assets/img/products/woodandhearts-large-indoor-playground.webp",
+      "chips": [
+        "<b>$818–$2,547</b>",
+        "Code <b>PARK</b> −5%"
+      ]
+    },
+    {
+      "id": "4-monkey-bars-vs",
+      "kicker": "Head to head",
+      "title": "Indoor or Climbing Monkey Bars? Which to buy?",
+      "titleSize": 54,
+      "image": "/assets/img/products/woodandhearts-climbing-monkey-bars.webp",
+      "chips": [
+        "<b>$818</b> vs <b>$700</b>",
+        "229 vs 194.5 cm tall"
+      ]
+    }
+  ]
+}
