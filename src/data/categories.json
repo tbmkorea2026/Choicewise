@@ -86,5 +86,13 @@
     "icon": "briefcase",
     "hue": 350,
     "description": "Consulting, marketing and growth services for small businesses, restaurants and creators, reviewed for what you actually get, pricing and risk."
+  },
+  {
+    "slug": "kids-baby",
+    "name": "Kids & Baby",
+    "short": "Kids",
+    "icon": "shapes",
+    "hue": 175,
+    "description": "Indoor climbing gyms, Montessori furniture and play gear for children, compared on materials, safety information, dimensions and store policies."
   }
 ]
