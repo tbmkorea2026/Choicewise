@@ -1,0 +1,51 @@
+{
+  "slug": "yosepower",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 6.3/10",
+      "title": "Yose Power: e-bike batteries worth it?",
+      "titleSize": 60,
+      "pinTitleSize": 72,
+      "image": "/assets/img/products/yosepower-black-rack.webp",
+      "chips": [
+        "Most <b>€150–€350</b>",
+        "Free EU shipping",
+        "Code <b>TRANTRUNG</b> −10%"
+      ]
+    },
+    {
+      "id": "2-hailong-1-2-review",
+      "kicker": "Review · 7.0/10",
+      "title": "Yose Power Hailong 1-2: up to 740Wh from €219",
+      "titleSize": 54,
+      "pinTitleSize": 66,
+      "image": "/assets/img/products/yosepower-hailong-1-2.webp",
+      "chips": [
+        "<b>4.67★</b> (30)",
+        "36V · 3A charger",
+        "18-month warranty"
+      ]
+    },
+    {
+      "id": "3-best-batteries",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling Yose Power e-bike batteries",
+      "image": "/assets/img/products/yosepower-taillight-rack.webp",
+      "chips": [
+        "<b>€160–€299</b>",
+        "Code <b>TRANTRUNG</b> −10%"
+      ]
+    },
+    {
+      "id": "4-hailong-vs-13ah",
+      "kicker": "Head to head",
+      "title": "Hailong 1-2 or 13Ah? Check your plug",
+      "image": "/assets/img/products/yosepower-hailong-13ah.webp",
+      "chips": [
+        "<b>€219</b> vs <b>€209</b>",
+        "4-pin vs 5-pin"
+      ]
+    }
+  ]
+}
