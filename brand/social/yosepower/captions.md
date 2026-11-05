@@ -4,7 +4,7 @@ Images: `*-ig.png` = Facebook + Instagram (1080×1080), `*-pin.png` = Pinterest 
 Coupon: TRANTRUNG = 10% off (as of 2026-11-06). Prices are store prices in EUR at time of writing.
 Emoji note: avoid emojis with a variation selector (⬆️ 🌬️ 🤔 ⚠️ 👁️ ❤️); typing them into Meta's composer drops text.
 Facebook: NO URL in November (Page link quota is 0); captions tell people to search WiseChoiceKR instead.
-Pinterest board: E-Bikes & Scooters (or create "E-Bike Batteries & Parts" if none fits).
+Pinterest board: Cycling Gear & Accessories.
 
 ---
 
