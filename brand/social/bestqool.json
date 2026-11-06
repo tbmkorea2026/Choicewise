@@ -1,0 +1,46 @@
+{
+  "slug": "bestqool",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 7.9/10",
+      "title": "BestQool: red light therapy worth buying?",
+      "image": "/assets/img/products/bestqool-pro100.webp",
+      "chips": [
+        "Trustpilot <b>4.5</b> (277)",
+        "Up to <b>3-year</b> warranty"
+      ]
+    },
+    {
+      "id": "2-bq60-review",
+      "kicker": "Review · 8.0/10",
+      "title": "BestQool BQ60: a $199 red light panel",
+      "image": "/assets/img/products/bestqool-bq60.webp",
+      "chips": [
+        "<b>4.8★</b> (493)",
+        "660 + 850 nm",
+        "95.6 mW/cm²"
+      ]
+    },
+    {
+      "id": "3-best-devices",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling BestQool devices",
+      "image": "/assets/img/products/bestqool-pro300.webp",
+      "chips": [
+        "<b>$129–$899</b>",
+        "Panels &amp; wraps"
+      ]
+    },
+    {
+      "id": "4-bq60-vs-bq40",
+      "kicker": "Head to head",
+      "title": "BQ60 or BQ40? Which BestQool panel?",
+      "image": "/assets/img/products/bestqool-bq40.webp",
+      "chips": [
+        "<b>$199</b> vs <b>$149</b>",
+        "Body vs face"
+      ]
+    }
+  ]
+}
