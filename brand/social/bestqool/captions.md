@@ -3,7 +3,7 @@
 Images: `*-ig.png` = Facebook + Instagram (1080×1080), `*-pin.png` = Pinterest (1000×1500).
 No exclusive coupon. Prices are store prices in USD at time of writing (November 2026).
 Emoji note: avoid emojis with a variation selector (⬆️ 🌬️ 🤔 ⚠️ 👁️ ❤️); typing them into Meta's composer drops text.
-Facebook: no URL in captions while the Page's monthly link quota is used up (see meta-link-limit memory); point readers to search "BestQool" on WiseChoiceKR.com.
+Facebook: no URL in captions while the Page's monthly link quota is used up (see meta-link-limit memory); point readers to search "BestQool" on WiseChoiceKR (no ".com": Meta counts it as a link).
 Pinterest board: Red Light Therapy & Wellness Tech.
 
 ---
@@ -23,7 +23,7 @@ Thinking about a BestQool red light therapy panel? Read this first. 💡
 ❗ Wear the included eye protection
 
 Our verdict: 7.9/10
-🔎 Search "BestQool" on WiseChoiceKR.com for the full review
+🔎 Search "BestQool" on WiseChoiceKR for the full review
 
 ### Instagram
 BestQool red light therapy: worth it? 💡
@@ -59,7 +59,7 @@ BestQool's #1 best seller: is the $199 BQ60 red light panel worth it? 💡
 ❗ Change-of-mind returns cost you shipping
 
 Our verdict: 8.0/10
-🔎 Search "BestQool BQ60" on WiseChoiceKR.com for the full review
+🔎 Search "BestQool BQ60" on WiseChoiceKR for the full review
 
 ### Instagram
 BestQool BQ60: $199 red light panel 💡
@@ -93,7 +93,7 @@ The 5 best-selling BestQool red light therapy devices, in the store's own order 
 5️⃣ Pro300 large panel: $899
 
 Wavelengths, irradiance and coverage compared
-🔎 Search "BestQool" on WiseChoiceKR.com for the full guide
+🔎 Search "BestQool" on WiseChoiceKR for the full guide
 
 ### Instagram
 BestQool's 5 best sellers 🏆
@@ -125,7 +125,7 @@ BestQool BQ60 or BQ40? Same LEDs, different size. 💡
 ✅ Both: 660 + 850 nm, timer, eyewear, same warranty
 ❗ Neither can be linked to other panels
 
-🔎 Search "BestQool BQ60 vs BQ40" on WiseChoiceKR.com for the full comparison
+🔎 Search "BestQool BQ60 vs BQ40" on WiseChoiceKR for the full comparison
 
 ### Instagram
 BestQool BQ60 or BQ40? 💡
