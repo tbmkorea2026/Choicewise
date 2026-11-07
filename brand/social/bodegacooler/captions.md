@@ -50,7 +50,7 @@ Link: https://wisechoicekr.com/reviews/bodegacooler-tww75-review/
 Image: bodegacooler-2-tww75-review-ig.png / -pin.png
 
 ### Facebook
-BodegaCooler's #1 best seller: is the $649.99 TWW75 80QT fridge worth it? ❄
+BodegaCooler's #1 best seller: is the $649.99 TWW75 80QT fridge worth it? 🧊
 
 ✅ 80 quarts split into 48 + 31 QT zones, -4°F to 68°F each
 ✅ 12V/24V DC and 100–240V AC
@@ -63,7 +63,7 @@ Our verdict: 7.3/10
 🔎 Search "BodegaCooler TWW75" on WiseChoiceKR for the full review
 
 ### Instagram
-BodegaCooler TWW75: 80QT dual-zone fridge ❄
+BodegaCooler TWW75: 80QT dual-zone fridge 🧊
 ✅ 48 + 31 QT zones, -4°F to 68°F
 ✅ 12V/24V + AC power
 ✅ Wheels, two doors
@@ -121,7 +121,7 @@ Link: https://wisechoicekr.com/best/bodegacooler-t36-vs-t50/
 Image: bodegacooler-4-t36-vs-t50-ig.png / -pin.png
 
 ### Facebook
-BodegaCooler T36 or T50? Same footprint, same power, different size. ❄
+BodegaCooler T36 or T50? Same footprint, same power, different size. 🧊
 
 🔹 T36, $379.99: 38 QT, 30.1 lb
 🔸 T50, $382.49: 53 QT, 42.9 lb, wheels, removable divider
@@ -132,7 +132,7 @@ BodegaCooler T36 or T50? Same footprint, same power, different size. ❄
 🔎 Search "BodegaCooler T36 vs T50" on WiseChoiceKR for the full comparison
 
 ### Instagram
-BodegaCooler T36 or T50? ❄
+BodegaCooler T36 or T50? 🧊
 🔹 T36: 38 QT, 30.1 lb
 🔸 T50: 53 QT, 42.9 lb, wheels
 ✅ Both: dual-zone, 12V/24V + AC
