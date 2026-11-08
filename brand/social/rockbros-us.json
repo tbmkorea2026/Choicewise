@@ -1,0 +1,52 @@
+{
+  "slug": "rockbros-us",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 7.3/10",
+      "title": "ROCKBROS USA: is this cycling gear worth it?",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/rockbros-us-frame-bag.webp",
+      "chips": [
+        "From <b>$25.99</b>",
+        "Code <b>TRANTRUNG</b> −10%"
+      ]
+    },
+    {
+      "id": "2-as1-pro-review",
+      "kicker": "Review · 7.6/10",
+      "title": "ROCKBROS AS1 Pro: a 124 g electric bike pump",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/rockbros-us-as1-pro.webp",
+      "chips": [
+        "<b>$89.99</b>",
+        "120 PSI",
+        "Auto shutoff"
+      ]
+    },
+    {
+      "id": "3-best-products",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling ROCKBROS products in the USA",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/rockbros-us-mirror.webp",
+      "chips": [
+        "<b>$25.99–$89.99</b>",
+        "Code <b>TRANTRUNG</b> −10%"
+      ]
+    },
+    {
+      "id": "4-as1-pro-vs-as1",
+      "kicker": "Head to head",
+      "title": "AS1 Pro or AS1? Which ROCKBROS pump?",
+      "image": "/assets/img/products/rockbros-us-as1.webp",
+      "chips": [
+        "<b>$89.99</b> vs <b>$59.99</b>",
+        "120 vs 100 PSI"
+      ]
+    }
+  ]
+}
