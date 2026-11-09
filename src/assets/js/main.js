@@ -280,7 +280,7 @@
     }
   });
 
-  /* ---------- Affiliate click tracking (GA4 if configured) ---------- */
+  /* ---------- Affiliate click tracking (GA4 / Google Ads if configured) ---------- */
   document.addEventListener('click', function (e) {
     var a = e.target.closest && e.target.closest('a[data-aff]');
     if (!a || typeof window.gtag !== 'function') return;
@@ -290,6 +290,9 @@
       page_path: location.pathname,
       transport_type: 'beacon',
     });
+    if (window.cwAdsAffClick) {
+      window.gtag('event', 'conversion', { send_to: window.cwAdsAffClick, transport_type: 'beacon' });
+    }
   });
 
   /* ---------- Newsletter (demo mode when no form action is configured) ---------- */

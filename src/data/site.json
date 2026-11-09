@@ -9,7 +9,9 @@
   "defaultAuthor": "editorial-team",
   "defaultCtaLabel": "Check Price",
   "analytics": {
-    "ga4": ""
+    "ga4": "",
+    "googleAds": "AW-18503390523",
+    "googleAdsAffiliateClick": "AW-18503390523/GFXqCKmh6bQdELuqjfdE"
   },
   "newsletter": {
     "enabled": true,

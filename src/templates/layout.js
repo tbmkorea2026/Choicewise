@@ -141,6 +141,9 @@ function layout(ctx, page, body) {
   const canonical = seo.abs(site, page.url);
   const image = seo.abs(site, page.image || '/assets/img/og-default.png');
   const ga = site.analytics && site.analytics.ga4;
+  const ads = site.analytics && site.analytics.googleAds;
+  const adsClick = site.analytics && site.analytics.googleAdsAffiliateClick;
+  const tagId = ga || ads;
 
   return html`<!doctype html>
 <html lang="${site.locale || 'en'}">
@@ -172,8 +175,8 @@ ${page.modified ? html`<meta property="article:modified_time" content="${page.mo
 <noscript><link rel="stylesheet" href="${FONTS}"></noscript>
 <style>${assets.cssInline}</style>
 <script>(function(){try{var t=localStorage.getItem('cw-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}})();</script>
-${ga ? html`<script async src="https://www.googletagmanager.com/gtag/js?id=${esc(ga)}"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${esc(ga)}');</script>` : ''}
+${tagId ? html`<script async src="https://www.googletagmanager.com/gtag/js?id=${esc(tagId)}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());${ga ? `gtag('config','${esc(ga)}');` : ''}${ads ? `gtag('config','${esc(ads)}');` : ''}${adsClick ? `window.cwAdsAffClick='${esc(adsClick)}';` : ''}</script>` : ''}
 ${seo.graph(page.jsonld || [])}
 </head>
 <body class="${page.bodyClass || ''}">
