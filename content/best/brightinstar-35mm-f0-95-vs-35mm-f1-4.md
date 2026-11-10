@@ -6,7 +6,7 @@ description: "Two Brightin Star 35mm manual lenses at the same $189.99: the F0.9
 category: tech
 author: editorial-team
 date: 2026-10-10
-updated: 2026-10-10
+updated: 2026-11-10
 intro: |
   Brightin Star sells two manual-focus **35mm** lenses for the **same $189.99**: the best-selling **35mm F0.95** and the **35mm F1.4**. They look similar on paper, but they're made for different cameras. The **F0.95** is an **APS-C** lens with an extremely bright aperture; the **F1.4** covers **full-frame** sensors and adds a **de-click switch** for video. Your camera mostly decides for you.
 products:
@@ -87,9 +87,10 @@ Both cost **$189.99** and both are **manual focus**.
 
 ## Before you buy either
 
-- **Pick the right mount**: a wrong-mount return costs a 40% restocking fee plus shipping both ways.
-- **Returns** are only for defects or shipping mistakes; orders placed with discount codes can't be returned.
-- **Shipping** takes 18–25 business days on Standard (free over $55).
+- **Pick the right mount**: a wrong-mount return costs you shipping both ways (no restocking fee since November 2026).
+- **Returns** cover defects, shipping mistakes and wrong-mount orders within 90 days, but not change of mind.
+- **Shipping:** Standard takes about 12–15 days (free over $55).
+- **Code KOREA** takes 5% off either lens at the time of writing.
 
 ## The bottom line
 

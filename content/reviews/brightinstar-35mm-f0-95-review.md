@@ -5,7 +5,7 @@ description: "Brightin Star's #1 best seller, the MF 35mm F0.95, is a manual-foc
 category: tech
 author: editorial-team
 date: 2026-10-10
-updated: 2026-10-10
+updated: 2026-11-10
 rating: 7.4
 product:
   name: "Brightin Star MF 35mm F0.95 APS-C"
@@ -25,7 +25,7 @@ scores:
   Customer Ratings: 7.6
   Ease of Use: 6.4
   Return Terms: 5.8
-verdict: "The 35mm F0.95 is Brightin Star's best seller: an all-metal, manual-focus APS-C prime with an extremely bright F0.95 aperture for $189.99, in Fuji X, Sony E, Nikon Z, Canon RF, Canon EOS-M and M43 mounts. On APS-C it frames like a roughly 50mm lens on full-frame, good for street and portraits. It's rated 4.9/5 on the store, but from only 8 reviews, and one buyer notes focusing at F0.95 up close is hard and that backlit shots show color fringing until about F2. Remember Brightin Star's strict returns: no change-of-mind returns and a 40% fee if you pick the wrong mount."
+verdict: "The 35mm F0.95 is Brightin Star's best seller: an all-metal, manual-focus APS-C prime with an extremely bright F0.95 aperture for $189.99, in Fuji X, Sony E, Nikon Z, Canon RF, Canon EOS-M and M43 mounts. On APS-C it frames like a roughly 50mm lens on full-frame, good for street and portraits. It's rated 4.9/5 on the store, but from only 8 reviews, and one buyer notes focusing at F0.95 up close is hard and that backlit shots show color fringing until about F2. Remember Brightin Star's returns: no change-of-mind returns, and you pay shipping both ways if you pick the wrong mount. Code KOREA takes 5% off at the time of writing."
 pros:
   - Very bright F0.95 aperture for $189.99
   - All-metal CNC body (per Brightin Star)
@@ -38,7 +38,7 @@ cons:
   - Only 8 store reviews
   - "Buyer-reported color fringing in backlit shots until about F2"
   - Weight, filter size and minimum focus not listed on the product page
-  - Strict return terms (no change-of-mind returns; 40% fee for wrong mount)
+  - Strict return terms (no change-of-mind returns; you pay shipping for a wrong mount)
 specs:
   Focal length: "35mm (APS-C)"
   Full-frame equivalent: "About 52.5mm (Fuji/Sony/Nikon/Canon RF APS-C), 70mm on M43"
@@ -58,7 +58,7 @@ faqs:
   - q: "Is F0.95 hard to use?"
     a: "It can be. Depth of field at F0.95 is very thin, especially up close, so focus peaking and magnification help. One store reviewer found close-up shots at F0.95 tricky and saw color fringing in backlit scenes that faded by about F2."
   - q: "Which mounts are available?"
-    a: "Fuji X, Sony E, Micro Four Thirds, Canon RF, Nikon Z and Canon EOS-M. Choose carefully: if you order the wrong mount, Brightin Star charges a 40% restocking fee plus shipping both ways."
+    a: "Fuji X, Sony E, Micro Four Thirds, Canon RF, Nikon Z and Canon EOS-M. Choose carefully: if you order the wrong mount, you pay shipping both ways to swap it (no restocking fee since November 2026)."
 ---
 
 ## Overview
@@ -84,13 +84,13 @@ The product page doesn't list **weight, filter thread or minimum focus distance*
 
 ## Mounts
 
-Fuji X, Sony E, Micro Four Thirds, Canon RF, Nikon Z and Canon EOS-M. Order the right one: a wrong-mount return costs a **40% restocking fee** plus shipping both ways.
+Fuji X, Sony E, Micro Four Thirds, Canon RF, Nikon Z and Canon EOS-M. Order the right one: a wrong-mount return costs you **shipping both ways** (the old 40% restocking fee was dropped in November 2026).
 
 ## Price and policies
 
 - **$189.99** for every mount and version at the time of writing.
-- **Free shipping** over $55, but Standard takes **18–25 business days** (Priority 15–18).
-- **Returns:** 90 days for defects or shipping mistakes only; **no change-of-mind returns**, and orders placed with **discount codes** can't be returned.
+- **Free standard shipping** over $55; Standard takes about **12–15 days** (Express ~10 days costs extra). Code **KOREA** takes **5% off** at the time of writing.
+- **Returns:** 90 days for defects, shipping mistakes or a wrong mount you ordered (you pay shipping for the latter); **no change-of-mind returns**. Orders using discount codes keep these rights under the current policy.
 - **Warranty:** 2-year limited warranty on manufacturing defects.
 
 ## Who should buy it?

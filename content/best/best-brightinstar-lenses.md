@@ -6,7 +6,7 @@ description: "Brightin Star's five best-selling lenses compared: 35mm F0.95 APS-
 category: tech
 author: editorial-team
 date: 2026-10-10
-updated: 2026-10-10
+updated: 2026-11-10
 featured: true
 intro: |
   Brightin Star sells mostly **manual-focus** lenses for mirrorless cameras, from a **$69.99 fisheye** to a **9.9 mm-thin Leica M pancake**. Image quality can't be judged from a listing, so we haven't scored these lenses. Instead we list Brightin Star's five best-selling lenses **in the store's best-seller order**, with the **format, mounts, key specs, price** and **store rating**. All five are manual focus. Details are as of October 2026.
@@ -29,13 +29,13 @@ products:
       Rating: "4.9/5 (8)"
   - name: "Brightin Star MF 28mm F2.8 Pancake (Leica M)"
     badge: "Most Reviewed"
-    price: "From $318.99"
+    price: "From $328.99"
     merchant: "Brightin Star"
     link: "https://brightinstar.com/products/mf-28mm-f2-8-full-frame-pancake-lens-leica-m?ref=izhvkxpv"
     linkId: brightinstar-28mm-f2-8
     image: "/assets/img/products/brightinstar-28mm-f2-8-leica-m.webp"
     bestFor: "Leica M street shooters who want a tiny wide lens"
-    summary: "A 9.9 mm-thin, 125 g full-frame pancake for Leica M with rangefinder coupling, a 10-blade aperture and a brass body, in black lacquer ($318.99) or liquid silver ($358.99). Adapter kits for other mounts are available. Rated 4.9/5 from 93 store reviews."
+    summary: "A 9.9 mm-thin, 125 g full-frame pancake for Leica M with rangefinder coupling, a 10-blade aperture and a brass body, in black lacquer ($328.99) or liquid silver ($338.99). Adapter kits for other mounts are available. Rated 4.9/5 from 93 store reviews."
     pros: ["Only 9.9 mm thick, 125 g", "Rangefinder coupled", "Most store reviews here (93)"]
     cons: ["Leica M native; other mounts need an adapter kit", "UV filter sold separately"]
     specs:
@@ -111,7 +111,7 @@ We used **Brightin Star's best-selling sort**, skipped accessories and add-ons (
 | Lens | Format | Key spec | Weight | Rating on store | Price |
 | --- | --- | --- | --- | --- | --- |
 | **35mm F0.95** | APS-C | F0.95, ED glass | Not listed | 4.9 (8) | $189.99 |
-| **28mm F2.8 pancake** | Full-frame, Leica M | 9.9 mm thin | 125 g | 4.9 (93) | From $318.99 |
+| **28mm F2.8 pancake** | Full-frame, Leica M | 9.9 mm thin | 125 g | 4.9 (93) | From $328.99 |
 | **10mm F5.6 II fisheye** | APS-C | 173° view | 132 g | 4.9 (8) | $69.99 |
 | **9mm F5.6** | Full-frame | ND1000 included | 423 g | 4.0 (1) | From $379.99 |
 | **35mm F1.4** | Full-frame | De-click aperture | 218 g | 4.7 (3) | From $189.99 |
@@ -126,7 +126,7 @@ We used **Brightin Star's best-selling sort**, skipped accessories and add-ons (
 
 ### 2. Be sure about the mount
 
-Brightin Star charges a **40% restocking fee** (plus shipping both ways) if you order the wrong mount or model. Check twice before checkout.
+If you order the wrong mount or model, you pay **shipping both ways** to swap it (Brightin Star dropped its old 40% restocking fee in November 2026). Check twice before checkout.
 
 ### 3. Be ready for manual focus
 
@@ -134,8 +134,9 @@ All five are manual focus. Turn on your camera's **"release without lens"** sett
 
 ## Buying tips
 
-- **Free shipping** over $55, but Standard takes **18–25 business days** (Priority 15–18; Express 6–9).
-- **Returns:** only for defects or shipping mistakes within 90 days; **no change-of-mind returns**, and orders placed with **discount codes** can't be returned.
+- **Free standard shipping** over $55; Standard takes about **12–15 days** (Express ~10 days costs extra).
+- **Returns:** within 90 days for defects, shipping mistakes or a wrong mount you ordered (you pay shipping for the latter); **no change-of-mind returns**.
+- **Use code KOREA** for 5% off at the time of writing; under the current policy, discount-code orders keep the same return rights.
 - **Warranty:** 2-year limited warranty on manufacturing defects.
 - Read our [Brightin Star review](/reviews/brightinstar-review/), the [35mm F0.95 review](/reviews/brightinstar-35mm-f0-95-review/) and the [35mm F0.95 vs F1.4](/best/brightinstar-35mm-f0-95-vs-35mm-f1-4/) comparison.
 
