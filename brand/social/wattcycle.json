@@ -1,0 +1,50 @@
+{
+  "slug": "wattcycle",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 8.0/10",
+      "title": "WattCycle: are these LiFePO4 batteries worth it?",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/wattcycle-12v-314ah-mini.webp",
+      "chips": [
+        "Trustpilot <b>4.7</b> (772)",
+        "Up to <b>7-year</b> warranty"
+      ]
+    },
+    {
+      "id": "2-g24-review",
+      "kicker": "Review · 8.2/10",
+      "title": "WattCycle 12V 100Ah Group 24: a $179.99 LiFePO4",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/wattcycle-12v-100ah-g24.webp",
+      "chips": [
+        "1,280 Wh",
+        "100A BMS",
+        "<b>4.86★</b> (1,673)"
+      ]
+    },
+    {
+      "id": "3-best-batteries",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling WattCycle batteries",
+      "image": "/assets/img/products/wattcycle-48v-100ah-rack.webp",
+      "chips": [
+        "<b>$179.99–$829.99</b>",
+        "Code <b>TRANTRUNG</b> −5%"
+      ]
+    },
+    {
+      "id": "4-g24-vs-mini-bt",
+      "kicker": "Head to head",
+      "title": "Group 24 or Mini Bluetooth? Which 100Ah?",
+      "image": "/assets/img/products/wattcycle-12v-100ah-mini-bt.webp",
+      "chips": [
+        "<b>$179.99</b> vs <b>$189.99</b>",
+        "Surge vs app"
+      ]
+    }
+  ]
+}
