@@ -1,0 +1,48 @@
+{
+  "slug": "aosu",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 6.6/10",
+      "title": "aosu: solar security cameras worth it?",
+      "image": "/assets/img/products/aosu-t2-ultra.webp",
+      "chips": [
+        "No subscription on kits",
+        "Trustpilot <b>2.7</b> vs store <b>4.9</b>"
+      ]
+    },
+    {
+      "id": "2-d1-classic-kit-review",
+      "kicker": "Review · 7.4/10",
+      "title": "aosu SolarCam D1 Classic Kit: solar PTZ cams",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/aosu-d1-classic-kit.webp",
+      "chips": [
+        "From <b>$299.99</b>",
+        "32GB local",
+        "<b>4.9★</b> (1,093)"
+      ]
+    },
+    {
+      "id": "3-best-cameras",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling aosu security cameras",
+      "image": "/assets/img/products/aosu-video-doorbell-pro.webp",
+      "chips": [
+        "<b>$49.99–$399.99</b>",
+        "Solar, indoor, doorbell"
+      ]
+    },
+    {
+      "id": "4-t2-ultra-vs-t2-pro",
+      "kicker": "Head to head",
+      "title": "T2 Ultra or T2 Pro? Which aosu solar cam?",
+      "image": "/assets/img/products/aosu-t2-pro.webp",
+      "chips": [
+        "<b>4K</b> vs <b>dual 3K</b>",
+        "<b>$399.99</b> vs <b>$299.99</b>"
+      ]
+    }
+  ]
+}
