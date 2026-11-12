@@ -1,0 +1,51 @@
+{
+  "slug": "keychron",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 6.9/10",
+      "title": "Keychron: mechanical keyboards worth it?",
+      "titleSize": 60,
+      "pinTitleSize": 72,
+      "image": "/assets/img/products/keychron-q6-max-social.webp",
+      "chips": [
+        "<b>$60–$240</b> best sellers",
+        "Returns: <b>7 days</b>",
+        "Trustpilot <b>3.2</b>"
+      ]
+    },
+    {
+      "id": "2-k2-review",
+      "kicker": "Review · 7.6/10",
+      "title": "Keychron K2: the classic 75% wireless, now $69.99",
+      "titleSize": 54,
+      "pinTitleSize": 66,
+      "image": "/assets/img/products/keychron-k2-social.webp",
+      "chips": [
+        "<b>4.87★</b> (950)",
+        "Bluetooth · 3 devices",
+        "4000 mAh"
+      ]
+    },
+    {
+      "id": "3-best-keyboards",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling Keychron keyboards in stock",
+      "image": "/assets/img/products/keychron-q1-social.webp",
+      "chips": [
+        "K2 · K8 · V1 · Q1 · Q6 Max",
+        "<b>$59.99–$239.99</b>"
+      ]
+    },
+    {
+      "id": "4-k2-vs-k8",
+      "kicker": "Head to head",
+      "title": "Keychron K2 or K8? 75% vs tenkeyless",
+      "image": "/assets/img/products/keychron-k8-social.webp",
+      "chips": [
+        "<b>$69.99</b> vs from <b>$59.99</b>",
+        "Same 4000 mAh battery"
+      ]
+    }
+  ]
+}
