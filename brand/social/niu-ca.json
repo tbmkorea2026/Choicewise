@@ -1,0 +1,51 @@
+{
+  "slug": "niu-ca",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 6.3/10",
+      "title": "NIU Canada: up to 59% off. Worth it?",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/niu-ca-bqi-c3-pro-social.webp",
+      "chips": [
+        "From <b>C$449</b>",
+        "Free shipping",
+        "Trustpilot <b>1.4</b>"
+      ]
+    },
+    {
+      "id": "2-kqi-300x-review",
+      "kicker": "Review · 7.3/10",
+      "title": "NIU KQi 300X: an all-terrain scooter for C$799",
+      "titleSize": 54,
+      "pinTitleSize": 66,
+      "image": "/assets/img/products/niu-ca-kqi-300x-social.webp",
+      "chips": [
+        "<b>1000 W</b> · 60 km",
+        "Suspension",
+        "Was C$1,399"
+      ]
+    },
+    {
+      "id": "3-best-niu-ca",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling NIU rides in stock in Canada",
+      "image": "/assets/img/products/niu-ca-kqi-300x-2-social.webp",
+      "chips": [
+        "<b>C$449–C$1,149</b>",
+        "4 scooters + 1 e-bike"
+      ]
+    },
+    {
+      "id": "4-air-vs-300x",
+      "kicker": "Head to head",
+      "title": "NIU KQi Air or KQi 300X? 11.9 kg vs 22.1 kg",
+      "image": "/assets/img/products/niu-ca-kqi-air-social.webp",
+      "chips": [
+        "<b>C$899</b> vs <b>C$799</b>",
+        "32 vs 25 km/h"
+      ]
+    }
+  ]
+}
