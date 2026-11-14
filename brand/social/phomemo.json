@@ -1,0 +1,48 @@
+{
+  "slug": "phomemo",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 6.8/10",
+      "title": "Phomemo: are these inkless printers worth it?",
+      "image": "/assets/img/products/phomemo-m02-pro.webp",
+      "chips": [
+        "Code <b>TRANTRUNG</b> −10%",
+        "Trustpilot <b>2.9</b>"
+      ]
+    },
+    {
+      "id": "2-pm241bt-review",
+      "kicker": "Review · 7.6/10",
+      "title": "Phomemo PM241-BT: shipping labels from your phone",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/phomemo-pm241bt.webp",
+      "chips": [
+        "<b>$110.99</b>",
+        "Bluetooth + USB",
+        "No ink"
+      ]
+    },
+    {
+      "id": "3-best-printers",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling Phomemo printers",
+      "image": "/assets/img/products/phomemo-m08f.webp",
+      "chips": [
+        "<b>$39.49–$110.99</b>",
+        "Labels, stickers, A4"
+      ]
+    },
+    {
+      "id": "4-t02-vs-m02-pro",
+      "kicker": "Head to head",
+      "title": "T02 or M02 Pro? Which Phomemo mini printer?",
+      "image": "/assets/img/products/phomemo-t02.webp",
+      "chips": [
+        "<b>203</b> vs <b>300 dpi</b>",
+        "<b>$39.49</b> vs <b>$68.99</b>"
+      ]
+    }
+  ]
+}
