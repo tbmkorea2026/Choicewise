@@ -14,7 +14,7 @@ Link: https://wisechoicekr.com/reviews/seagull1963-review/
 Image: seagull1963-1-brand-review-ig.png / -pin.png
 
 ### Facebook
-Thinking about a Seagull 1963 chronograph from seagull1963.com? Read this first. ⌚
+Thinking about a Seagull 1963 chronograph? Read this first. ⌚
 
 ✅ Hand-wound Seagull ST19 column-wheel movements from €335
 ✅ Free shipping with import duties prepaid for most countries
@@ -50,7 +50,7 @@ Link: https://wisechoicekr.com/reviews/seagull1963-icon-ii-green-review/
 Image: seagull1963-2-icon-ii-green-review-ig.png / -pin.png
 
 ### Facebook
-The top in-stock best seller on seagull1963.com: is the Icon II Green worth it? ⌚
+The top in-stock Seagull 1963 best seller: is the Icon II Green worth it? ⌚
 
 ✅ 40mm bronze case that develops a patina
 ✅ ST1901 column-wheel chronograph, visible through the back
