@@ -1,0 +1,49 @@
+{
+  "slug": "seagull1963",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 7.2/10",
+      "title": "Seagull 1963: mechanical chronographs worth it?",
+      "titleSize": 60,
+      "image": "/assets/img/products/seagull1963-40mm-social.webp",
+      "chips": [
+        "From <b>€335</b>",
+        "Trustpilot <b>4.0</b>"
+      ]
+    },
+    {
+      "id": "2-icon-ii-green-review",
+      "kicker": "Review · 7.5/10",
+      "title": "Seagull 1963 Icon II Green: bronze chronograph",
+      "titleSize": 56,
+      "pinTitleSize": 68,
+      "image": "/assets/img/products/seagull1963-icon-ii-green-social.webp",
+      "chips": [
+        "<b>€537</b>",
+        "Bronze 40mm",
+        "ST1901"
+      ]
+    },
+    {
+      "id": "3-best-watches",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling Seagull 1963 watches",
+      "image": "/assets/img/products/seagull1963-moonphase-cream-social.webp",
+      "chips": [
+        "<b>€335–€537</b>",
+        "Hand-wound"
+      ]
+    },
+    {
+      "id": "4-38mm-vs-40mm",
+      "kicker": "Head to head",
+      "title": "Seagull 1963: 38mm or 40mm? Which size?",
+      "image": "/assets/img/products/seagull1963-38mm-social.webp",
+      "chips": [
+        "<b>47</b> vs <b>50.5mm</b> lugs",
+        "<b>€335</b> vs <b>€415</b>"
+      ]
+    }
+  ]
+}
