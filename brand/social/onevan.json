@@ -1,0 +1,47 @@
+{
+  "slug": "onevan",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 6.2/10",
+      "title": "ONEVAN: cheap cordless tools worth it?",
+      "image": "/assets/img/products/onevan-1800nm-impact-wrench.webp",
+      "chips": [
+        "From <b>$77.51</b>",
+        "Trustpilot <b>3.4</b>"
+      ]
+    },
+    {
+      "id": "2-2800nm-review",
+      "kicker": "Review · 6.8/10",
+      "title": "ONEVAN 2800N·m impact wrench: big claims, small price",
+      "titleSize": 54,
+      "pinTitleSize": 64,
+      "image": "/assets/img/products/onevan-2800nm-impact-wrench.webp",
+      "chips": [
+        "<b>$117.29</b> tool only",
+        "<b>4.5★</b> (455)"
+      ]
+    },
+    {
+      "id": "3-best-tools",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling ONEVAN tools",
+      "image": "/assets/img/products/onevan-snow-shovel.webp",
+      "chips": [
+        "<b>$77.51–$142.79</b>",
+        "Makita-style 18V"
+      ]
+    },
+    {
+      "id": "4-2800-vs-1200",
+      "kicker": "Head to head",
+      "title": "2800 or 1200 N·m? Which ONEVAN wrench?",
+      "image": "/assets/img/products/onevan-1200nm-impact-wrench.webp",
+      "chips": [
+        "<b>$117.29</b> vs <b>$77.51</b>",
+        "<b>4.5★</b> vs <b>4.6★</b>"
+      ]
+    }
+  ]
+}
