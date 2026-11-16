@@ -1,0 +1,47 @@
+{
+  "slug": "oufer",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 7.4/10",
+      "title": "OUFER: cheap body jewelry worth it?",
+      "image": "/assets/img/products/oufer-18g-titanium-nose-hoop-social.webp",
+      "chips": [
+        "From <b>$6.29</b>",
+        "Trustpilot <b>3.4</b>"
+      ]
+    },
+    {
+      "id": "2-cz-nose-ring-review",
+      "kicker": "Review · 7.6/10",
+      "title": "OUFER 20G CZ nose ring: sparkle for $10",
+      "image": "/assets/img/products/oufer-20g-cz-nose-ring-social.webp",
+      "chips": [
+        "<b>$10.49</b>",
+        "<b>4.81★</b> (143)",
+        "Hinged"
+      ]
+    },
+    {
+      "id": "3-best-body-jewelry",
+      "kicker": "Top 5 guide",
+      "title": "The 5 best-selling OUFER body jewelry pieces",
+      "titleSize": 60,
+      "image": "/assets/img/products/oufer-16g-classic-hoop-social.webp",
+      "chips": [
+        "<b>$6.29–$10.49</b>",
+        "Nose, septum, cartilage"
+      ]
+    },
+    {
+      "id": "4-cz-vs-titanium",
+      "kicker": "Head to head",
+      "title": "CZ or titanium? Which OUFER nose ring?",
+      "image": "/assets/img/products/oufer-20g-titanium-nose-ring-social.webp",
+      "chips": [
+        "Steel vs <b>F-136 titanium</b>",
+        "<b>$10.49</b> vs <b>$7.69</b>"
+      ]
+    }
+  ]
+}
