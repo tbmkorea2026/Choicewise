@@ -1,8 +1,20 @@
 ---
 title: About WiseChoiceKR
 description: WiseChoiceKR helps people buy smarter with independent research, transparent reviews and honest notes on prices, shipping, returns and warranties.
-updated: 2026-10-07
+updated: 2026-11-17
 ---
+
+## Who runs WiseChoiceKR
+
+WiseChoiceKR is an independent review site run by **ParkChoice**, the pen name of the site's founder and editor, based in **South Korea**. The site launched in **October 2026**, and every review and buying guide is researched and written by ParkChoice.
+
+Most of the brands we cover sell online and ship internationally, which is where comparing stores matters most: prices, shipping times, import fees and return terms can vary a lot from one shop to the next.
+
+## How we choose what to cover
+
+- **Brands readers can actually buy from.** We focus on online stores that ship to the US, Europe and Asia.
+- **The store's own best sellers.** In our top-5 guides we list products in the order the store ranks them by sales, rather than picking favourites.
+- **Research, not hype.** Reviews are based on official specs, store policies and customer ratings (including Trustpilot). We haven't handled most of these products ourselves, and we say so in every review.
 
 ## Our mission
 

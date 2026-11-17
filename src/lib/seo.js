@@ -57,7 +57,7 @@ function faqPage(faqs) {
 }
 
 function person(site, author) {
-  return { '@type': author.slug === site.defaultAuthor ? 'Organization' : 'Person', name: author.name, url: abs(site, `/author/${author.slug}/`) };
+  return { '@type': 'Person', name: author.name, url: abs(site, `/author/${author.slug}/`) };
 }
 
 function reviewProduct(site, review, author) {
