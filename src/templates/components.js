@@ -73,7 +73,7 @@ function coupon(product, { compact = false } = {}) {
 function ctaBox(product, { title, text } = {}) {
   if (!product.goUrl) return '';
   return html`<aside class="cta-box">
-    <img class="cta-box__img" src="${esc(product.image)}" alt="" width="96" height="96" loading="lazy" decoding="async">
+    <img class="cta-box__img" src="${esc(product.image)}" alt="${esc(product.name || '')}" width="96" height="96" loading="lazy" decoding="async">
     <div class="cta-box__body">
       <p class="cta-box__title">${esc(title || product.name)}</p>
       ${text ? html`<p class="cta-box__text">${esc(text)}</p>` : ''}
@@ -141,7 +141,7 @@ function toc(items, { title = 'On this page' } = {}) {
 /* ---------- People & meta ---------- */
 
 function avatar(author, size = 40) {
-  if (author.image) return html`<img class="avatar" src="${esc(author.image)}" alt="" width="${size}" height="${size}" loading="lazy">`;
+  if (author.image) return html`<img class="avatar" src="${esc(author.image)}" alt="${esc(author.name)}" width="${size}" height="${size}" loading="lazy">`;
   return html`<span class="avatar avatar--initials" style="--s:${size}px" aria-hidden="true">${esc(initials(author.name) || 'CW')}</span>`;
 }
 
@@ -184,7 +184,7 @@ function categoryPill(cat) {
 function reviewCard(r, cat) {
   return html`<article class="card card--review">
     <a class="card__media" href="${r.url}" tabindex="-1" aria-hidden="true">
-      <img src="${esc(r.product.image)}" alt="" width="400" height="300" loading="lazy" decoding="async">
+      <img src="${esc(r.product.image)}" alt="${esc(r.product.name)}" width="400" height="300" loading="lazy" decoding="async">
       <span class="card__score">${fmtScore(r.rating)}</span>
     </a>
     <div class="card__body">

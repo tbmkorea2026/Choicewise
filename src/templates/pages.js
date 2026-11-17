@@ -35,10 +35,6 @@ function home(ctx) {
   const { site, content, categories, catMap } = ctx;
   const { reviews, roundups } = content;
   const featured = [...roundups.filter((r) => r.featured), ...roundups.filter((r) => !r.featured)].slice(0, 3);
-  const productCount = new Set([
-    ...reviews.map((r) => r.product.name),
-    ...roundups.flatMap((r) => r.products.map((p) => p.name)),
-  ]).size;
   // Brands with at least one review or best-of entry (case-insensitive).
   const brandCount = new Set([
     ...reviews.map((r) => r.product.brand),
@@ -65,8 +61,8 @@ function home(ctx) {
         ${roundups.slice(0, 4).map((r) => html`<a class="chip" href="${r.url}">${esc(r.shortTitle)}</a>`)}
       </div>` : ''}
       <dl class="hero__stats">
-        <div><dt>Products compared</dt><dd>${productCount}+</dd></div>
-        <div><dt>Categories</dt><dd>${categories.length}</dd></div>
+        <div><dt>Reviews</dt><dd>${reviews.length}</dd></div>
+        <div><dt>Buying guides</dt><dd>${roundups.length}</dd></div>
         <div><dt>Brands reviewed</dt><dd>${brandCount}</dd></div>
       </dl>
     </div>
@@ -77,7 +73,7 @@ function home(ctx) {
           const p = r.products[0];
           const cat = catMap.get(r.category);
           return html`<li><a class="pick-stack__item" href="${r.url}">
-            <img src="${esc(p.image)}" alt="" width="64" height="64" loading="eager">
+            <img src="${esc(p.image)}" alt="${esc(p.name)}" width="64" height="64" loading="eager">
             <span class="pick-stack__text">
               <small style="--hue:${cat.hue}">${esc(r.shortTitle)}</small>
               <strong>${esc(p.name)}</strong>
@@ -138,7 +134,7 @@ ${reviews.length ? html`<section class="section section--alt">
       </li>`)}
     </ol>
     <div class="scale" aria-label="Score scale">
-      ${[[9.5, '9.5–10'], [9, '9.0–9.4'], [8.5, '8.5–8.9'], [8, '8.0–8.4'], [7, '7.0–7.9']].map(([s, range]) => html`<div class="scale__item"><span class="scale__range">${range}</span><span class="scale__label">${scoreLabel(s)}</span></div>`)}
+      ${[[9.5, '9.5–10'], [9, '9.0–9.4'], [8.5, '8.5–8.9'], [8, '8.0–8.4'], [7, '7.0–7.9'], [0, 'Below 7.0']].map(([s, range]) => html`<div class="scale__item"><span class="scale__range">${range}</span><span class="scale__label">${scoreLabel(s)}</span></div>`)}
     </div>
   </div>
 </section>
@@ -241,7 +237,7 @@ function review(ctx, r) {
     <div class="sidebar__sticky">
       ${c.toc(tocItems)}
       ${p.goUrl ? html`<div class="side-cta">
-        <img src="${esc(p.image)}" alt="" width="72" height="72" loading="lazy">
+        <img src="${esc(p.image)}" alt="${esc(p.name)}" width="72" height="72" loading="lazy">
         <div><p class="side-cta__name">${esc(p.name)}</p>${c.stars(r.rating, { size: 'sm' })}</div>
         ${c.coupon(p, { compact: true })}
         ${c.ctaButton(p, { block: true })}
@@ -348,7 +344,7 @@ function roundup(ctx, r) {
   <ol class="quick-picks quick-picks--${top.length}">
     ${top.map((p) => html`<li class="quick-pick${p.rank === 1 ? ' quick-pick--winner' : ''}">
       ${p.badge ? html`<span class="quick-pick__badge">${icon(p.rank === 1 ? 'trophy' : 'award', { size: 14 })} ${esc(p.badge)}</span>` : ''}
-      <img src="${esc(p.image)}" alt="" width="200" height="150" ${p.rank === 1 ? 'fetchpriority="high"' : 'loading="lazy"'}>
+      <img src="${esc(p.image)}" alt="${esc(p.name)}" width="200" height="150" ${p.rank === 1 ? 'fetchpriority="high"' : 'loading="lazy"'}>
       <p class="quick-pick__name"><a href="#pick-${p.rank}">${esc(p.name)}</a></p>
       ${p.rating ? html`<div class="quick-pick__rating">${c.stars(p.rating, { size: 'sm' })}<strong>${fmtScore(p.rating)}</strong></div>` : ''}
       ${p.bestFor ? html`<p class="quick-pick__best">${esc(p.bestFor)}</p>` : ''}
@@ -368,7 +364,7 @@ function roundup(ctx, r) {
         <thead><tr><th scope="col">Product</th><th scope="col">Best for</th>${hasScores ? '<th scope="col">Score</th>' : ''}<th scope="col"><span class="sr-only">Buy</span></th></tr></thead>
         <tbody>
           ${r.products.map((p) => html`<tr>
-            <th scope="row"><a class="compare__product" href="#pick-${p.rank}"><span class="compare__rank">${p.rank}</span><img src="${esc(p.image)}" alt="" width="48" height="48" loading="lazy"><span>${esc(p.name)}${p.badge ? html`<small>${esc(p.badge)}</small>` : ''}${p.coupon ? html`<small class="compare__deal">${icon('tag', { size: 12 })} ${esc(p.coupon.discount || 'Code')}: ${esc(p.coupon.code)}</small>` : ''}</span></a></th>
+            <th scope="row"><a class="compare__product" href="#pick-${p.rank}"><span class="compare__rank">${p.rank}</span><img src="${esc(p.image)}" alt="${esc(p.name)}" width="48" height="48" loading="lazy"><span>${esc(p.name)}${p.badge ? html`<small>${esc(p.badge)}</small>` : ''}${p.coupon ? html`<small class="compare__deal">${icon('tag', { size: 12 })} ${esc(p.coupon.discount || 'Code')}: ${esc(p.coupon.code)}</small>` : ''}</span></a></th>
             <td>${esc(p.bestFor)}</td>
             ${hasScores ? html`<td><span class="compare__score">${p.rating ? fmtScore(p.rating) : '–'}</span></td>` : ''}
             <td>${c.ctaButton(p, { size: 'sm', label: p.price ? p.price : 'View deal' })}</td>
@@ -391,7 +387,7 @@ function roundup(ctx, r) {
     <div class="sidebar__sticky">
       ${c.toc(tocItems)}
       ${r.products[0] && r.products[0].goUrl ? html`<div class="side-cta">
-        <img src="${esc(r.products[0].image)}" alt="" width="72" height="72" loading="lazy">
+        <img src="${esc(r.products[0].image)}" alt="${esc(r.products[0].name)}" width="72" height="72" loading="lazy">
         <div><p class="side-cta__eyebrow">Our top pick</p><p class="side-cta__name">${esc(r.products[0].name)}</p></div>
         ${c.coupon(r.products[0], { compact: true })}
         ${c.ctaButton(r.products[0], { block: true })}
