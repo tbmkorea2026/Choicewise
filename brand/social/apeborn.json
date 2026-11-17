@@ -1,0 +1,47 @@
+{
+  "slug": "apeborn",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 5.6/10",
+      "title": "Ape Born EMS: bold claims, honest check",
+      "image": "/assets/img/products/apeborn-ultra-belt.webp",
+      "chips": [
+        "Code <b>TRANTRUNG</b> −10%",
+        "Trustpilot <b>3.6</b>"
+      ]
+    },
+    {
+      "id": "2-do-ems-belts-work",
+      "kicker": "Explainer",
+      "title": "Do EMS ab belts work? What they can and can't do",
+      "titleSize": 56,
+      "pinTitleSize": 66,
+      "image": "/assets/img/products/apeborn-nextgen-pads.webp",
+      "chips": [
+        "Strength: <b>yes</b>",
+        "Fat loss: <b>no</b>"
+      ]
+    },
+    {
+      "id": "3-which-to-buy",
+      "kicker": "Buying guide",
+      "title": "Which Ape Born stimulator should you buy?",
+      "image": "/assets/img/products/apeborn-nextgen-kit.webp",
+      "chips": [
+        "<b>$99.99–$274.99</b>",
+        "Abs, glutes, legs"
+      ]
+    },
+    {
+      "id": "4-ultra-vs-nextgen",
+      "kicker": "Head to head",
+      "title": "Ape Born Ultra or NextGen? Belt vs gel pads",
+      "image": "/assets/img/products/apeborn-ultra-full-body-kit.webp",
+      "chips": [
+        "<b>$149.99</b> vs <b>$99.99</b>",
+        "+ pads <b>$29.99</b>"
+      ]
+    }
+  ]
+}
