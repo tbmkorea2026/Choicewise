@@ -16,6 +16,7 @@ product:
   ctaLabel: "Visit Seagull 1963"
   link: "https://seagull1963.com/?ref=TRUNGTRAN"
   linkId: seagull1963
+  offerNote: "Change-of-mind returns: 14 days, unused; you pay return shipping and €30 is deducted. Orders can be cancelled only within 30 minutes."
 bestFor:
   - First-time buyers who want a real mechanical chronograph on a budget
   - Fans of vintage pilot's watch design

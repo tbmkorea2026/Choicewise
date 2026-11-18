@@ -179,7 +179,7 @@ function review(ctx, r) {
 <div class="page-head">
   <div class="container">
     ${c.breadcrumbs(crumbs)}
-    <div class="page-head__tags">${c.categoryPill(cat)}<span class="tag">${icon('badgeCheck', { size: 14 })} In-depth review</span></div>
+    <div class="page-head__tags">${c.categoryPill(cat)}<span class="tag">${icon('badgeCheck', { size: 14 })} In-depth review</span>${c.freshTag(r)}</div>
     <h1 class="page-head__title">${esc(r.title)}</h1>
     <p class="page-head__lead">${esc(r.description)}</p>
     ${c.byline(r, author)}
@@ -200,6 +200,7 @@ function review(ctx, r) {
         ${c.ctaButton(p, { size: 'lg' })}
       </div>
       ${c.coupon(p)}
+      ${c.offerNote(p)}
       ${roundup ? html`<a class="link-arrow link-arrow--muted" href="${roundup.url}">Compare with alternatives in ${esc(roundup.shortTitle)} ${icon('arrowRight', { size: 16 })}</a>` : ''}
     </div>
     <div class="product-hero__score">${c.scoreBadge(r.rating, { size: 'lg' })}</div>
@@ -306,6 +307,7 @@ function pickSection(p, r) {
         ${c.ctaButton(p)}
         ${p.reviewUrl ? html`<a class="btn btn--ghost" href="${p.reviewUrl}">Read full review</a>` : ''}
       </div>
+      ${c.offerNote(p)}
     </div>
   </section>`;
 }
@@ -331,7 +333,7 @@ function roundup(ctx, r) {
 <div class="page-head">
   <div class="container">
     ${c.breadcrumbs(crumbs)}
-    <div class="page-head__tags">${c.categoryPill(cat)}<span class="tag">${r.products.length === 2 ? html`${icon('scale', { size: 14 })} Comparison` : html`${icon('trophy', { size: 14 })} Best-of guide`}</span></div>
+    <div class="page-head__tags">${c.categoryPill(cat)}<span class="tag">${r.products.length === 2 ? html`${icon('scale', { size: 14 })} Comparison` : html`${icon('trophy', { size: 14 })} Best-of guide`}</span>${c.freshTag(r)}</div>
     <h1 class="page-head__title">${esc(r.title)}</h1>
     <p class="page-head__lead">${esc(r.description)}</p>
     ${c.byline(r, author)}
@@ -341,17 +343,7 @@ function roundup(ctx, r) {
 
 <section class="container" aria-labelledby="top-picks">
   <h2 id="top-picks" class="sr-only">Top picks at a glance</h2>
-  <ol class="quick-picks quick-picks--${top.length}">
-    ${top.map((p) => html`<li class="quick-pick${p.rank === 1 ? ' quick-pick--winner' : ''}">
-      ${p.badge ? html`<span class="quick-pick__badge">${icon(p.rank === 1 ? 'trophy' : 'award', { size: 14 })} ${esc(p.badge)}</span>` : ''}
-      <img src="${esc(p.image)}" alt="${esc(p.name)}" width="200" height="150" ${p.rank === 1 ? 'fetchpriority="high"' : 'loading="lazy"'}>
-      <p class="quick-pick__name"><a href="#pick-${p.rank}">${esc(p.name)}</a></p>
-      ${p.rating ? html`<div class="quick-pick__rating">${c.stars(p.rating, { size: 'sm' })}<strong>${fmtScore(p.rating)}</strong></div>` : ''}
-      ${p.bestFor ? html`<p class="quick-pick__best">${esc(p.bestFor)}</p>` : ''}
-      ${c.coupon(p, { compact: true })}
-      ${c.ctaButton(p, { block: true })}
-    </li>`)}
-  </ol>
+  ${c.rankList(r.products)}
 </section>
 
 <div class="container article-layout">

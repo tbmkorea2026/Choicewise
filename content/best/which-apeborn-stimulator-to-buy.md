@@ -17,6 +17,7 @@ products:
     merchant: "Ape Born"
     link: "https://apebornfitness.com/products/nextgen-ultra-stimulator?ref=TRANTRUNG"
     linkId: apeborn-ultra
+    offerNote: "The Ultra offer bundles a 7-day Elite Club trial that renews at $49.99/month unless cancelled, plus pre-ticked add-ons. Check your cart."
     image: "/assets/img/products/apeborn-ultra-belt.webp"
     bestFor: "A belt-style ab trainer with nothing to replace"
     summary: "NMES belt for the midsection with 12 modes, 19 intensity levels and 20-minute sessions; Ape Born says there's nothing to replace or refill. $149.99 in product data (a $99.99 bundle offer was shown with a 7-day Elite Club trial that renews at $49.99/month). Rated 4.6/5 (1,501)."

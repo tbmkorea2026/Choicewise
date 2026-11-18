@@ -16,6 +16,7 @@ product:
   ctaLabel: "Check Price on Seagull 1963"
   link: "https://seagull1963.com/products/seagull-1963-icon-ii-green-bronze-chronograph?ref=TRUNGTRAN"
   linkId: seagull1963-icon-ii-green
+  offerNote: "Change-of-mind returns: 14 days, unused; you pay return shipping and €30 is deducted. Orders can be cancelled only within 30 minutes."
 bestFor:
   - Buyers who want a bronze watch that develops a patina
   - A first mechanical chronograph with a vintage pilot's look

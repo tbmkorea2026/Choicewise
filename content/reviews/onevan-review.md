@@ -16,6 +16,7 @@ product:
   ctaLabel: "Visit ONEVAN"
   link: "https://onevantool.com?sca_ref=12710829.r2LE3ccggU6&utm_source=affiliate&utm_medium=12710829&utm_campaign=onevan-partner-pay"
   linkId: onevan
+  offerNote: "No warranty period stated. Non-faulty returns cost return shipping plus a 5% restocking fee."
 bestFor:
   - DIYers who already own Makita-style 18V batteries
   - Occasional tire changes and car repairs on a budget

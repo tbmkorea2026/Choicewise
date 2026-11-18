@@ -17,6 +17,7 @@ products:
     merchant: "ONEVAN"
     link: "https://onevantool.com/products/sku006348-1-2-2800nm-brushless-cordless-impact-wrench?sca_ref=12710829.r2LE3ccggU6&utm_source=affiliate&utm_medium=12710829&utm_campaign=onevan-partner-pay"
     linkId: onevan-2800nm-impact-wrench
+    offerNote: "No warranty period stated. Non-faulty returns cost return shipping plus a 5% restocking fee."
     image: "/assets/img/products/onevan-2800nm-impact-wrench.webp"
     bestFor: "Heavy car work on a budget"
     summary: "1/2\" brushless wrench with claimed 2800 N·m and 2800 W, 3 forward / 2 reverse settings plus auto mode, LED light, M12–M30 bolts. $117.29 tool only, $142.79 with 2 batteries. Rated 4.5/5 from 455 store reviews."
@@ -32,6 +33,7 @@ products:
     merchant: "ONEVAN"
     link: "https://onevantool.com/products/sku005303-brushless-cordless-impact-wrench?sca_ref=12710829.r2LE3ccggU6&utm_source=affiliate&utm_medium=12710829&utm_campaign=onevan-partner-pay"
     linkId: onevan-1200nm-impact-wrench
+    offerNote: "No warranty period stated. Non-faulty returns cost return shipping plus a 5% restocking fee."
     image: "/assets/img/products/onevan-1200nm-impact-wrench.webp"
     bestFor: "Lighter car and home jobs"
     summary: "1/2\" brushless wrench with claimed 1200 N·m and 1200 W, 0–6700 RPM, 4 forward / 4 reverse gears, M10–M20 bolts. $77.51 tool only, $105.05 with 2 batteries. Rated 4.6/5 from 315 store reviews, the highest of the five."
@@ -47,6 +49,7 @@ products:
     merchant: "ONEVAN"
     link: "https://onevantool.com/products/sku003885-brushless-cordless-impact-wrench?sca_ref=12710829.r2LE3ccggU6&utm_source=affiliate&utm_medium=12710829&utm_campaign=onevan-partner-pay"
     linkId: onevan-1800nm-impact-wrench
+    offerNote: "No warranty period stated. Non-faulty returns cost return shipping plus a 5% restocking fee."
     image: "/assets/img/products/onevan-1800nm-impact-wrench.webp"
     bestFor: "A step up in claimed torque for less than the 2800"
     summary: "1/2\" brushless wrench with claimed 1800 N·m, stepless speed trigger, tungsten steel shaft bearings and LED light. $95.87 tool only, $115.25 with 2 batteries. Rated 4.5/5 from 245 store reviews."
@@ -62,6 +65,7 @@ products:
     merchant: "ONEVAN"
     link: "https://onevantool.com/products/sku004078-cordless-lawn-mower-foldable-trimmer?sca_ref=12710829.r2LE3ccggU6&utm_source=affiliate&utm_medium=12710829&utm_campaign=onevan-partner-pay"
     linkId: onevan-lawn-mower-trimmer
+    offerNote: "No warranty period stated. Non-faulty returns cost return shipping plus a 5% restocking fee."
     image: "/assets/img/products/onevan-lawn-mower-trimmer.webp"
     bestFor: "Edges and small patches of grass"
     summary: "Foldable 300W brushed trimmer/brushcutter with plastic, metal and alloy saw blades, wheels and a telescopic 100–135cm shaft. $88.73 tool only, $112.19 with 2 batteries. Rated 3.6/5 from 121 store reviews, the lowest of the five."
@@ -77,6 +81,7 @@ products:
     merchant: "ONEVAN"
     link: "https://onevantool.com/products/sku007190-cordless-foldable-snow-thrower-handheld-brushless-shovel?sca_ref=12710829.r2LE3ccggU6&utm_source=affiliate&utm_medium=12710829&utm_campaign=onevan-partner-pay"
     linkId: onevan-snow-shovel
+    offerNote: "No warranty period stated. Non-faulty returns cost return shipping plus a 5% restocking fee."
     image: "/assets/img/products/onevan-snow-shovel.webp"
     bestFor: "Light, fresh snow on steps and paths"
     summary: "Handheld 12\" single-stage snow thrower with brushless motor, foldable telescopic handle with wheels, three throw directions and a claimed throw of up to 6 m (20 ft). $142.79 tool only, $186.65 with 2 batteries (US kit sold out when we checked). Rated 4.2/5 from 36 store reviews."

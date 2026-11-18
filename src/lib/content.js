@@ -128,6 +128,7 @@ function normalizeProduct(p, { category, registry, source, fallbackLabel, coupon
     cons: asList(product.cons),
     specs: asSpecs(product.specs),
     review: product.review || '',
+    offerNote: product.offerNote || '',
     coupon: resolveCoupon(product, coupons, today),
   };
 }

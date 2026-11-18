@@ -16,6 +16,7 @@ products:
     merchant: "ONEVAN"
     link: "https://onevantool.com/products/sku006348-1-2-2800nm-brushless-cordless-impact-wrench?sca_ref=12710829.r2LE3ccggU6&utm_source=affiliate&utm_medium=12710829&utm_campaign=onevan-partner-pay"
     linkId: onevan-2800nm-impact-wrench
+    offerNote: "No warranty period stated. Non-faulty returns cost return shipping plus a 5% restocking fee."
     image: "/assets/img/products/onevan-2800nm-impact-wrench.webp"
     bestFor: "Big, stuck bolts and truck or SUV wheels"
     summary: "Claimed 2800 N·m and 2800 W, 0–8000 RPM, 0–8500 IPM, M12–M30 bolts, 3 forward / 2 reverse plus auto mode, LED, 20 m/s² vibration. $117.29 tool only, $142.79 with 2 batteries. Rated 4.5/5 from 455 store reviews."
@@ -31,6 +32,7 @@ products:
     merchant: "ONEVAN"
     link: "https://onevantool.com/products/sku005303-brushless-cordless-impact-wrench?sca_ref=12710829.r2LE3ccggU6&utm_source=affiliate&utm_medium=12710829&utm_campaign=onevan-partner-pay"
     linkId: onevan-1200nm-impact-wrench
+    offerNote: "No warranty period stated. Non-faulty returns cost return shipping plus a 5% restocking fee."
     image: "/assets/img/products/onevan-1200nm-impact-wrench.webp"
     bestFor: "Car wheels and general home use"
     summary: "Claimed 1200 N·m and 1200 W, 0–6700 RPM, 0–7200 IPM, M10–M20 bolts, 4 forward / 4 reverse gears with reverse auto stop. $77.51 tool only, $105.05 with 2 batteries. Rated 4.6/5 from 315 store reviews."

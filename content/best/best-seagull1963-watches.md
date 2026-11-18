@@ -17,6 +17,7 @@ products:
     merchant: "Seagull 1963"
     link: "https://seagull1963.com/products/seagull-1963-icon-ii-green-bronze-chronograph?ref=TRUNGTRAN"
     linkId: seagull1963-icon-ii-green
+    offerNote: "Change-of-mind returns: 14 days, unused; you pay return shipping and €30 is deducted. Orders can be cancelled only within 30 minutes."
     image: "/assets/img/products/seagull1963-icon-ii-green.webp"
     bestFor: "Bronze lovers who want a compact, numbered chronograph"
     summary: "40mm CuSn8 bronze case with steel back, green sunburst dial, sapphire crystal, ST1901 column-wheel movement visible through the back, 12.7mm thick, 46mm lug-to-lug, 5 ATM, green leather strap. Numbered."
@@ -32,6 +33,7 @@ products:
     merchant: "Seagull 1963"
     link: "https://seagull1963.com/products/seagull-1963-40mm-moonphase-cream-dial-sapphire-glass?ref=TRUNGTRAN"
     linkId: seagull1963-moonphase-cream
+    offerNote: "Change-of-mind returns: 14 days, unused; you pay return shipping and €30 is deducted. Orders can be cancelled only within 30 minutes."
     image: "/assets/img/products/seagull1963-moonphase-cream.webp"
     bestFor: "A vintage chronograph with a moonphase display"
     summary: "40mm 316L steel case, cream dial with moonphase, sapphire crystal, ST1901 hand-wound chronograph, 12.7mm thick, 50.5mm lug-to-lug, 20mm lugs, 5 ATM, green textile NATO strap."
@@ -47,6 +49,7 @@ products:
     merchant: "Seagull 1963"
     link: "https://seagull1963.com/products/seagull-1963-38mm-acrylic-sapphire?ref=TRUNGTRAN"
     linkId: seagull1963-38mm
+    offerNote: "Change-of-mind returns: 14 days, unused; you pay return shipping and €30 is deducted. Orders can be cancelled only within 30 minutes."
     image: "/assets/img/products/seagull1963-38mm.webp"
     bestFor: "The classic vintage size, and smaller wrists"
     summary: "38mm 316L steel case, cream dial, ST19 hand-wound chronograph, 12.7mm thick, 47mm lug-to-lug, 18mm lugs, 3 ATM, green textile NATO. Sapphire without swan-neck €335, sapphire with swan-neck €415, acrylic with swan-neck €405."
@@ -62,6 +65,7 @@ products:
     merchant: "Seagull 1963"
     link: "https://seagull1963.com/products/seagull-1963-bronze-40mm-lume-edition-sapphire?ref=TRUNGTRAN"
     linkId: seagull1963-bronze-40mm-lume
+    offerNote: "Change-of-mind returns: 14 days, unused; you pay return shipping and €30 is deducted. Orders can be cancelled only within 30 minutes."
     image: "/assets/img/products/seagull1963-bronze-40mm-lume.webp"
     bestFor: "A bronze 1963 with luminous hands and markers"
     summary: "40mm bronze case with steel back, cream lume dial, sapphire crystal, ST19 hand-wound chronograph, 12.7mm thick, 50.5mm lug-to-lug, 5 ATM, 2-piece green fabric strap. Also offered in 38mm."
@@ -77,6 +81,7 @@ products:
     merchant: "Seagull 1963"
     link: "https://seagull1963.com/products/seagull-1963-icon-ii-blue-steel-chronograph?ref=TRUNGTRAN"
     linkId: seagull1963-icon-ii-blue
+    offerNote: "Change-of-mind returns: 14 days, unused; you pay return shipping and €30 is deducted. Orders can be cancelled only within 30 minutes."
     image: "/assets/img/products/seagull1963-icon-ii-blue.webp"
     bestFor: "The Icon II design in polished steel that won't patina"
     summary: "40mm polished 316L steel case, blue dial, sapphire crystal, ST1901 column-wheel movement, 12.7mm thick, 46mm lug-to-lug, 20mm lugs, 5 ATM, leather strap. Numbered."

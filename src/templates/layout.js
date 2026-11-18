@@ -181,6 +181,7 @@ ${seo.graph(page.jsonld || [])}
 </head>
 <body class="${page.bodyClass || ''}">
 <a class="skip-link" href="#main">Skip to content</a>
+<div class="topbar-disclosure"><div class="container">We may earn a commission when you buy through links on our site. Brands can't pay for rankings or reviews. <a href="/affiliate-disclosure/">How we earn money</a></div></div>
 ${header({ ...ctx, section: page.section })}
 <main id="main">
 ${body}

@@ -16,6 +16,7 @@ product:
   ctaLabel: "Check Price on ONEVAN"
   link: "https://onevantool.com/products/sku006348-1-2-2800nm-brushless-cordless-impact-wrench?sca_ref=12710829.r2LE3ccggU6&utm_source=affiliate&utm_medium=12710829&utm_campaign=onevan-partner-pay"
   linkId: onevan-2800nm-impact-wrench
+  offerNote: "No warranty period stated. Non-faulty returns cost return shipping plus a 5% restocking fee."
 bestFor:
   - Tire changes and car repair at home
   - Owners of Makita-style 18V batteries

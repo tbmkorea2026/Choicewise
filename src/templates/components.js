@@ -169,6 +169,43 @@ function authorBox(author) {
   </aside>`;
 }
 
+/** Fine print under an offer (subscriptions, restocking fees, missing warranty…). */
+function offerNote(product) {
+  if (!product || !product.offerNote) return '';
+  return html`<p class="offer-note">${icon('info', { size: 14 })}<span>${esc(product.offerNote)}</span></p>`;
+}
+
+/** "Updated Nov 2026" freshness tag for page heads. */
+function freshTag(item) {
+  const d = item && item.updated ? new Date(item.updated) : null;
+  if (!d || Number.isNaN(d.getTime())) return '';
+  const label = d.toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' });
+  return html`<span class="tag tag--fresh">${icon('calendar', { size: 14 })} Updated ${esc(label)}</span>`;
+}
+
+/** Ranked product rows at the top of best-of guides (rank, image, key pros, deal, CTA, fine print). */
+function rankList(products) {
+  if (!products || !products.length) return '';
+  return html`<ol class="rank-list">
+    ${products.map((p) => html`<li class="rank-row${p.rank === 1 ? ' rank-row--winner' : ''}">
+      <span class="rank-row__num" aria-hidden="true">${p.rank}</span>
+      <a class="rank-row__media" href="#pick-${p.rank}" tabindex="-1" aria-hidden="true"><img src="${esc(p.image)}" alt="${esc(p.name)}" width="160" height="120" ${p.rank === 1 ? 'fetchpriority="high"' : 'loading="lazy"'}></a>
+      <div class="rank-row__main">
+        ${p.badge ? html`<span class="rank-row__badge">${icon(p.rank === 1 ? 'trophy' : 'award', { size: 13 })} ${esc(p.badge)}</span>` : ''}
+        <p class="rank-row__name"><a href="#pick-${p.rank}">${esc(p.name)}</a></p>
+        ${p.bestFor ? html`<p class="rank-row__best">Best for: ${esc(p.bestFor)}</p>` : ''}
+        ${p.pros.length ? html`<ul class="rank-row__pros">${p.pros.slice(0, 3).map((x) => html`<li>${icon('check', { size: 14 })}<span>${esc(x)}</span></li>`)}</ul>` : ''}
+      </div>
+      <div class="rank-row__buy">
+        ${p.rating ? html`<div class="rank-row__score"><strong>${fmtScore(p.rating)}</strong>${stars(p.rating, { size: 'sm' })}</div>` : (p.price ? html`<p class="rank-row__price">${esc(p.price)}</p>` : '')}
+        ${coupon(p, { compact: true })}
+        ${ctaButton(p, { block: true, label: 'Visit Site' })}
+        ${offerNote(p)}
+      </div>
+    </li>`)}
+  </ol>`;
+}
+
 function disclosureNote() {
   return html`<p class="disclosure">${icon('info', { size: 16 })}
     <span>Our picks are based on independent research, and brands can't pay for a spot. We may earn a commission when you buy through links on this page, at no extra cost to you. <a href="/affiliate-disclosure/">How we earn money</a></span>
@@ -224,7 +261,7 @@ function emptyState(text) {
   return html`<div class="empty">${icon('flask', { size: 28 })}<p>${esc(text)}</p></div>`;
 }
 
-module.exports = {
+module.exports = { offerNote, freshTag, rankList,
   logo, stars, scoreBadge, scoreBars, ctaButton, coupon, ctaBox, prosCons, specsTable, faqList,
   breadcrumbs, toc, avatar, byline, authorBox, disclosureNote, categoryPill, reviewCard,
   roundupCard, emptyState,

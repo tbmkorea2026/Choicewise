@@ -16,6 +16,7 @@ product:
   ctaLabel: "Visit Ape Born"
   link: "https://apebornfitness.com/?ref=TRANTRUNG"
   linkId: apeborn
+  offerNote: "The Ultra offer bundles a 7-day Elite Club trial that renews at $49.99/month unless cancelled, plus pre-ticked add-ons. Check your cart."
 bestFor:
   - People who want an EMS device as an add-on to regular training
   - Buyers who check their cart and cancel unwanted trials

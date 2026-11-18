@@ -16,6 +16,7 @@ products:
     merchant: "Seagull 1963"
     link: "https://seagull1963.com/products/seagull-1963-38mm-acrylic-sapphire?ref=TRUNGTRAN"
     linkId: seagull1963-38mm
+    offerNote: "Change-of-mind returns: 14 days, unused; you pay return shipping and €30 is deducted. Orders can be cancelled only within 30 minutes."
     image: "/assets/img/products/seagull1963-38mm.webp"
     bestFor: "Smaller wrists and a true vintage look"
     summary: "38mm 316L steel, 12.7mm thick, 47mm lug-to-lug, 18mm lugs, ST19 hand-wound chronograph, 3 ATM, green textile NATO. Sapphire without swan-neck €335, sapphire with swan-neck €415, acrylic with swan-neck €405."
@@ -31,6 +32,7 @@ products:
     merchant: "Seagull 1963"
     link: "https://seagull1963.com/products/seagull-1963-40mm-sapphire-glass?ref=TRUNGTRAN"
     linkId: seagull1963-40mm
+    offerNote: "Change-of-mind returns: 14 days, unused; you pay return shipping and €30 is deducted. Orders can be cancelled only within 30 minutes."
     image: "/assets/img/products/seagull1963-40mm.webp"
     bestFor: "Average to larger wrists and better water resistance"
     summary: "40mm 316L steel, 12.7mm thick, 50.5mm lug-to-lug, 20mm lugs, sapphire crystal, ST1901 hand-wound chronograph, 5 ATM, green textile NATO."
