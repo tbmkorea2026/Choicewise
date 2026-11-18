@@ -1,0 +1,51 @@
+{
+  "slug": "nailsala",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 6.9/10",
+      "title": "NailSala: cheap DIY gel nail supplies, worth it?",
+      "titleSize": 60,
+      "image": "/assets/img/products/nailsala-gel-polish-pens.webp",
+      "chips": [
+        "From <b>$17.99</b>",
+        "Free shipping"
+      ]
+    },
+    {
+      "id": "2-starter-checklist",
+      "kicker": "Starter checklist",
+      "title": "Gel nails at home: what you need and what it costs",
+      "titleSize": 56,
+      "pinTitleSize": 66,
+      "image": "/assets/img/products/nailsala-mini-uv-lamp.webp",
+      "chips": [
+        "Start from <b>$41.98</b>",
+        "Lamp + colour + removal"
+      ]
+    },
+    {
+      "id": "3-strips-vs-pens-vs-solid",
+      "kicker": "Which method?",
+      "title": "Gel strips vs gel pens vs solid gel: easiest DIY?",
+      "titleSize": 56,
+      "pinTitleSize": 66,
+      "image": "/assets/img/products/nailsala-semi-cured-gel-strips.webp",
+      "chips": [
+        "Easiest: <b>strips</b>",
+        "Most colours: <b>solid gel</b>"
+      ]
+    },
+    {
+      "id": "4-gel-removal",
+      "kicker": "How-to + review · 7.2/10",
+      "title": "How to remove gel nails at home without damage",
+      "titleSize": 58,
+      "image": "/assets/img/products/nailsala-gel-remover-kit.webp",
+      "chips": [
+        "<b>$23.99</b> kit",
+        "<b>5–10 min</b> wait"
+      ]
+    }
+  ]
+}
