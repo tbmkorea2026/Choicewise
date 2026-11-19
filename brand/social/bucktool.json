@@ -1,0 +1,38 @@
+{
+  "slug": "bucktool",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 6.6/10",
+      "title": "BUCKTOOL: budget grinders and belt sanders, worth it?",
+      "titleSize": 58,
+      "image": "/assets/img/products/bucktool-bd4603.webp",
+      "chips": ["<b>$159–$270</b> in stock", "2-year warranty"]
+    },
+    {
+      "id": "2-bg2600-review",
+      "kicker": "Best seller · 6.9/10",
+      "title": "BG2600: belt sander + bench grinder in one",
+      "titleSize": 62,
+      "image": "/assets/img/products/bucktool-bg2600.webp",
+      "chips": ["<b>$222</b>", "2x42 belt + 6\" wheel"]
+    },
+    {
+      "id": "3-which-machine",
+      "kicker": "Pick by job",
+      "title": "Grinder, belt sander or dust collector: which do you need?",
+      "titleSize": 54,
+      "pinTitleSize": 62,
+      "image": "/assets/img/products/bucktool-dc50.webp",
+      "chips": ["6 jobs, 6 machines", "From <b>$159</b>"]
+    },
+    {
+      "id": "4-sharpening",
+      "kicker": "Best for sharpening?",
+      "title": "Low-speed grinder vs 1x42 belt sander vs combo",
+      "titleSize": 58,
+      "image": "/assets/img/products/bucktool-tds200-low-speed-grinder.webp",
+      "chips": ["<b>1750 RPM</b> = less heat", "Knives: 1x42 belt"]
+    }
+  ]
+}
