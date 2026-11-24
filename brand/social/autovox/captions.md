@@ -5,7 +5,7 @@ Coupon: PARKCHOICE = 12% off at auto-vox.com. Prices in USD (list prices, Nov 20
 Always mention honestly: Trustpilot 3.7; monitors still need USB/12V power.
 Emoji note: avoid emojis with a variation selector (⬆️ 🌬️ 🤔 ⚠️ 👁️ ❤️).
 Facebook: no URL or store domain; write "search X on WiseChoiceKR" without ".com".
-Pinterest board: Car Accessories & Gadgets (new).
+Pinterest board: Car GPS & Gadgets (existing).
 
 ---
 
