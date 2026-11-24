@@ -1,0 +1,37 @@
+{
+  "slug": "autovox",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 7.1/10",
+      "title": "AUTO-VOX solar backup cameras: worth it?",
+      "titleSize": 62,
+      "image": "/assets/img/products/autovox-solar3a-plus.webp",
+      "chips": ["Code <b>PARKCHOICE</b> 12% off", "Trustpilot 3.7"]
+    },
+    {
+      "id": "2-top5",
+      "kicker": "Top 5 best sellers",
+      "title": "Best AUTO-VOX backup cameras, from $129.99",
+      "titleSize": 60,
+      "image": "/assets/img/products/autovox-solar-5b.webp",
+      "chips": ["Cars to RVs", "Code <b>PARKCHOICE</b> −12%"]
+    },
+    {
+      "id": "3-solar3a-vs-solar5",
+      "kicker": "Plate or magnet?",
+      "title": "Solar 3A vs Solar 5: which fits your vehicle?",
+      "titleSize": 60,
+      "image": "/assets/img/products/autovox-solar3a-plus-max.webp",
+      "chips": ["<b>52 ft</b> vs <b>524 ft</b> range", "Car vs RV"]
+    },
+    {
+      "id": "4-checklist",
+      "kicker": "Before you buy",
+      "title": "Wireless backup cameras: 8 things to check",
+      "titleSize": 60,
+      "image": "/assets/img/products/autovox-w7.webp",
+      "chips": ["Power, range, battery", "What \"no wiring\" means"]
+    }
+  ]
+}
