@@ -1,0 +1,38 @@
+{
+  "slug": "newtral",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 6.4/10",
+      "title": "Newtral chairs: read the Trustpilot numbers first",
+      "titleSize": 58,
+      "image": "/assets/img/products/newtral-magic-h-bpro.webp",
+      "chips": ["Code <b>PARKCHOICE</b> 15% off", "Trustpilot 2.3"]
+    },
+    {
+      "id": "2-standing-mate",
+      "kicker": "Best seller · 6.8/10",
+      "title": "Standing-Mate: a leaning chair for standing desks",
+      "titleSize": 58,
+      "image": "/assets/img/products/newtral-standing-mate.webp",
+      "chips": ["<b>6</b> positions", "From <b>$319.99</b>"]
+    },
+    {
+      "id": "3-which-chair",
+      "kicker": "Pick by need",
+      "title": "Which Newtral chair? Magic H vs NT vs Standing-Mate",
+      "titleSize": 56,
+      "pinTitleSize": 62,
+      "image": "/assets/img/products/newtral-nt002.webp",
+      "chips": ["From <b>$239.99</b>", "Code <b>PARKCHOICE</b> −15%"]
+    },
+    {
+      "id": "4-vs-protoarc",
+      "kicker": "Brand vs brand",
+      "title": "Newtral vs ProtoArc: which ergonomic chair?",
+      "titleSize": 60,
+      "image": "/assets/img/products/newtral-magic-h003.webp",
+      "chips": ["Auto lumbar vs set lumbar", "<b>$179.99</b>–<b>$329.99</b>"]
+    }
+  ]
+}
