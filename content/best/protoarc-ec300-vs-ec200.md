@@ -93,3 +93,5 @@ The EC300 has the higher score, but the EC200's **180 reviews** give a much larg
 ## The bottom line
 
 Very similar chairs with one key difference: choose the **EC300** for a **moving backrest**, or the **EC200** for **adjustable lumbar depth** at **$50 less**. Read our [EC300 review](/reviews/protoarc-ec300-review/), compare the [best ProtoArc products](/best/best-protoarc-products/) and see our full [ProtoArc review](/reviews/protoarc-review/).
+
+Comparing brands? See [Newtral vs ProtoArc](/best/newtral-vs-protoarc-ergonomic-chairs/) for auto-following lumbar chairs from Newtral.
