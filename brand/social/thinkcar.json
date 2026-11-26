@@ -1,0 +1,37 @@
+{
+  "slug": "thinkcar",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 7.9/10",
+      "title": "THINKCAR OBD2 scanners: worth it?",
+      "titleSize": 64,
+      "image": "/assets/img/products/thinkcar-689bt.webp",
+      "chips": ["Trustpilot <b>4.8</b>", "Code <b>QVVGOFDI</b> −10%"]
+    },
+    {
+      "id": "2-updates",
+      "kicker": "Hidden cost",
+      "title": "Scanner updates: lifetime free vs subscription",
+      "titleSize": 58,
+      "image": "/assets/img/products/thinkcar-thinkdiag-2.webp",
+      "chips": ["ThinkDiag 2: <b>1 year</b> only", "Others: lifetime"]
+    },
+    {
+      "id": "3-which-scanner",
+      "kicker": "Pick by level",
+      "title": "Which THINKCAR scanner do you need?",
+      "titleSize": 62,
+      "image": "/assets/img/products/thinkcar-mucar-bt200-max.webp",
+      "chips": ["From <b>$56.99</b>", "Dongle to tablet"]
+    },
+    {
+      "id": "4-689bt-vs-892bt",
+      "kicker": "Tablet vs tablet",
+      "title": "ThinkScan 689BT vs MUCAR 892BT",
+      "titleSize": 64,
+      "image": "/assets/img/products/thinkcar-mucar-892bt.webp",
+      "chips": ["<b>$499.94</b> vs <b>$529.95</b>", "Both lifetime updates"]
+    }
+  ]
+}
