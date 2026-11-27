@@ -1,0 +1,38 @@
+{
+  "slug": "datouboss",
+  "posts": [
+    {
+      "id": "1-brand-review",
+      "kicker": "Brand review · 6.2/10",
+      "title": "DATOUBOSS solar gear: cheap, but read this first",
+      "titleSize": 58,
+      "image": "/assets/img/products/datouboss-6000w-314ah-aio.webp",
+      "chips": ["EU store · <b>€</b>", "Trustpilot 3.3"]
+    },
+    {
+      "id": "2-16kwh-battery",
+      "kicker": "Best seller · 6.4/10",
+      "title": "16kWh LiFePO4 battery for €1,800: what's the catch?",
+      "titleSize": 56,
+      "pinTitleSize": 62,
+      "image": "/assets/img/products/datouboss-48v-314ah-battery.webp",
+      "chips": ["~<b>€112</b> per kWh", "Code <b>PARKCHOICE</b> −10%"]
+    },
+    {
+      "id": "3-sizing-guide",
+      "kicker": "Plan your system",
+      "title": "Shed, cabin or home backup: which solar setup?",
+      "titleSize": 58,
+      "image": "/assets/img/products/datouboss-6200w-ip54-inverter.webp",
+      "chips": ["24V or 48V?", "From <b>€179.99</b>"]
+    },
+    {
+      "id": "4-vs-wattcycle",
+      "kicker": "Brand vs brand",
+      "title": "DATOUBOSS vs WattCycle LiFePO4 batteries",
+      "titleSize": 60,
+      "image": "/assets/img/products/datouboss-12v-324ah-battery.webp",
+      "chips": ["EU vs US", "Warranty + reviews compared"]
+    }
+  ]
+}
