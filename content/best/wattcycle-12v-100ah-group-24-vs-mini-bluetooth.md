@@ -94,3 +94,5 @@ Continuous power is identical. The Group 24's **300A surge** rating is far highe
 ## The bottom line
 
 Same capacity, same BMS, $10 apart. The **Group 24** is the value pick and the better drop-in for standard boxes and motors; the **Mini Bluetooth** suits tight spaces and anyone who wants app monitoring. Read our [Group 24 review](/reviews/wattcycle-12v-100ah-group-24-review/), compare all five [WattCycle best sellers](/best/best-wattcycle-lifepo4-batteries/) and see our full [WattCycle review](/reviews/wattcycle-review/).
+
+In Europe? Compare with DATOUBOSS in [DATOUBOSS vs WattCycle](/best/datouboss-vs-wattcycle-lifepo4-batteries/).
